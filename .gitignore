@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 tmp/
 .DS_Store
+
+# PDFs fonte das normas não são versionados (só as saídas convertidas)
+*.pdf
