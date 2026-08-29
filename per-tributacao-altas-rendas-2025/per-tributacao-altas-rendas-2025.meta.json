@@ -1,0 +1,15 @@
+{
+  "tipo": "PeR",
+  "numero": null,
+  "ano": "2025",
+  "identificador": "PeR Tributação Altas Rendas (Lei 15.270/2025)",
+  "ementa": "Perguntas e Respostas sobre tributação de altas rendas — lucros e dividendos (Lei nº 15.270/2025). Manual Padrão RFB/COTIN, versão 19/12/2025.",
+  "fonte_arquivo": "Manual_Padrao_RFB_PeR_Tributacao_Cotin_V.19.12.2025.pdf",
+  "sha256_16": "51712e390f090521",
+  "n_perguntas": 30,
+  "n_artigos": 30,
+  "n_artigos_vigentes": 30,
+  "n_redacoes_anteriores": 0,
+  "n_anexos_csv": 0,
+  "n_paginas": 14
+}

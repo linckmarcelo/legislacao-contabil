@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "descricao": "Base de legislacao contabil/tributaria para consulta pela skill contador (RAG).",
   "gerado_em": "2026-08-29",
-  "total_normas": 6,
+  "total_normas": 7,
   "normas": [
     {
       "identificador": "Ato Conjunto 1/2025",
@@ -122,6 +122,26 @@
         "chunks": "lc-227-2026/lc-227-2026.chunks.jsonl",
         "meta": "lc-227-2026/lc-227-2026.meta.json",
         "anexos_dir": "lc-227-2026/anexos/"
+      }
+    },
+    {
+      "identificador": "PeR Tributação Altas Rendas (Lei 15.270/2025)",
+      "slug": "per-tributacao-altas-rendas-2025",
+      "tipo": "PeR",
+      "numero": null,
+      "ano": "2025",
+      "ementa": "Perguntas e Respostas sobre tributação de altas rendas — lucros e dividendos (Lei nº 15.270/2025). Manual Padrão RFB/COTIN, versão 19/12/2025.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 30,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "51712e390f090521",
+      "arquivos": {
+        "markdown": "per-tributacao-altas-rendas-2025/per-tributacao-altas-rendas-2025.md",
+        "chunks": "per-tributacao-altas-rendas-2025/per-tributacao-altas-rendas-2025.chunks.jsonl",
+        "meta": "per-tributacao-altas-rendas-2025/per-tributacao-altas-rendas-2025.meta.json",
+        "anexos_dir": null
       }
     }
   ]
