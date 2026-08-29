@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "descricao": "Base de legislacao contabil/tributaria para consulta pela skill contador (RAG).",
   "gerado_em": "2026-08-29",
-  "total_normas": 8,
+  "total_normas": 9,
   "normas": [
     {
       "identificador": "Ato Conjunto 1/2025",
@@ -102,6 +102,26 @@
         "chunks": "lc-214-2025/lc-214-2025.chunks.jsonl",
         "meta": "lc-214-2025/lc-214-2025.meta.json",
         "anexos_dir": "lc-214-2025/anexos/"
+      }
+    },
+    {
+      "identificador": "LC 224/2025",
+      "slug": "lc-224-2025",
+      "tipo": "LC",
+      "numero": "224",
+      "ano": "2025",
+      "ementa": "Dispõe sobre a redução e os critérios de concessão de incentivos e benefícios de natureza tributária, financeira ou creditícia concedidos exclusivamente no âmbito da União; estabelece a responsabilidade solidária de terceiros pelo recolhimento de tributos incidentes sobre a exploração de apostas de quota fixa; e altera as Leis Complementares nºs 101, de 4 de maio de 2000 (Lei de Responsabilidade Fiscal), 105, de 10 de janeiro de 2001, e 215, de 21 de março de 2025, e as Leis nºs 7.689, de 15 de dezembro de 1988, 9.249, de 26 de dezembro de 1995, 13.756, de 12 de dezembro de 2018, e 8.137, de 27 de dezembro de 1990.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 14,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "5349599e96e5dd1a",
+      "arquivos": {
+        "markdown": "lc-224-2025/lc-224-2025.md",
+        "chunks": "lc-224-2025/lc-224-2025.chunks.jsonl",
+        "meta": "lc-224-2025/lc-224-2025.meta.json",
+        "anexos_dir": null
       }
     },
     {
