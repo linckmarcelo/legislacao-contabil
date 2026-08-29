@@ -1,0 +1,10 @@
+"Faixas para enquadramento do valor consolidado
+da inscrição em dívida ativa da União","Desconto
+percentual","Desconto de valor fixo,
+após aplicação do desconto
+percentual"
+"Até R$ 35.000,00",95%,-
+"De R$ 35.000,01 até R$ 200.000,00",90%,"R$ 1.750,00"
+"De R$ 200.000,01 até R$ 500.000,00",85%,"R$ 11.750,00"
+"De R$ 500.000,01 até R$ 1.000.000,00",80%,"R$ 36.750,00"
+"Acima de R$ 1.000.000,00",75%,"R$ 76.750,00"

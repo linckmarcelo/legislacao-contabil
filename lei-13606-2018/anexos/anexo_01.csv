@@ -1,0 +1,12 @@
+"Faixas para enquadramento do valor
+consolidado por ação de execução","Desconto
+percentual","Desconto de valor fixo, após
+aplicação do desconto percentual"
+"Até R$ 15.000,00",95%,-
+"De R$ 15.000,01 até R$ 35.000,00",90%,"R$ 750,00"
+"De R$ 35.000,01 até R$ 100.000,00",85%,"R$ 2.250,00"
+"De R$ 100.000,01 até R$ 200.000,00",80%,"R$ 7.500,00"
+"De R$ 200.000,01 até R$ 500.000,00",75%,"R$ 17.500,00"
+"De R$ 500.000,01 até R$
+1.000.000,00",70%,"R$ 42.500,00"
+"Acima de R$ 1.000.000,00",60%,"R$ 142.500,00"

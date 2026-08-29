@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "descricao": "Base de legislacao contabil/tributaria para consulta pela skill contador (RAG).",
   "gerado_em": "2026-08-29",
-  "total_normas": 9,
+  "total_normas": 14,
   "normas": [
     {
       "identificador": "Ato Conjunto 1/2025",
@@ -85,6 +85,46 @@
       }
     },
     {
+      "identificador": "IN 2110/2022",
+      "slug": "in-2110-2022",
+      "tipo": "IN",
+      "numero": "2110",
+      "ano": "2022",
+      "ementa": "Dispõe sobre normas gerais de tributação previdenciária e de arrecadação das contribuições sociais destinadas à Previdência Social e das contribuições devidas a terceiros, administradas pela Secretaria Especial da Receita Federal do Brasil (RFB).",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 277,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 51,
+      "sha256_16": "3ebd1dd48d40f27c",
+      "arquivos": {
+        "markdown": "in-2110-2022/in-2110-2022.md",
+        "chunks": "in-2110-2022/in-2110-2022.chunks.jsonl",
+        "meta": "in-2110-2022/in-2110-2022.meta.json",
+        "anexos_dir": "in-2110-2022/anexos/"
+      }
+    },
+    {
+      "identificador": "IN 83/2001",
+      "slug": "in-83-2001",
+      "tipo": "IN",
+      "numero": "83",
+      "ano": "2001",
+      "ementa": "Dispõe sobre a tributação dos resultados da atividade rural das pessoas físicas.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 32,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "584827a178ae0ebe",
+      "arquivos": {
+        "markdown": "in-83-2001/in-83-2001.md",
+        "chunks": "in-83-2001/in-83-2001.chunks.jsonl",
+        "meta": "in-83-2001/in-83-2001.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
       "identificador": "LC 214/2025",
       "slug": "lc-214-2025",
       "tipo": "LC",
@@ -142,6 +182,66 @@
         "chunks": "lc-227-2026/lc-227-2026.chunks.jsonl",
         "meta": "lc-227-2026/lc-227-2026.meta.json",
         "anexos_dir": "lc-227-2026/anexos/"
+      }
+    },
+    {
+      "identificador": "Lei 10256/2001",
+      "slug": "lei-10256-2001",
+      "tipo": "Lei",
+      "numero": "10256",
+      "ano": "2001",
+      "ementa": "Altera a Lei no 8.212, de 24 de julho de 1991, a Lei no 8.870, de 15 de abril de 1994, a Lei no 9.317, de 5 de dezembro de 1996, e a Lei no 9.528, de 10 de dezembro de 1997.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 6,
+      "n_redacoes_anteriores": 1,
+      "n_anexos": 0,
+      "sha256_16": "f3783ea969fd72b0",
+      "arquivos": {
+        "markdown": "lei-10256-2001/lei-10256-2001.md",
+        "chunks": "lei-10256-2001/lei-10256-2001.chunks.jsonl",
+        "meta": "lei-10256-2001/lei-10256-2001.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
+      "identificador": "Lei 13606/2018",
+      "slug": "lei-13606-2018",
+      "tipo": "Lei",
+      "numero": "13606",
+      "ano": "2018",
+      "ementa": "Institui o Programa de Regularização Tributária Rural (PRR) na Secretaria da Receita Federal do Brasil e na Procuradoria-Geral da Fazenda Nacional; altera as Leis nºs 8.212, de 24 de julho de 1991, 8.870, de 15 de abril de 1994, 9.528, de 10 de dezembro de 1997, 13.340, de 28 de setembro de 2016, 10.522, de 19 de julho de 2002, 9.456, de 25 de abril de 1997, 13.001, de 20 de junho de 2014, 8.427, de 27 de maio de 1992, e 11.076, de 30 de dezembro de 2004, e o",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 47,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 2,
+      "sha256_16": "26ad9f93bea4e825",
+      "arquivos": {
+        "markdown": "lei-13606-2018/lei-13606-2018.md",
+        "chunks": "lei-13606-2018/lei-13606-2018.chunks.jsonl",
+        "meta": "lei-13606-2018/lei-13606-2018.meta.json",
+        "anexos_dir": "lei-13606-2018/anexos/"
+      }
+    },
+    {
+      "identificador": "Lei 8212/1991",
+      "slug": "lei-8212-1991",
+      "tipo": "Lei",
+      "numero": "8212",
+      "ano": "1991",
+      "ementa": "Dispõe sobre a organização da Seguridade Social, institui Plano de Custeio, e dá outras providências.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 112,
+      "n_redacoes_anteriores": 6,
+      "n_anexos": 1,
+      "sha256_16": "c1dbafbdf4d51833",
+      "arquivos": {
+        "markdown": "lei-8212-1991/lei-8212-1991.md",
+        "chunks": "lei-8212-1991/lei-8212-1991.chunks.jsonl",
+        "meta": "lei-8212-1991/lei-8212-1991.meta.json",
+        "anexos_dir": "lei-8212-1991/anexos/"
       }
     },
     {
