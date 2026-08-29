@@ -1,0 +1,15 @@
+{
+  "tipo": "PeR",
+  "numero": null,
+  "ano": "2026",
+  "identificador": "PeR IRPF 2026",
+  "ementa": "Perguntas e Respostas sobre o Imposto sobre a Renda — Pessoa Física, exercício de 2026 (ano-calendário de 2025). Programa Imposto sobre a Renda 2026, versão 1.00 (23/04/2026).",
+  "fonte_arquivo": "P&R IRPF 2026 - v1.00 - 2026.04.23.pdf",
+  "sha256_16": "f3740385c07fa4dc",
+  "n_perguntas": 745,
+  "n_artigos": 745,
+  "n_artigos_vigentes": 745,
+  "n_redacoes_anteriores": 0,
+  "n_anexos_csv": 0,
+  "n_paginas": 340
+}

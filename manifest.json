@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "descricao": "Base de legislacao contabil/tributaria para consulta pela skill contador (RAG).",
   "gerado_em": "2026-08-29",
-  "total_normas": 7,
+  "total_normas": 8,
   "normas": [
     {
       "identificador": "Ato Conjunto 1/2025",
@@ -122,6 +122,26 @@
         "chunks": "lc-227-2026/lc-227-2026.chunks.jsonl",
         "meta": "lc-227-2026/lc-227-2026.meta.json",
         "anexos_dir": "lc-227-2026/anexos/"
+      }
+    },
+    {
+      "identificador": "PeR IRPF 2026",
+      "slug": "per-irpf-2026",
+      "tipo": "PeR",
+      "numero": null,
+      "ano": "2026",
+      "ementa": "Perguntas e Respostas sobre o Imposto sobre a Renda — Pessoa Física, exercício de 2026 (ano-calendário de 2025). Programa Imposto sobre a Renda 2026, versão 1.00 (23/04/2026).",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 745,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "f3740385c07fa4dc",
+      "arquivos": {
+        "markdown": "per-irpf-2026/per-irpf-2026.md",
+        "chunks": "per-irpf-2026/per-irpf-2026.chunks.jsonl",
+        "meta": "per-irpf-2026/per-irpf-2026.meta.json",
+        "anexos_dir": null
       }
     },
     {
