@@ -2,8 +2,28 @@
   "schema_version": "1.0",
   "descricao": "Base de legislacao contabil/tributaria para consulta pela skill contador (RAG).",
   "gerado_em": "2026-08-29",
-  "total_normas": 1,
+  "total_normas": 2,
   "normas": [
+    {
+      "identificador": "Decreto 12955/2026",
+      "slug": "decreto-12955-2026",
+      "tipo": "Decreto",
+      "numero": "12955",
+      "ano": "2026",
+      "ementa": "Regulamenta a Contribuição Social sobre Bens e Serviços – CBS e dá outras providências.",
+      "fonte_versao": "Texto publicado (Planalto)",
+      "atualizado_em": "2026-08-29",
+      "n_artigos_vigentes": 620,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 42,
+      "sha256_16": "d6e2d14ef21837bb",
+      "arquivos": {
+        "markdown": "decreto-12955-2026/decreto-12955-2026.md",
+        "chunks": "decreto-12955-2026/decreto-12955-2026.chunks.jsonl",
+        "meta": "decreto-12955-2026/decreto-12955-2026.meta.json",
+        "anexos_dir": "decreto-12955-2026/anexos/"
+      }
+    },
     {
       "identificador": "LC 214/2025",
       "slug": "lc-214-2025",

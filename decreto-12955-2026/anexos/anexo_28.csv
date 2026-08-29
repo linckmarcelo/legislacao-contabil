@@ -1,0 +1,87 @@
+ITEM,NCM/SH,TIPO DE ATIVIDADE*,DESCRIÇÃO COMERCIAL
+267,8539,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Lâmpadas de reposição (LED lamps, discharge lamps)
+para luminárias/lanternas."
+268,8541,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Dispositivo semicondutor de potência em módulo —
+IGBT module, thyristor/SCR, diode/rectifier module ou
+MOSFET, com ou sem base dissipadora."
+269,8542,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Circuito integrado regulador/controlador de tensão —
+voltage regulator IC (ex.: séries 78xx/79xx, LM317,
+controladores buck/boost)."
+270,8542,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Circuitos integrados/controladores e reguladores —
+microcontroller, PWM controller, gate driver, voltage
+regulator, ASIC — para placas e módulos de
+automação/controle."
+271,8544,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Patch cords/cordões pré-terminados (elétricos e de
+fibra óptica) com conectores montados."
+272,8544,"Transferência; Movimentação;
+Transporte; Armazenamento.","Cabo/cinta de aquecimento elétrico para
+anticongelamento de linhas e válvulas da carreta
+(heating cable/tape, autorregulável ou potência
+constante)."
+273,8544,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Cabos coaxiais e jumpers de RF (coaxial cables, RF
+jumpers)."
+274,8544,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Cabos de cobre/fibra para dados e alimentação da
+sala de controle (structured cabling, fiber optic cable)."
+275,8544,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Cabos elétricos isolados de potência, comando e
+instrumentação; cabos coaxiais e cabos de fibra óptica
+(power/control/instrumentation cables, coaxial, fiber
+optic cable)."
+276,8544,"Transferência; Armazenamento;
+Regaseificação.","Cabos/condutores para interligação de anodos,
+eletrodos de referência e retificador do ICCP."
+277,8544,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Cordões/cabos de alimentação com terminação
+(cordsets) e cabos flexíveis para uso com
+tomadas/plugues industriais."
+278,8606,Transporte; Movimentação.,"Vagão-tanque ferroviário criogênico para GNL (rail tank
+wagon), casco isolado, dupla parede a vácuo."
+279,8607,Transporte; Movimentação.,"Partes próprias de vagão-tanque ferroviário
+(truques/bogies, engates, sistema de freio,
+rodas/eixos, tampas/válvulas dedicadas do casco)."
+280,8609,"Transporte; Movimentação;
+Armazenamento; Transferência.","Contêiner-tanque criogênico intermodal para GNL —
+ISO tank container, dupla parede a vácuo, apto a
+ferrovia/rodovia/navio."
+281,8708,"Transporte; Movimentação;
+Armazenamento.","Tanque de combustível para GNL destinado a veículos
+automotores (fuel tank)."
+282,8716,"Transporte; Movimentação;
+Transferência; Armazenamento.","Carreta/semi-reboque criogênico para GNL, dupla
+parede a vácuo, com válvulas e conexões para
+carregamento/descarga."
+283,8716,"Transporte; Movimentação;
+Transferência; Armazenamento.","Partes próprias de carreta criogênica (chassi/quadro,
+eixos axles, engate kingpin, sistema de freio, suportes
+e ferragens)."
+284,8716,"Transporte; Movimentação;
+Armazenamento.","Reservatório criogênico destinado à integração em
+reboques/semi-reboques (carreta criogênica)."
+285,8901,"Transporte; Transferência;
+Armazenamento.","Navio metaneiro/FSU — LNG carrier/FSU sem
+unidade de regaseificação embarcada (função
+principal: transporte/estocagem flutuante)."
+286,8905,"Transferência; Armazenamento;
+Regaseificação.","Embarcação do tipo FSRU — Floating Storage
+Regasification Unit, com sistemas de vaporização,
+medição e amarração."
+287,8905,Transferência; Armazenamento.,"Unidade de armazenamento flutuante de GNL — FSU,
+com sistemas de amarração e medição."
+288,8906,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Bote salva-vidas/embarcação de resgate lifeboat/fast
+rescue boat — FRB."
+289,8907,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Balsa salva-vidas inflável inflatable liferaft, em
+contêiner rígido, com hydrostatic release unit — HRU e
+kit SOLAS."
+290,9014,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Girobússola gyrocompass ou sistema de piloto
+automático autopilot com sensor de rumo e unidade de
+controle."

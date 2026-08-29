@@ -189,20 +189,35 @@ _TIPOS = {
 
 _NUM_RX = re.compile(r"n[º°o]?\.?\s*([\d][\d\.]*)", re.I)
 _ANO_RX = re.compile(r"\b(19|20)\d{2}\b")
+# Epígrafe: a linha que DECLARA a norma ("DECRETO Nº 12.955, DE 29 DE ABRIL DE 2026").
+# Ancorar aqui evita casar com menções a outras normas no preâmbulo (ex.: um decreto
+# que cita "a Lei Complementar nº 214" não deve ser classificado como LC).
+_EPIGRAFE = re.compile(
+    r"^\s*(LEI COMPLEMENTAR|EMENDA CONSTITUCIONAL|MEDIDA PROVIS[ÓO]RIA|"
+    r"INSTRU[ÇC][ÃA]O NORMATIVA|DECRETO-LEI|DECRETO|LEI|PORTARIA|RESOLU[ÇC][ÃA]O)"
+    r"\s+N[º°o]?\.?\s*([\d.]+)\s*,?\s*DE\s+.*?\b((?:19|20)\d{2})\b", re.I)
 
 
-def detect_metadata(text: str, pdf_path: Path) -> dict:
-    head = "\n".join(text.splitlines()[:15]).upper()
-    tipo = next((v for k, v in _TIPOS.items() if k in head), None)
-    num = None
-    m = _NUM_RX.search(head)
-    if m:
-        num = m.group(1).replace(".", "")
-    anos = _ANO_RX.findall(text[:1200])
-    ano = None
-    m2 = _ANO_RX.search(text[:1200])
-    if m2:
-        ano = m2.group(0)
+def detect_metadata(text: str, pdf_path: Path, raw_head: str = "") -> dict:
+    # A epígrafe é buscada no texto BRUTO da página inicial: como costuma se repetir
+    # como cabeçalho em várias páginas, a limpeza de linhas repetidas a remove do texto
+    # já tratado, então detectar tipo/número/ano ali falharia.
+    tipo = num = ano = None
+    fonte_epigrafe = raw_head if raw_head else text
+    for line in fonte_epigrafe.splitlines()[:60]:
+        m = _EPIGRAFE.match(line.strip())
+        if m:
+            tipo = _TIPOS.get(m.group(1).upper())
+            num = m.group(2).replace(".", "")
+            ano = m.group(3)
+            break
+    if tipo is None:  # fallback: varredura do cabeçalho (menos precisa)
+        head = "\n".join(fonte_epigrafe.splitlines()[:15]).upper()
+        tipo = next((v for k, v in _TIPOS.items() if k in head), None)
+        mnum = _NUM_RX.search(head)
+        num = num or (mnum.group(1).replace(".", "") if mnum else None)
+        mano = _ANO_RX.search(fonte_epigrafe[:1200])
+        ano = ano or (mano.group(0) if mano else None)
     # Ementa: no layout do Planalto, o topo traz navegação ("Presidência da República",
     # "Mensagem de veto", "Texto compilado", "(Vide ...)") antes da ementa real, que
     # começa com um verbo típico (Institui, Dispõe, Altera...).
@@ -574,7 +589,7 @@ def render_chunks(meta: dict, doc: Documento, csvs: list[dict]) -> str:
 def convert(pdf_path: Path, out_root: Path, ocr_mode: str, threshold_rows: int) -> dict:
     pages = extract_pages(pdf_path, ocr_mode)
     text = clean_text(pages)
-    meta = detect_metadata(text, pdf_path)
+    meta = detect_metadata(text, pdf_path, raw_head="\n".join(pages[:2]))
     slug = slugify(str(meta["identificador"]))
     out_dir = out_root / slug
     out_dir.mkdir(parents=True, exist_ok=True)

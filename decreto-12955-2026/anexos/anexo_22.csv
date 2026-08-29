@@ -1,0 +1,82 @@
+ITEM,NCM/SH,TIPO DE ATIVIDADE*,DESCRIÇÃO COMERCIAL
+100,8414,"Movimentação; Armazenamento;
+Regaseificação.","Ventilador centrífugo/axial para ventilação e exaustão
+de áreas e equipamentos — centrifugal/axial fan."
+101,8414,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Ventilador/exaustor do sistema de lavagem de gases
+(fan/blower)."
+102,8414,Armazenamento; Regaseificação.,"Ventilador/exaustor para circulação/renovação de ar
+em câmara fria."
+103,8414,"Transferência; Armazenamento;
+Regaseificação.","Ventilador/exaustor para ventilação forçada de
+painéis/quadros (fan/blower)."
+104,8415,"Transferência; Armazenamento;
+Regaseificação.","Unidade de ar-condicionado para painéis/quadros
+elétricos/eletrônicos (panel air conditioner), com
+circuito frigorífico e ventilador."
+105,8416,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Queimador industrial do aquecedor de gás — burner
+(quando fornecido separadamente)."
+106,8416,Regaseificação.,Queimador industrial para caldeira — burner.
+107,8416,"Transferência; Armazenamento;
+Regaseificação.","Sistema de flare para queima controlada de gás
+(ponta/queimador, ignição)."
+108,8417,Armazenamento; Regaseificação.,"Incinerador de resíduos a bordo (incinerator) não
+elétrico."
+109,8418,"Transferência; Armazenamento;
+Regaseificação.","Módulo de refrigeração termoelétrica para painéis
+(thermoelectric/Peltier cooler)."
+110,8418,Armazenamento; Regaseificação.,"Unidade de refrigeração de câmara fria para provisões
+(monobloco ou split, condensing unit + evaporator)."
+111,8419,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Aquecedor de gás de alívio, tipo inline heater/banho
+térmico (water-bath heater) ou aquecido a vapor/água
+quente."
+112,8419,"Armazenamento; Regaseificação;
+Movimentação.","Recondensador de vapores de GN/GNL (recondenser)
+com trocador de calor integrado
+(feixe/serpentina/placas)."
+113,8419,Transferência; Movimentação.,Secador térmico de lodo.
+114,8419,"Transferência; Armazenamento;
+Regaseificação.","Trocador de calor sem compressor (air-to-air ou air-to-
+water)."
+115,8419,Armazenamento; Regaseificação.,"Trocador/air cooler para câmara fria alimentado por
+água gelada/glicol (sem compressor)."
+116,8419,"Transferência; Armazenamento;
+Regaseificação.","Unidade de geração de nitrogênio por destilação
+fracionada do ar (processo criogênico) — cryogenic air
+separation."
+117,8419,Armazenamento; Regaseificação.,"Unidade de tratamento térmico do refrigerante misto
+(MR) — condenser/evaporator/heat exchanger."
+118,8419,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Vaporizador/condicionador de amostra para
+cromatografia de GNL (sample vaporizer/conditioning
+system)."
+119,8421,Transferência; Movimentação.,Centrífuga de desaguamento de lodo.
+120,8421,Armazenamento; Regaseificação.,"Dispositivo de proteção de linha para gás, tipo flame
+arrester e/ou elemento de purificação
+(filtro/coalescente)."
+121,8421,"Transferência; Armazenamento;
+Regaseificação.",Dispositivo de proteção de linha tipo flame arrester.
+122,8421,"Transferência; Armazenamento;
+Regaseificação.","Dispositivo de proteção/purificação de gás da linha de
+flare (coalescente, mist eliminator, flame arrester)."
+123,8421,Transferência; Movimentação.,Filtro-prensa/filtro a vácuo/belt filter press.
+124,8421,"Transferência; Movimentação;
+Regaseificação.","Filtro/strainer de linha para fluidos de processo (ex.: Y-
+strainer, basket/duplex strainer)."
+125,8421,Transferência; Movimentação.,"Grade/triturador/tela rotativa para remoção de sólidos
+(bar screen, rotary screen)."
+126,8421,Armazenamento; Regaseificação.,"Separador gás-líquido com internos de
+coalescência/demister, aplicado como tambor de
+sucção."
+127,8421,Transferência; Movimentação.,"Sistema de desinfecção UV para água (reator,
+lâmpadas e controle)."
+128,8421,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Sistema de lavagem/purificação de gases (gas
+scrubber — wet ou dry)."
+129,8421,Transferência; Movimentação.,"Unidade de filtração terciária (filtro de areia/mídia,
+UF/MBR)."
+130,8421,"Transferência; Armazenamento;
+Regaseificação.","Unidade geradora de nitrogênio por PSA (zeólita) ou
+por membrana separadora."

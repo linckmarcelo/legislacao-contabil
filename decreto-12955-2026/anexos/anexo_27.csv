@@ -1,0 +1,90 @@
+ITEM,NCM/SH,TIPO DE ATIVIDADE*,DESCRIÇÃO COMERCIAL
+241,8537,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Módulo/painel de controle do motor com I/O,
+intertravamentos e interface (engine control
+panel/module)."
+242,8537,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Módulos/estações de campo do sistema de alarme de
+incêndio (interfaces de laço, I/O endereçáveis,
+unidades de controle)."
+243,8537,"Transferência; Movimentação;
+Armazenamento.","Painéis elétricos/CCM/PLC (quadros de comando e
+automação)."
+244,8537,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Painéis/quadros de comando, distribuição e
+automação da Cargo Control Room (CCR), com
+módulos de medição, I/O e supervisão integrados."
+245,8537,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Painel de comando com interface HMI (tela,
+teclas/chaves, módulos de I/O e comunicação)
+montado em quadro/painel."
+246,8537,"Movimentação; Armazenamento;
+Regaseificação.",Painel de comando e proteção de guindaste/talha.
+247,8537,"Transferência; Armazenamento;
+Regaseificação.","Painel de comando e proteção do sistema de alívio
+(integração de sinais, comando e registros)."
+248,8537,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Painel de comando e proteção do sistema de lavagem
+de gases."
+249,8537,"Regaseificação; Transferência;
+Movimentação.","Painel de comando e proteção do sistema de
+odorização."
+250,8537,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Painel de comando/interligação do sistema de governo
+(steering control panel), com interfaces de segurança e
+alarmes."
+251,8537,"Transferência; Armazenamento;
+Regaseificação.","Painel de comando/supervisão do ICCP (medição,
+alarmes, chaveamento e intertravamentos)."
+252,8537,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Painel de controle/indicador de temperatura montado
+em quadro, com módulos de entrada/saída e interface
+HMI."
+253,8537,"Transferência; Armazenamento;
+Regaseificação.",Painel de ignição/controle do sistema de flare.
+254,8537,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Painel de proteção/comando de bombas com IHM,
+módulos de I/O e sinalização de alarme."
+255,8537,"Transferência; Movimentação;
+Transporte; Armazenamento;
+Regaseificação.","Painel/test rig de vácuo com instrumentos de medição
+e comando integrados."
+256,8537,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Painel/central de detecção e alarme — Fire & Gas
+panel/FDAS, com laços, supervisão e saídas de
+comando."
+257,8537,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Painel/controlador do sistema PA/GA — matriz de
+zonas, priorização/override e supervisão."
+258,8537,"Transferência; Armazenamento;
+Regaseificação.","Quadro elétrico de emergência emergency
+switchboard e painéis de comando/proteção."
+259,8537,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Quadro/painel de comando, distribuição e automação
+(switchboard, MCC, PLC/SCADA panel)."
+260,8537,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Quadro/painel de distribuição de energia — power
+distribution board/switchboard/MCC, com disjuntores,
+seccionamento, barramentos e medição."
+261,8537,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Quadro/painel de segurança com comando e proteção
+— ESD/Fire & Gas panel, matrizes de intertravamento."
+262,8538,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Módulos de disparo e peças de proteção para
+disjuntores/quadros (trip units, shunt trip, undervoltage
+release, contatos auxiliares, arc chutes, kits de
+polos/intertravamentos), próprios para aparelhagem
+elétrica."
+263,8538,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Partes de quadro/painel de distribuição (barramentos,
+gavetas withdrawable, portas, chassis,
+intertravamentos, prensa-cabos)."
+264,8538,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Partes e acessórios de quadros/painéis (barramentos,
+portas, trilhos, bornes, gland/prensa-cabos)."
+265,8538,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Partes reconhecíveis de tomadas/plugues industriais
+(corpos/housings, contatos, capas, buchas/gland)."
+266,8538,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Placa eletrônica montada (PCBA) de quadro/painel de
+comando/automação."

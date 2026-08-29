@@ -1,0 +1,81 @@
+ITEM,NCM/SH,TIPO DE ATIVIDADE*,DESCRIÇÃO COMERCIAL
+73,8402,Regaseificação.,"Caldeira geradora de vapor — steam generator/boiler
+(inclui, quando aplicável, caldeira de água
+superaquecida)."
+74,8404,Regaseificação.,"Equipamentos auxiliares de caldeira (economizador,
+superaquecedor, recuperador de calor, removedor de
+fuligem, condensador) — economizer, superheater, air
+preheater, sootblower, condenser."
+75,8408,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Motor de pistão por ignição por compressão (motor
+diesel), fornecido avulso para acoplamento a
+alternador/gerador."
+76,8409,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Peças de motor relativas à injeção (bicos injetores, fuel
+rail, atuadores/solenoids específicos)."
+77,8409,Armazenamento; Regaseificação.,"Peças do motor de combustão do grupo gerador
+(generator set) — componentes do motor."
+78,8409,"Transferência; Armazenamento;
+Regaseificação.","Peças do motor de combustão do grupo gerador de
+emergência."
+79,8411,Regaseificação; Movimentação.,"Turboexpansor de gás para serviço criogênico —
+turboexpander module, com ou sem auxiliares
+integrados (lube oil skid, seal gas, control panel,
+brake/generator)."
+80,8412,Armazenamento; Regaseificação.,"Atuador hidráulico ou pneumático de válvula
+(actuator)."
+81,8412,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Atuador/motor hidráulico para guincho/cabrestante de
+amarração (rotativo ou cilindro linear) — hydraulic
+actuator/motor/cylinder."
+82,8412,"Transferência; Armazenamento;
+Regaseificação.","Motor ou atuador hidráulico (hydraulic motor/actuator)
+— rotativo ou cilindro linear."
+83,8412,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Unidade hidráulica de potência — hydraulic power
+unit/HPU com reservatório, manifold/válvulas,
+instrumentação e fornecimento de fluido a
+atuadores/cilindros (podendo incluir bomba integrada)."
+84,8413,"Transferência; Movimentação;
+Transporte.","Bomba criogênica de descarga da carreta (cryogenic
+LNG pump), quando fornecida separadamente."
+85,8413,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Bomba criogênica para GNL, submersa ou de
+superfície — cryogenic LNG pump."
+86,8413,Armazenamento; Regaseificação.,"Bomba de alta pressão para lavadora de limpeza
+industrial."
+87,8413,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Bomba de recirculação do sistema de lavagem de
+gases."
+88,8413,"Regaseificação; Transferência;
+Movimentação.",Bomba dosadora de odorante (dosing pump).
+89,8413,"Transferência; Armazenamento;
+Regaseificação.","Bomba para drenagem/recirculação associada ao
+separador do flare."
+90,8413,Transferência; Movimentação.,"Bombas dosadoras para
+hipoclorito/coagulantes/polímeros."
+91,8413,Transferência; Movimentação.,Bombas para lodo/fluídos viscosos/abrativos.
+92,8413,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Conjunto de bombeamento hidráulico — hydraulic
+power unit/HPU com bomba(s), motor/acionamento,
+reservatório, manifold/válvulas e instrumentação, para
+pressurização e circulação do fluido hidráulico."
+93,8413,Transferência.,"Dispenser de carregamento de GNL com bomba
+integrada (fuel dispenser/pump), pedestal com
+mangueira e bico."
+94,8413,"Transferência; Armazenamento;
+Regaseificação.","Unidade de potência hidráulica — hydraulic power unit
+(HPU) (bomba, reservatório, manifold)."
+95,8414,"Transferência; Armazenamento;
+Regaseificação; Transporte.","Bomba de vácuo para serviços criogênicos (vacuum
+pump)."
+96,8414,Regaseificação; Movimentação.,"Conjunto expander–compressor—compander — para
+serviço criogênico."
+97,8414,"Transferência; Movimentação;
+Transporte; Regaseificação.","Parte identificável de compressor (base/chassi
+integrado do skid do compressor), em aço."
+98,8414,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Partes de ventiladores/exaustores (fan/blower):
+rotores/impelidores, carcaças, volutas, difusores."
+99,8414,Movimentação; Transferência.,"Soprador/compressor de ar para aeração (blower/air
+compressor)."

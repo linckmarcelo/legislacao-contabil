@@ -1,0 +1,91 @@
+ITEM,NCM/SH,TIPO DE ATIVIDADE*,DESCRIÇÃO COMERCIAL
+,,,"(ex.: guinchos/winches, guindastes/cranes, portas)."
+217,8526,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Transponder de identificação automática AIS classe A,
+com unidade de controle/display."
+218,8527,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Receptor de avisos náuticos e meteorológicos
+NAVTEX."
+219,8528,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Monitor/visor industrial (display) para sistemas de
+automação, sem funções de controle integradas."
+220,8528,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Monitor/visor profissional para sala de controle
+(industrial monitor/display)."
+221,8529,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Antenas e módulos/partes de distribuição de RF
+(antennas, splitters, combiners, directional couplers,
+RF filters, LNA), próprios para sistemas de
+comunicação/navegação (inclui antena VSAT marítima
+estabilizada)."
+222,8530,"Transferência; Movimentação;
+Transporte.","Equipamentos de sinalização e controle de tráfego em
+instalações portuárias — traffic lights, barreiras,
+controladores."
+223,8531,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Aparelhos elétricos de sinalização/alarme sonoro-
+visual — sirenes, buzinas e luzes de advertência
+beacons/stack lights."
+224,8531,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Detectores e acionadores de alarme de incêndio —
+smoke/heat/flame detectors, manual call points,
+sinalizadores sounders/beacons."
+225,8532,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Capacitores para eletrônica de potência/controle (DC-
+link, snubber, correção de fator de potência)."
+226,8533,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Resistores industriais e potenciômetros —
+power/braking resistors, shunts, potentiometers."
+227,8534,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Placa de circuito impresso não montada (printed circuit
+board — PCB)."
+228,8534,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Placa eletrônica (PCB) de controle/automação —
+módulo de I/O/controle."
+229,8535,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Aparelhagem de comutação/proteção de média/alta
+tensão — disjuntores a vácuo, seccionadores e
+transformadores de instrumento para
+proteção/medição."
+230,8536,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Aparatos de comutação e proteção de baixa tensão
+(contatores, relés, disjuntores modulares, chaves de
+atuação, bornes/conectores)."
+231,8536,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Aparelhos completos de comutação/proteção de baixa
+tensão (disjuntores MCCB/ACB, contatores, relés de
+proteção, fusíveis) — até 1000 V."
+232,8536,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Conectores e adaptadores coaxiais de RF (RF
+connectors/adapters)."
+233,8536,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Conectores para fibras ópticas (optical fiber connectors
+— LC, SC, ST)."
+234,8536,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Conectores/terminações elétricas e tomadas/plugues
+de painel (electrical connectors, industrial
+plugs/sockets)."
+235,8536,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Dispositivos de corte e comando de emergência —
+botões E-stop, chaves de segurança/intertravamento,
+contatores/disjuntores."
+236,8536,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Soquetes/lamp-holders, conectores e bases de
+lâmpadas, próprios para luminárias."
+237,8536,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Tomadas e plugues industriais, conectores e tomadas
+de painel (industrial plugs and sockets, panel
+receptacles), inclusive execuções para área
+classificada quando aplicável."
+238,8537,Movimentação; Regaseificação.,"Conjunto de comando e proteção montado em painel
+para o motor do recycle compressor (partida,
+seccionamento, I/O)."
+239,8537,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Conjunto de controle montado em painel para
+testes/pressurização (módulos de medição e comando
+integrados; inclui quadro/painel de controle de
+emergência)."
+240,8537,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Controlador programável/PLC ou conjunto de controle
+montado em painel (módulos de I/O, fonte, relés,
+contatos)."

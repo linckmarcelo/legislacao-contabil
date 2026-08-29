@@ -1,0 +1,87 @@
+ITEM,NCM/SH,TIPO DE ATIVIDADE*,DESCRIÇÃO COMERCIAL
+188,8503,Movimentação; Regaseificação.,"Partes reconhecíveis de motor elétrico (estator, rotor,
+tampa/escoramento, kit de rolamentos)."
+189,8504,"Movimentação; Armazenamento;
+Regaseificação.","Inversor de frequência VFD para comando do motor
+de guindaste/talha."
+190,8504,Movimentação; Regaseificação.,"Inversor de frequência (VFD)/variable frequency drive
+para comando do motor do recycle compressor."
+191,8504,"Transferência; Armazenamento;
+Regaseificação; Transporte.","Inversor de frequência (VFD) para comando do motor
+da bomba de vácuo."
+192,8504,Transferência; Movimentação.,"Inversor de frequência (VFD) para comando/partida
+suave de bomba de GNL."
+193,8504,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Módulo conversor estático (inverter, rectifier, DC-DC
+converter)."
+194,8504,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Módulo conversor/regulador de tensão DC-DC
+converter ou power module montado, com controle e
+proteção."
+195,8504,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Módulo de conversão estática — inverter, rectifier, DC-
+DC converter, com controle/placa eletrônica integrada."
+196,8504,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Retificador/UPS/conversor estático de potência para
+alimentação de painéis/cargas críticas."
+197,8504,"Transferência; Armazenamento;
+Regaseificação.","Retificador/conversor estático para proteção catódica
+por corrente impressa — ICCP power supply/rectifier
+(em gabinete)."
+198,8504,"Transferência; Armazenamento;
+Regaseificação.","Sistema UPS/retificador–carregador para alimentação
+de emergência."
+199,8507,"Transferência; Armazenamento;
+Regaseificação.",Bancos de baterias para sistemas de emergência.
+200,8513,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Partes de lanternas portáteis/recarregáveis
+(flashlights/headlamps): carcaças, lentes/difusores,
+suportes, kits de vedação."
+201,8514,Armazenamento; Regaseificação.,Incinerador elétrico de resíduos (electric incinerator).
+202,8515,Armazenamento; Regaseificação.,"Máquina/aparelho de solda elétrica para
+montagem/manutenção (arco, TIG, MIG/MAG, corte
+plasma), com ou sem fonte/alimentador/tocha."
+203,8516,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Aquecedor elétrico de passagem para gás — inline
+electric heater."
+204,8516,"Transferência; Movimentação;
+Transporte; Armazenamento.","Aquecedor elétrico de passagem/imersão para
+componentes criogênicos da carreta de GNL (inline
+electric heater/immersion heater)."
+205,8516,"Transferência; Movimentação;
+Transporte; Armazenamento.","Elemento/cartucho de aquecimento elétrico para
+conjuntos térmicos da carreta (heating
+element/cartridge heater)."
+206,8516,"Transferência; Movimentação;
+Transporte; Armazenamento.","Sistema de aquecimento elétrico (heating
+cable/element) para anticongelamento de
+válvulas/linhas da carreta."
+207,8517,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Equipamentos de rede/comunicação de dados
+(Ethernet switch, router, access point)."
+208,8517,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Placa eletrônica de módulo/transceptor de
+comunicação (optical transceiver/line card)."
+209,8518,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Sistema de sonorização e anúncio público PA/GA —
+amplificadores de áudio, alto-falantes e microfones."
+210,8525,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Terminal de comunicações por satélite para GMDSS
+(Inmarsat/VSAT), com transceptor e antena
+estabilizada."
+211,8525,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Transceptor VHF/MF/HF com chamada seletiva digital
+DSC para GMDSS."
+212,8526,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Satellite compass/receptor GNSS com saída de rumo
+para integração a piloto automático e sistemas de
+navegação."
+213,8526,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Radar de navegação banda X/S, com antena scanner,
+transceptor e console (marine radar, ARPA)."
+214,8526,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Radiobaliza de emergência EPIRB e transponder de
+busca e salvamento SART/AIS-SART."
+215,8526,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Receptor de posicionamento por satélite GNSS/GPS
+para navegação e integração a sistemas de bordo."

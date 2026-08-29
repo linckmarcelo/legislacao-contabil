@@ -1,0 +1,42 @@
+ITEM,NCM/SH,TIPO DE ATIVIDADE*,DESCRIÇÃO COMERCIAL
+,,,em variáveis de processo/condição.
+316,9032,"Regaseificação; Transferência;
+Movimentação.","Controlador/regulador automático da dosagem
+(automatic controller, PID)."
+317,9032,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Controlador/regulador automático de pressão —
+pressure controller/automatic regulator."
+318,9032,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Controlador/regulador automático de processo
+(automatic controller, PID controller) com medição e
+saída de controle."
+319,9032,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Controlador/regulador automático de segurança —
+logic solver (ESD/HIPPS), com interface para
+positioner/solenoide de válvula quando aplicável."
+320,9032,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Controlador/regulador automático de temperatura
+(temperature controller/PID), com entradas de
+sensores e saídas de comando."
+321,9032,"Transferência; Movimentação;
+Transporte; Armazenamento;
+Regaseificação.","Controlador/regulador automático de vácuo (vacuum
+controller) com atuação em válvulas/venturis."
+322,9032,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Controlador/regulador eletrônico de injeção para
+motores (engine ECU/ECM) — sincronismo de injeção
+e dosagem."
+323,9032,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Sistema de proteção de máquinas (machinery
+protection system) com lógica de alarme e trip —
+módulos/racks de monitoramento de vibração com
+saídas a relé."
+324,9405,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Partes de luminárias fixas (lighting fittings): carcaças,
+difusores/vidros, refletores, braços/suportes,
+abraçadeiras, vedadores e coberturas."
+325,9406,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Abrigo técnico pré-fabricado tipo E-house/shelter
+modular para instalação de painéis elétricos e de
+controle (estrutura com isolamento térmico e proteção
+ambiental)."

@@ -1,0 +1,63 @@
+ITEM,DESCRIÇÃO,NCM/SH
+10,"Veículos automóveis para transporte de mercadorias, unicamente com motor de pistão,
+de ignição por compressão (diesel ou semidiesel), e de peso em carga máxima (bruto)
+superior a 20 toneladas, com caixa basculante",8704.23.20
+11,"Veículos automóveis para transporte de mercadorias, unicamente com motor de pistão,
+de ignição por compressão (diesel ou semidiesel), e de peso em carga máxima (bruto)
+superior a 20 toneladas, frigoríficos ou isotérmicos",8704.23.30
+12,"Outros veículos automóveis para transporte de mercadorias, unicamente com motor de
+pistão, de ignição por compressão (diesel ou semidiesel), e de peso em carga máxima
+(bruto) superior a 20 toneladas",8704.23.90
+13,"Chassis com motor e cabina, de veículos automóveis para transporte de mercadorias,
+exceto de camionetas e de caminhonetes de cabine dupla, unicamente com motor de
+pistão, de ignição por centelha (faísca), e de peso em carga máxima (bruto) não
+superior a 5 toneladas",8704.31.10
+14,"Veículos automóveis para transporte de mercadorias, unicamente com motor de pistão,
+de ignição por centelha (faísca), e de peso em carga máxima (bruto) não superior a 5
+toneladas, com caixa basculante",8704.31.20
+15,"Veículos automóveis para transporte de mercadorias, unicamente com motor de pistão,
+de ignição por centelha (faísca), e de peso em carga máxima (bruto) não superior a 5
+toneladas, frigoríficos ou isotérmicos",8704.31.30
+16,"Outros veículos automóveis para transporte de mercadorias, exceto camionetas e
+caminhonetes de cabine dupla, unicamente com motor de pistão, de ignição por
+centelha (faísca), e de peso em carga máxima (bruto) não superior a 5 toneladas",8704.31.90
+17,"Chassis com motor e cabina, de veículos automóveis para transporte de mercadorias,
+unicamente com motor de pistão, de ignição por centelha (faísca), e de peso em carga
+máxima (bruto) superior a 5 toneladas",8704.32.10
+18,"Veículos automóveis para transporte de mercadorias, unicamente com motor de pistão,
+de ignição por centelha (faísca), e de peso em carga máxima (bruto) superior a 5
+toneladas, com caixa basculante",8704.32.20
+19,"Veículos automóveis para transporte de mercadorias, unicamente com motor de pistão,
+de ignição por centelha (faísca), e de peso em carga máxima (bruto) superior a 5
+toneladas, frigoríficos ou isotérmicos",8704.32.30
+20,"Outros veículos automóveis para transporte de mercadorias, unicamente com motor de
+pistão, de ignição por centelha (faísca), e de peso em carga máxima (bruto) superior a
+5 toneladas",8704.32.90
+21,"Outros veículos automóveis para transporte de mercadorias, exceto camionetas e
+caminhonetes de cabine dupla, equipados para propulsão, simultaneamente, com
+motor de pistão de ignição por
+compressão (diesel ou semidiesel) e motor elétrico, de peso em carga máxima (bruto)
+não superior a 5 toneladas",8704.41.00
+22,"Outros veículos automóveis para transporte de mercadorias, equipados para
+propulsão, simultaneamente, com motor de pistão de ignição por
+compressão (diesel ou semidiesel) e motor elétrico, de peso em carga máxima (bruto)
+superior a 5 toneladas, mas não superior a 20 toneladas",8704.42.00
+23,"Outros veículos automóveis para transporte de mercadorias, equipados para
+propulsão, simultaneamente, com motor de pistão de ignição por
+compressão (diesel ou semidiesel) e motor elétrico, de peso em carga máxima (bruto)
+superior a 20 toneladas",8704.43.00
+24,"Outros veículos automóveis para transporte de mercadorias, exceto camionetas e
+caminhonetes de cabine dupla, equipados para propulsão, simultaneamente, com
+motor de pistão de ignição por centelha (faísca) e motor elétrico, de peso em carga
+máxima (bruto) não superior a 5 toneladas",8704.51.00
+25,"Outros veículos automóveis para transporte de mercadorias, equipados para
+propulsão, simultaneamente, com motor de pistão de ignição por centelha (faísca) e
+motor elétrico, de peso em carga máxima (bruto) superior a 5 toneladas",8704.52.00
+26,"Outros veículos automóveis para transporte de mercadorias, exceto camionetas e
+caminhonetes de cabine dupla, unicamente com motor elétrico para propulsão",8704.60.00
+27,"Outros veículos automóveis para transporte de mercadorias, exceto camionetas e
+caminhonetes de cabine dupla",8704.90.00
+28,Tanques (cisternas),8716.31.00
+29,Outros reboques e semirreboques para transporte de mercadorias,8716.39.00
+30,Outros reboques e semirreboques,8716.40.00
+31,Outros veículos não autopropulsados,8716.80.00

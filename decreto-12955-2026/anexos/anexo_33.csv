@@ -1,0 +1,65 @@
+ITEM,NCM/SH,DESCRIÇÃO COMERCIAL
+81,8428,"Elevador estendido (apoio/tração da coluna) (ex.: 400 t; bucha 6 5/8"")."
+82,8428,Equipamento de transporte de cascalhos (contínuo/pneumático).
+83,8430,Unidade fixa de perfuração/exploração/produção (máquina de perfuração).
+84,8431,Escareador/estabilizador (perfuração).
+85,8431,Ferramenta/acessório para perfuração/intervenção (inclui manuseio/elevação de tubos).
+86,8431,Mesa/base de perfuração (parte de máquina de perfuração).
+87,8467,Cortador mecânico de tubos (manual).
+88,8467,"Ferramenta hidráulica/pneumática de manuseio, torque, instalação e desconexão (coluna, módulos
+e riser)."
+89,8474,Misturador pressurizado de materiais químicos a granel.
+90,8474,Misturador/reciclador de cimento (CBS).
+91,8474,Peneira vibratória (shale shaker).
+92,8479,Tubing seal receptacle (TSR).
+93,8479,Barreira mecânica anular/external casing packer (ferramenta de completação).
+94,8479,Base de perfuração (BUT/BAJA) (conjunto).
+95,8479,Colar de estágio (ferramenta de cimentação).
+96,8479,Equipamento mecânico de função própria (uso em perfuração/intervenção).
+97,8479,Obturador (ferramenta de completação).
+98,8479,Sistema de canhoneio de poços de petróleo (equipamento).
+99,8479,Suspensor de revestimento e conjunto de liner (aço).
+100,8479,Tensionador de linhas de ancoragem (ferramenta temporária).
+101,8479,Unidade hidráulica de alta pressão (HPU) (conjunto multifuncional).
+102,8479,Veículo submarino operado remotamente (ROV).
+103,8481,BOPW — preventor de erupção para workover.
+104,8481,SDR — sistema de destravamento rápido (valvulado).
+105,8481,Conjunto valvulado — árvore/manifold/PLEM.
+106,8481,Válvula de circulação para coluna de drill pipe (PBL).
+107,8481,Válvula de segurança de fluxo pleno.
+108,8481,"Válvula e módulos valvulados para bloqueio, segurança e controle de fluxo (poços e linhas)."
+109,8484,"Junta de compensação com elementos de vedação (para interligação de segmentos da coluna de
+produção)."
+110,8501,"Motor elétrico para acionamento de equipamentos e sistemas (inclui aplicação em guincho de
+âncora)."
+111,8504,Sistema elétrico de potência — conversor/acionamento estático do bombeio.
+112,8504,Transformador (tipo seco).
+113,8517,Unidade portátil de teste/aquisição multiplexada PETU (Portable Electrical Terminal Unit).
+114,8535,"Conectividade elétrica de alta tensão (> 1.000 V) — jumpers, conectores e penetradores."
+115,8536,"Conectividade elétrica de baixa tensão (≤ 1.000 V) — jumpers, conectores e penetradores."
+116,8537,Módulo/painel de controle submarino (SCM) (submarino).
+117,8537,"Painel/quadro elétrico de controle e aquisição de dados (MCS, multiplexado ou equivalente)
+(superfície)."
+118,8537,Sistema elétrico de potência — painel/quadro de comando do bombeio (superfície).
+119,8543,Módulo de controle submarino (SCM) — equipamento elétrico não especificado.
+120,8544,"Cabo elétrico submarino para alimentação e/ou sinais (com ou sem conectores, qualquer tensão)."
+121,8544,Cabo eletro-hidráulico para registrador de pressão de fundo de poço.
+122,8544,Umbilical/cabo óptico submarino de transferência de dados.
+123,8904,Rebocador.
+124,8905,Estrutura flutuante de apoio com embarcações auxiliares.
+125,8905,Guindaste flutuante.
+126,8905,Plataforma de perfuração/exploração (flutuante/semi-submersível).
+127,8905,Plataforma ou unidade flutuante de produção/estocagem de petróleo e gás.
+128,8906,Barco salva-vidas.
+129,8906,"Embarcação de apoio às atividades de pesquisa, exploração, perfuração, produção e estocagem."
+130,8906,"Embarcação de pesquisa/aquisição de dados geológicos, geofísicos e geodésicos."
+131,8907,Estrutura de flutuação para dutos e risers (módulo/tanque/bóia).
+132,9014,Inclinômetro (tilt sensor) para sistema de posicionamento.
+133,9015,Equipamento de aquisição de dados geológicos/geofísicos/geodésicos.
+134,9015,"Partes/acessórios de instrumentos de aquisição de dados (9015) (inclui módulo
+eletrônico/microprocessador)."
+135,9015,Unidade/módulo de controle e aquisição de dados (instrumentos 9015).
+136,9022,Aparelho de radiação (raios X/gama).
+137,9024,Equipamento de ensaio mecânico de materiais/partes/tubos.
+138,9025,Instrumentação de medição de temperatura (fundo de poço).
+139,9026,"Instrumentação de medição de processo (vazão, pressão diferencial e PDG)."

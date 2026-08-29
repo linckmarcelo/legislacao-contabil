@@ -1,0 +1,81 @@
+ITEM,NCM/SH,TIPO DE ATIVIDADE*,DESCRIÇÃO COMERCIAL
+16,6909,Movimentação.,Difusores de ar cerâmicos.
+17,7304,"Transferência; Movimentação;
+Regaseificação.","Tubo de ferro/aço sem costura (seamless), revestido
+ou não."
+18,7305,"Transferência; Movimentação;
+Regaseificação.","Tubo de ferro/aço soldado de grande diâmetro (seção
+circular, D.E. > 406,4 mm), para pipeline."
+19,7306,"Transferência; Movimentação;
+Regaseificação.","Tubo de ferro/aço soldado (welded —
+ERW/SAW/LSAW), revestido ou não."
+20,7307,"Transferência; Movimentação;
+Regaseificação.","Conexões de tubos de ferro/aço (flanges, uniões,
+reduções, tees, bayonet/porta de vácuo), inclusive em
+aço inox."
+21,7307,Armazenamento; Regaseificação.,"Conexões de tubos de ferro/aço para junta soldada
+(flanges, curvas, tees, reduções, uniões)."
+22,7308,Movimentação; Armazenamento.,"Estrutura do convés de helicóptero helideck em
+ferro/aço, fornecida em módulos/partes preparados
+para montagem (vigas, treliças, guarda-corpos,
+grelhas e suportes)."
+23,7308,"Transferência; Movimentação;
+Transporte; Regaseificação.","Estrutura metálica pipe rack/base de ferro ou aço,
+preparada para montagem (vigas, travessas, chapas
+de base)."
+24,7308,"Transferência; Movimentação;
+Transporte; Regaseificação.",Estrutura metálica pipe rack/base de ferro ou aço.
+25,7308,"Transferência; Armazenamento;
+Regaseificação.",Estrutura metálica/coluna flare stack.
+26,7308,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Estruturas metálicas em ferro/aço para estiva de
+balsas/botes, pré-fabricadas e preparadas para
+montagem (perfuradas/cortadas), com
+bases/longarinas e pontos de fixação permanente ao
+convés/estrutura."
+27,7308,"Transferência; Armazenamento;
+Regaseificação.","Passarela de acesso gangway em ferro/aço (estrutura
+metálica), sem sistemas motorizados."
+28,7309,Armazenamento; Regaseificação.,"Tanque metálico fixo para armazenamento de
+refrigerante misto (MR)."
+29,7309,Armazenamento.,"Tanque/decantador metálico (>300 L), sem
+equipamento térmico/mecânico, para espessamento."
+30,7309,Armazenamento.,"Tanque/digestor metálico (>300 L), sem equipamento
+térmico/mecânico."
+31,7309,Armazenamento.,"Tanque/vaso metálico (>300 L), sem equipamento
+térmico/mecânico, para clarificador/decantador."
+32,7309,Armazenamento; Regaseificação.,"Tanque/vaso não pressurizado (capacidade elevada),
+sem equipamento térmico/mecânico, usado como
+tambor de sucção/knock-out."
+33,7309,Armazenamento.,"Tanques metálicos (>300 L), sem equipamento
+térmico/mecânico, para reagentes."
+34,7309,"Transferência; Armazenamento;
+Regaseificação.","Vaso separador knockout drum não pressurizado (sem
+equipamento térmico/mecânico) do sistema de flare."
+35,7310,Armazenamento; Regaseificação.,"Tanque metálico de pequeno porte para refrigerante
+misto (MR)."
+36,7311,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Cilindros/garrafas pressurizadas de ar
+respirável/oxigênio para reposição ou recarga de
+EEBD/SCBA."
+37,7311,"Transporte; Movimentação;
+Transferência; Armazenamento.","Reservatório criogênico pressurizado (vacuum-
+insulated tank) para montagem em carreta."
+38,7311,"Transporte; Armazenamento;
+Movimentação.","Reservatório criogênico pressurizado para GNL (vaso
+de pressão, dupla parede a vácuo)."
+39,7311,"Transporte; Armazenamento;
+Movimentação.","Reservatório/vaso criogênico pressurizado para GNL,
+dupla parede com isolamento a vácuo (vacuum-
+insulated)."
+40,7311,Armazenamento; Regaseificação.,"Tambor de sucção/vaso acumulador pressurizado de
+GN/GNL (suction drum/accumulator), sem serpentinas
+térmicas."
+41,7311,Armazenamento; Regaseificação.,"Vaso de pressão para refrigerante misto (MR) —
+receiver/accumulator."
+42,7311,"Transferência; Armazenamento;
+Regaseificação.","Vaso separador knockout drum pressurizado do
+sistema de flare."
+43,7311,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Vaso/reservatório de ar comprimido — air receiver,
+pressurizado, para sistemas de utilidades."

@@ -1,0 +1,81 @@
+ITEM,NCM/SH,TIPO DE ATIVIDADE*,DESCRIÇÃO COMERCIAL
+159,8479,Movimentação.,"Mecanismo de raspadores/ponte de clarificador
+(decantador)."
+160,8479,Movimentação.,"Misturador/agitador para preparo e mistura de
+reagentes/efluentes."
+161,8479,"Regaseificação; Transferência;
+Movimentação.","Skid de odorização de gás natural — unidade de
+dosagem de odorante com tanque, bomba, medição e
+controle (odorization skid)."
+162,8481,Armazenamento; Regaseificação.,"Válvula de isolamento para linha de GNL (shut-off),
+com ou sem atuador."
+163,8481,Armazenamento; Regaseificação.,"Válvula de isolamento/bloqueio rápido criogênica para
+linha de GNL (quick-closing/ESD), com ou sem
+atuador."
+164,8481,"Transferência; Armazenamento;
+Regaseificação.","Válvula de segurança/alívio de pressão (safety relief
+valve — PSV/SRV), direta ou pilotada, para descarga
+ao sistema de flare."
+165,8481,"Armazenamento; Regaseificação;
+Transferência.","Válvula para serviço de refrigerante — refrigerant
+valve para tubulações (on/off ou controle)."
+166,8481,"Transferência; Movimentação;
+Transporte.","Válvulas criogênicas de bloqueio/controle da carreta
+(cryogenic valves)."
+167,8481,"Transferência; Armazenamento;
+Regaseificação.","Válvulas de bloqueio rápido/segurança da linha de
+alívio (ESD/SDV)."
+168,8481,"Regaseificação; Transferência;
+Movimentação.","Válvulas de bloqueio/controle associadas ao sistema
+de odorização."
+169,8482,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Rolamentos de esferas/roletes para motores e
+ventiladores."
+170,8482,"Transferência; Armazenamento;
+Regaseificação.","Rolamentos de esferas/rolos para a linha de
+eixo/propulsão."
+171,8483,"Transferência; Armazenamento;
+Regaseificação.","Conjunto de transmissão da linha de eixo (eixo de
+transmissão, acoplamento, caixa de engrenagens,
+mancal liso/bearing housing, embreagem)."
+172,8483,Movimentação.,"Conjunto de transmissão/rolamentos/eixos do
+propulsor."
+173,8483,"Transferência; Armazenamento;
+Regaseificação.","Transmissão mecânica do guincho (redutor,
+engrenagens, acoplamentos, eixos)."
+174,8484,Transferência.,"Conjunto/jogo de vedação para braço de
+carregamento de GNL (seal kit/mechanical
+seals/gaskets) em chapas metálicas combinadas com
+outro material ou selos mecânicos."
+175,8484,"Transferência; Armazenamento;
+Regaseificação.","Selos mecânicos e juntas de vedação da linha de
+eixo/tubo de popa (mechanical seals, stern-tube
+seals)."
+176,8487,"Transferência; Armazenamento;
+Regaseificação.","Hélice naval e pás para propulsão de embarcação
+(ship propeller e propeller blades), em metal."
+177,8487,Movimentação.,"Hélice/propulsor marítimo para manobra (stern/bow
+thruster), sem motor elétrico."
+178,8501,Movimentação.,"Motor elétrico para acionamento de propulsor
+(thruster)."
+179,8501,Transferência; Movimentação.,Motor elétrico para acionamento de bomba de GNL.
+180,8501,"Transferência; Armazenamento;
+Regaseificação; Transporte.",Motor elétrico para acionamento de bomba de vácuo.
+181,8501,Movimentação; Regaseificação.,"Motor elétrico para acionamento de compressor de
+recirculação (recycle compressor), inclusive execução
+para área classificada quando aplicável."
+182,8501,"Movimentação; Armazenamento;
+Regaseificação.",Motor elétrico para acionamento de guindaste/talha.
+183,8501,"Transferência; Armazenamento;
+Regaseificação.",Motor elétrico para guincho/cabrestante de amarração.
+184,8502,"Transferência; Armazenamento;
+Regaseificação.","Grupo gerador de emergência emergency generator
+set (conforme SOLAS)."
+185,8503,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Partes de motor elétrico (estator, rotor,
+tampas/escoramentos, suportes de escovas, ventilador
+de arrefecimento)."
+186,8503,Armazenamento; Regaseificação.,Partes do gerador elétrico/alternador do generator set.
+187,8503,"Transferência; Armazenamento;
+Regaseificação.","Partes do grupo gerador de emergência (alternador,
+excitador/AVR, reguladores, subconjuntos elétricos)."

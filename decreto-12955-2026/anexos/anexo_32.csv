@@ -1,0 +1,66 @@
+ITEM,NCM/SH,DESCRIÇÃO COMERCIAL
+25,7307,Componentes metálicos para coluna (sapatas e colares flutuantes).
+26,7307,Conector de interligação de dutos (hidráulico) (aço).
+27,7307,Conector de terminação para dutos flexíveis (de aço).
+28,7307,Conexões e interfaces metálicas de cabeça de poço (de aço).
+29,7307,Conexões e mandris para poços e linhas (aço).
+30,7307,Derivação de dutos ILT/ILY (de aço).
+31,7307,Elemento de vedação de cabeça de poço (packoff).
+32,7307,Flange de terminação de extremidades de umbilicais (de aço).
+33,7307,"Junta de compensação (encaixe de tubulação, aço)."
+34,7307,Suspensor de revestimento e conjunto de liner (elementos de conexão).
+35,7308,Base de fluxo (estrutura de aço) para sistema de bombeio submerso submarino.
+36,7308,Base de perfuração (BUT/BAJA) (estrutura de aço).
+37,7308,Estrutura jacket/caisson (aço).
+38,7308,"Estruturas para suporte, base, transporte, proteção e guia/alinhamento de equipamentos,
+umbilicais e jumpers (estrutura de aço)."
+39,7308,"Interconexão/estrutura de apoio para tubos/risers, com desvio angular e base/lançamento de
+umbilicais (estrutura de aço)."
+40,7309,Recipiente de aço (>300 L) (armazenagem temporária de fluidos/granéis).
+41,7312,Cabos de aço destinados às atividades de pesquisa e produção de petróleo e gás.
+42,7315,Corrente de amarração (aço) (com/sem malhete).
+43,7315,Gancho para amarra (peça de corrente).
+44,7316,"Âncora metálica para amarração/ancoragem offshore (inclui grapnel, torpedo, estaca de sucção ou
+grauteada)."
+45,7326,"Artigos metálicos para dutos, umbilicais e amarração (aço) — capas metálicas de proteção (ex.:
+tree cap, corrosion cap), elemento de suspensão de topo (dutos flexíveis e umbilicais), colar de
+ancoragem (dutos flexíveis e umbilicais), caixa para emendas de umbilicais, placa triangular para
+amarras, manilha de ancoragem, protetor clamp para cabos."
+46,7326,Bucha de travamento de cabeça de poço (lock down bushing/lock down sleeve) (aço).
+47,7608,Riser de alumínio (tubo de alumínio para perfuração e produção).
+48,8205,Cortador manual de tubos (ferramenta de mão).
+49,8205,Ferramenta manual (instalação de Árvore de Natal Molhada).
+50,8307,"Tubo flexível metálico (base metálica) para transporte de fluidos (flowline/riser), quando
+integralmente metálico."
+51,8405,Unidade geradora de gás (com purificador).
+52,8407,Motor de combustão Otto (montado em skid/móvel).
+53,8408,Motor de combustão diesel (montado em skid/móvel).
+54,8411,Turbina a gás.
+55,8413,"Base de fluxo (parte reconhecível, exclusiva de sistema de bombeio)."
+56,8413,Bomba centrífuga submersa (ESP/BCS).
+57,8413,Bomba centrífuga submersa submarina (ESP/BCSS).
+58,8413,Módulo de bombeio submerso (conjunto de bombas).
+59,8413,Sistema submarino de bombeamento multifásico (BMSHA hélico-axial).
+60,8413,Sistema submarino de injeção de água bruta (RWI) (com unidade de bombeamento).
+61,8413,Unidade de bombeamento de concreto (alta pressão) (cimentação).
+62,8413,Unidade de bombeamento de fluidos (transferência).
+63,8413,"Unidade de potência/fluido hidráulico (HPU) (conjunto com bombas, reservatório, filtragem e
+acionamento)."
+64,8414,Bomba de vácuo (sem óleo) (ferramentas RST).
+65,8414,Compressor de gás natural.
+66,8414,Conjunto soprador/resfriador (ar/gás).
+67,8416,Queimador para efluentes/combustíveis do poço (teste/avaliação).
+68,8419,Equipamento de tratamento térmico (aquecedor/resfriador).
+69,8419,Trocador de calor (casco e tubos ou placas).
+70,8421,Centrífuga (recuperação de fluidos de perfuração).
+71,8421,Eliminador de névoa (gás).
+72,8421,Equipamento de secagem/filtração de cascalhos e fluidos.
+73,8421,Módulo de separação/condicionamento (hidrociclones/estágios de tratamento).
+74,8421,Módulo desarenador (fluxo multifásico).
+75,8421,Partes de centrífugas e equipamentos de filtração (8421).
+76,8421,"Sistema submarino de injeção de água bruta (RWI) (com estágio predominante de
+filtração/tratamento)."
+77,8421,Sistema submarino de separação água–óleo (SSAO).
+78,8425,Guincho/macaco/tensionador para içamento e tracionamento de cargas e linhas.
+79,8425,Turco davit para barco de salvamento (embarcação).
+80,8428,Aparelho de manuseio/lançamento de jumper (com acionamento).

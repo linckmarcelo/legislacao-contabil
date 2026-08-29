@@ -1,0 +1,86 @@
+ITEM,NCM/SH,TIPO DE ATIVIDADE*,DESCRIÇÃO COMERCIAL
+,,,"(cilindro, regulador/redutor, máscara/peça facial,
+válvulas e arnês)."
+292,9025,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Higrômetro/analisador de umidade em gás
+(moisture/dew-point analyzer)."
+293,9025,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Instrumentos de temperatura de processo: sensores
+RTD/thermocouple, transmissores temperature
+transmitter, termômetros locais bimetal thermometer e
+poços de proteção thermowell."
+294,9025,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Sensores de temperatura e poços de proteção para
+bombas e mancais (temperature sensors/thermowells)."
+295,9026,"Transferência; Movimentação;
+Transporte.","Instrumentação de processo da carreta
+(pressão/nível/temperatura —
+transmitters/switches/gauges)."
+296,9026,"Transferência; Armazenamento;
+Regaseificação.","Instrumentos de medição/monitoramento de pressão
+do sistema de alívio (transmissores e chaves de
+pressão)."
+297,9026,Armazenamento; Regaseificação.,"Instrumentos de processo (pressão, nível, fluxo)
+vinculados ao bloqueio de segurança."
+298,9026,"Regaseificação; Transferência;
+Movimentação.","Instrumentos de processo para a odorização
+(transmissores de vazão/pressão/temperatura do gás
+e do odorante)."
+299,9026,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Instrumentos de processo vinculados à segurança —
+transmissores/sensores/chaves de pressão, nível e
+vazão (pressure transmitters/switches, level
+transmitters/switches, flowmeters/flow switches)."
+300,9026,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Instrumentos eletrônicos de pressão para processo e
+testes — pressure transmitter/indicator/switch."
+301,9026,Transferência.,"Medidor de vazão para GNL (mass flow meter)
+aplicado ao ponto de carregamento/dispenser."
+302,9026,"Transferência; Movimentação;
+Transporte; Armazenamento;
+Regaseificação.","Medidor/transmissor de vácuo para gases (vacuum
+gauge/vacuum transmitter) e chaves de vácuo
+(vacuum switch)."
+303,9026,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Sensores/transmissores de pressão/nível/fluxo para
+proteção de bombas (pressure/level/flow
+transmitters/switches)."
+304,9027,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Analisador de poder calorífico/índice de Wobbe e
+densidade relativa de gás natural (calorific
+value/Wobbe index analyzer)."
+305,9027,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Analisadores específicos de contaminantes (enxofre
+total total sulfur, H₂S, mercúrio), e ponto de orvalho de
+hidrocarbonetos."
+306,9027,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Cromatógrafo de gás GC (ex.: FID/TCD/micro-GC)
+para análise de composição de GN/GNL, podendo
+incluir condicionamento e vaporização de amostra."
+307,9027,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Detectores/analisadores de gás fixos ou portáteis —
+gas detectors/analyzers (LEL, O₂, H₂S, CH₄)."
+308,9029,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Tacômetros e sensores de velocidade/keyphasor para
+eixos rotativos."
+309,9031,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Sensores de posição/velocidade para referência de
+sincronismo (crank/cam position sensor, speed/phase
+pickup)."
+310,9031,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Sensores e transmissores de vibração para máquinas
+rotativas — accelerometers, velocity sensors/pickups,
+proximity probes/eddy-current, analisadores/monitores
+portáteis ou fixos."
+311,9031,"Transferência; Movimentação;
+Armazenamento; Regaseificação.","Sistema de monitoramento e proteção de bombas
+(condition monitoring), com módulos/monitores para
+vibração, temperatura e pressão, registro e alarmes."
+312,9032,Armazenamento; Regaseificação.,"Aparelho de regulação/controle automático de
+segurança (ESD/intertravamento, positioner,
+controlador de válvula)."
+313,9032,"Transferência; Armazenamento;
+Regaseificação.","Controlador automático de potencial do sistema ICCP
+— potential controller/automatic regulator."
+314,9032,Armazenamento; Regaseificação.,"Controlador/posicionador de válvula para bloqueio de
+segurança (positioner, solenoid, ESD controller)."

@@ -1,0 +1,61 @@
+ITEM,NCM/SH,DESCRIÇÃO COMERCIAL
+1,2844,Fonte radioativa (para medição/marcação).
+2,5607,Cabo de poliéster (trançado).
+3,7304,Tubo de lavagem (wash pipe) (sem costura).
+4,7304,Tubo de perfuração drill pipe (sem costura).
+5,7304,Tubo de produção (coluna de produção/COP) (sem costura).
+6,7304,Tubo metálico (sem costura) (serviço de perfuração/intervenção).
+7,7305,"Tubo de perfuração drill pipe (soldado, grande diâmetro)."
+8,7306,Tubo de lavagem (wash pipe) (soldado).
+9,7306,Tubo de perfuração drill pipe (soldado).
+10,7306,Tubo de produção (coluna de produção/COP) (soldado).
+11,7307,Adaptador/acessório tubular de encaixe (para drill pipe riser).
+12,7308,Base de teste e transporte (estrutura de aço).
+13,7308,Estrutura de lançamento para jumper elétrico-hidráulico/de potência (aço).
+14,7309,Recipiente de aço (>300 L) (armazenagem temporária de fluidos/granéis).
+15,7315,Corrente de amarração (aço) (com/sem malhete).
+16,7315,Gancho para amarra (peça de corrente).
+17,7316,Âncora/grapnel (aço).
+18,8205,Cortador manual de tubos (ferramenta de mão).
+19,8205,Ferramenta manual (instalação de Árvore de Natal Molhada).
+20,8405,Unidade geradora de gás (com purificador).
+21,8407,Motor de combustão Otto (montado em skid/móvel).
+22,8408,Motor de combustão diesel (montado em skid/móvel).
+23,8411,Turbina a gás.
+24,8413,Módulo de bombeio submerso (conjunto de bombas).
+25,8413,Sistema submarino de bombeamento multifásico (BMSHA hélico-axial).
+26,8413,Unidade de bombeamento de concreto (alta pressão) (cimentação).
+27,8413,Unidade de bombeamento de fluidos (transferência).
+28,8413,"Unidade de potência hidráulica HPU (conjunto com bombas, reservatório e acionamento)."
+29,8414,Bomba de vácuo (sem óleo) (ferramentas RST).
+30,8414,Compressor de gás natural.
+31,8414,Conjunto soprador/resfriador (ar/gás).
+32,8416,Queimador para efluentes/combustíveis do poço (teste/avaliação).
+33,8419,Equipamento de tratamento térmico (aquecedor/resfriador).
+34,8419,Trocador de calor (casco e tubos ou placas).
+35,8421,Centrífuga (recuperação de fluidos de perfuração).
+36,8421,Eliminador de névoa (gás).
+37,8421,Equipamento de secagem/filtração de cascalhos e fluidos.
+38,8421,Módulo desarenador (fluxo multifásico).
+39,8421,Partes de centrífugas e equipamentos de filtração (8421).
+40,8425,Guincho (movimentação/elevação de equipamentos e materiais).
+41,8425,Turco davit para barco de salvamento (embarcação).
+42,8428,Aparelho de manuseio/lançamento de jumper (com acionamento).
+43,8428,"Elevador estendido (apoio/tração da coluna) (ex.: 400 t; bucha 6 5/8"")."
+44,8428,Equipamento de transporte de cascalhos (contínuo/pneumático).
+45,8430,Unidade fixa de perfuração/exploração/produção (máquina de perfuração).
+46,8431,Escareador/estabilizador (perfuração).
+47,8431,Ferramenta/acessório para perfuração/intervenção (inclui manuseio/elevação de tubos).
+48,8431,Mesa/base de perfuração (parte de máquina de perfuração).
+49,8467,Cortador mecânico de tubos (manual).
+50,8467,"Ferramenta hidráulica/pneumática de manuseio, torque, instalação e desconexão (coluna,
+módulos e riser)."
+51,8474,Misturador pressurizado de materiais químicos a granel.
+52,8474,Misturador/reciclador de cimento (CBS).
+53,8474,Peneira vibratória (shale shaker).
+54,8479,Equipamento mecânico de função própria (uso em perfuração/intervenção).
+55,8479,Veículo submarino operado remotamente (ROV).
+56,8481,BOPW — preventor de erupção para workover.
+57,8481,SDR — sistema de destravamento rápido (valvulado).
+58,8481,Válvula de circulação para coluna de drill pipe (PBL).
+59,8481,Válvula de segurança de fluxo pleno.
