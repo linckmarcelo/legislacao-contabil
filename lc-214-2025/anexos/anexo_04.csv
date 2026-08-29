@@ -1,0 +1,21 @@
+ITEM,DESCRIÇÃO DO SERVIÇO,NBS
+1,Serviços cirúrgicos,1.2301.11.00
+2,Serviços ginecológicos e obstétricos,1.2301.12.00
+3,Serviços psiquiátricos,1.2301.13.00
+4,Serviços prestados em Unidades de Terapia Intensiva,1.2301.14.00
+5,Serviços de atendimento de urgência,1.2301.15.00
+6,Serviços hospitalares não classificados em subposições anteriores,1.2301.19.00
+7,Serviços de clínica médica,1.2301.21.00
+8,Serviços médicos especializados,1.2301.22.00
+9,Serviços odontológicos,1.2301.23.00
+10,Serviços de enfermagem,1.2301.91.00
+11,Serviços de fisioterapia,1.2301.92.00
+12,Serviços laboratoriais,1.2301.93.00
+13,Serviços de diagnóstico por imagem,1.2301.94.00
+14,Serviços de bancos de material biológico humano,1.2301.95.00
+15,Serviços de ambulância,1.2301.96.00
+16,Serviços de assistência ao parto e pós-parto,1.2301.97.00
+17,Serviços de psicologia,1.2301.98.00
+18,Serviços de vigilância sanitária,1.2301.99.00
+19,Serviços de epidemiologia,1.2301.99.00
+20,Serviços de vacinação,1.2301.99.00

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "descricao": "Base de legislacao contabil/tributaria para consulta pela skill contador (RAG).",
+  "gerado_em": "2026-08-29",
+  "total_normas": 1,
+  "normas": [
+    {
+      "identificador": "LC 214/2025",
+      "slug": "lc-214-2025",
+      "tipo": "LC",
+      "numero": "214",
+      "ano": "2025",
+      "ementa": "Institui o Imposto sobre Bens e Serviços (IBS), a Contribuição Social sobre Bens e Serviços (CBS) e o Imposto Seletivo (IS); cria o Comitê Gestor do IBS e altera a legislação tributária.",
+      "fonte_versao": "Texto consolidado (Planalto)",
+      "atualizado_em": "2026-08-29",
+      "n_artigos_vigentes": 580,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 70,
+      "sha256_16": "4d5952b6fabaf5ee",
+      "arquivos": {
+        "markdown": "lc-214-2025/lc-214-2025.md",
+        "chunks": "lc-214-2025/lc-214-2025.chunks.jsonl",
+        "meta": "lc-214-2025/lc-214-2025.meta.json",
+        "anexos_dir": "lc-214-2025/anexos/"
+      }
+    }
+  ]
+}

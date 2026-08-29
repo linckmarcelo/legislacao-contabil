@@ -1,0 +1,19 @@
+Faixas,Percentual de Repartição dos Tributos,col2,col3,col4,col5
+,IRPJ,CSLL,CBS,ISS (*),IBS
+1ª Faixa,"18,80%","15,20%","21,50%","31,15%","13,35%"
+2ª Faixa,"19,80%","15,20%","25,00%","28,00%","12,00%"
+3ª Faixa,"20,80%","15,20%","24,00%","28,00%","12,00%"
+4ª Faixa,"17,80%","19,20%","23,00%","28,00%","12,00%"
+5ª Faixa,"18,80%","19,20%","22,00%","28,00% (*)","12,00%"
+6ª Faixa,"53,50%","21,50%","25,00%",,
+"(*) O percentual efetivo máximo devido ao ISS será de 5%, transferindo-se a diferença, de forma proporcional, aos tributos federais da mesma faixa de receita
+bruta anual. Sendo assim, na 5ª faixa, quando a alíquota efetiva for superior a 12,5%, a repartição será:",,,,,
+Faixa,IRPJ,CSLL,CBS,ISS,IBS
+"5ª Faixa, com alíquota
+efetiva superior a
+12,5%","(Alíquota efetiva - 5%) x
+31,33%","(Alíquota efetiva - 5%) x
+32,00%","(Alíquota efetiva - 5%) x
+36,67%","Percentual de ISS fixo
+em 3,5%","Percentual de ISS fixo em
+1,5%"
