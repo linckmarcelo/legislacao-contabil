@@ -9,6 +9,10 @@ conversor `legislacao-pdf-para-markdown`, e indexada no `manifest.json`.
 ```
 legislacao-contabil/
 ├── manifest.json          # índice leve de todas as normas (lido a cada consulta)
+├── conversor/             # a skill que converte PDF -> MD/JSONL/CSV
+│   ├── SKILL.md
+│   ├── scripts/converter.py
+│   └── references/
 ├── scripts/
 │   └── gerar_manifest.py  # regenera o manifest varrendo as pastas
 └── <slug-da-norma>/       # uma pasta por norma, ex.: lc-214-2025/
@@ -21,9 +25,9 @@ legislacao-contabil/
 ## Como adicionar uma norma
 
 1. Converta o PDF (de preferência a **versão consolidada** que preserve as notas de
-   vigência — "(Redação dada por…)"):
+   vigência — "(Redação dada por…)") com o conversor incluído no repo:
    ```
-   python converter.py <norma>.pdf --out ./tmp
+   python conversor/scripts/converter.py <norma>.pdf --out ./tmp
    ```
 2. Mova a pasta gerada (`tmp/<slug>/`) para a raiz da base.
 3. Regenere o índice:
