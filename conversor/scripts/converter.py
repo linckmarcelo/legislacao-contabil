@@ -185,6 +185,7 @@ _TIPOS = {
     "LEI": "Lei", "DECRETO-LEI": "Decreto-Lei", "DECRETO": "Decreto",
     "PORTARIA": "Portaria", "RESOLUÇÃO": "Resolução",
     "CONSTITUIÇÃO": "Constituição",
+    "ATO CONJUNTO": "Ato Conjunto", "ATO DECLARATÓRIO": "Ato Declaratório",
 }
 
 _NUM_RX = re.compile(r"n[º°o]?\.?\s*([\d][\d\.]*)", re.I)
@@ -194,7 +195,9 @@ _ANO_RX = re.compile(r"\b(19|20)\d{2}\b")
 # que cita "a Lei Complementar nº 214" não deve ser classificado como LC).
 _EPIGRAFE = re.compile(
     r"^\s*(LEI COMPLEMENTAR|EMENDA CONSTITUCIONAL|MEDIDA PROVIS[ÓO]RIA|"
-    r"INSTRU[ÇC][ÃA]O NORMATIVA|DECRETO-LEI|DECRETO|LEI|PORTARIA|RESOLU[ÇC][ÃA]O)"
+    r"INSTRU[ÇC][ÃA]O NORMATIVA|ATO CONJUNTO|ATO DECLARAT[ÓO]RIO|"
+    r"DECRETO-LEI|DECRETO|LEI|PORTARIA|RESOLU[ÇC][ÃA]O)"
+    r"(?:\s+[\w/]+)*"  # siglas opcionais do órgão (ex.: "RFB/CGIBS")
     r"\s+N[º°o]?\.?\s*([\d.]+)\s*,?\s*DE\s+.*?\b((?:19|20)\d{2})\b", re.I)
 
 
@@ -224,15 +227,33 @@ def detect_metadata(text: str, pdf_path: Path, raw_head: str = "") -> dict:
     nav = re.compile(
         r"^(Presid[êe]ncia|Casa Civil|Secretaria|Subchefia|Mensagem de veto|"
         r"Produ[çc][ãa]o de efeitos|Texto compilado|Vig[êe]ncia|\(Promulga[çc][ãa]o|"
-        r"\(Vide|LEI COMPLEMENTAR|LEI |DECRETO|MEDIDA PROVIS)", re.I)
+        r"\(Vide|LEI COMPLEMENTAR|LEI |DECRETO|MEDIDA PROVIS|ATO CONJUNTO|ATO DECLARAT|"
+        r"DI[ÁA]RIO OFICIAL|Publicado em:|[ÓO]rg[ãa]o:|Minist[ée]rio)", re.I)
     ementa_start = re.compile(
         r"^(Institui|Disp[õo]e|Altera|Regulamenta|Estabelece|Cria|Aprova|Define|"
         r"Reduz|Concede|Autoriza|Fixa|Revoga|Acresce|Consolida)", re.I)
     ementa = None
-    for para in text.split("\n"):
-        p = para.strip()
-        if ementa_start.match(p) and len(p) > 40:
-            ementa = p
+    # Buscar ementa primeiro no raw_head (cobre PDFs do DOU onde a limpeza remove
+    # linhas curtas), depois no texto limpo. PDFs do DOU quebram a ementa em várias
+    # linhas curtas — concatenar até encontrar ponto final, linha em branco, ou
+    # cláusula "RESOLVEM"/"O PRESIDENTE"/"O SECRETÁRIO".
+    _ementa_end = re.compile(r"(RESOLVEM|^O PRESIDENTE|^O SECRET[ÁA]RIO)", re.I)
+    for source in ([raw_head] if raw_head else []) + [text]:
+        lines = source.split("\n")
+        for i, line in enumerate(lines):
+            p = line.strip()
+            if ementa_start.match(p) and len(p) > 20:
+                parts = [p]
+                for j in range(i + 1, min(i + 15, len(lines))):
+                    nxt = lines[j].strip()
+                    if not nxt or _ementa_end.match(nxt) or nav.match(nxt) or _STRUCT_START.match(nxt):
+                        break
+                    parts.append(nxt)
+                    if nxt.endswith("."):
+                        break
+                ementa = " ".join(parts)
+                break
+        if ementa:
             break
     if not ementa:  # fallback: primeira linha substancial que não é navegação/upper
         for para in text.split("\n"):

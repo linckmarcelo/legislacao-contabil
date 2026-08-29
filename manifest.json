@@ -2,8 +2,68 @@
   "schema_version": "1.0",
   "descricao": "Base de legislacao contabil/tributaria para consulta pela skill contador (RAG).",
   "gerado_em": "2026-08-29",
-  "total_normas": 3,
+  "total_normas": 6,
   "normas": [
+    {
+      "identificador": "Ato Conjunto 1/2025",
+      "slug": "ato-conjunto-1-2025",
+      "tipo": "Ato Conjunto",
+      "numero": "1",
+      "ano": "2025",
+      "ementa": "Dispõe sobre as obrigações acessórias exigíveis para o fornecimento de informações para apuração do Imposto sobre Bens e Serviços - IBS e da Contribuição sobre Bens e Serviços - CBS no ano de 2026.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 5,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "ee1f342dc29c6cbf",
+      "arquivos": {
+        "markdown": "ato-conjunto-1-2025/ato-conjunto-1-2025.md",
+        "chunks": "ato-conjunto-1-2025/ato-conjunto-1-2025.chunks.jsonl",
+        "meta": "ato-conjunto-1-2025/ato-conjunto-1-2025.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
+      "identificador": "Ato Conjunto 4/2026",
+      "slug": "ato-conjunto-4-2026",
+      "tipo": "Ato Conjunto",
+      "numero": "4",
+      "ano": "2026",
+      "ementa": "Estabelece as datas de início da obrigatoriedade de emissão dos documentos fiscais eletrônicos de que trata o art. 112 dos regulamentos do Imposto sobre Bens e Serviços - IBS e da Contribuição sobre Bens e Serviços - CBS e dá outras providências.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 3,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "91dbdaefb51afe2d",
+      "arquivos": {
+        "markdown": "ato-conjunto-4-2026/ato-conjunto-4-2026.md",
+        "chunks": "ato-conjunto-4-2026/ato-conjunto-4-2026.chunks.jsonl",
+        "meta": "ato-conjunto-4-2026/ato-conjunto-4-2026.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
+      "identificador": "Ato Conjunto 5/2026",
+      "slug": "ato-conjunto-5-2026",
+      "tipo": "Ato Conjunto",
+      "numero": "5",
+      "ano": "2026",
+      "ementa": "Regulamenta o Programa Nacional de Conformidade Tributária no ano de 2026.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 4,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "7cc1ff3aa1770bba",
+      "arquivos": {
+        "markdown": "ato-conjunto-5-2026/ato-conjunto-5-2026.md",
+        "chunks": "ato-conjunto-5-2026/ato-conjunto-5-2026.chunks.jsonl",
+        "meta": "ato-conjunto-5-2026/ato-conjunto-5-2026.meta.json",
+        "anexos_dir": null
+      }
+    },
     {
       "identificador": "Decreto 12955/2026",
       "slug": "decreto-12955-2026",
