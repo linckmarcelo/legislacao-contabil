@@ -44,6 +44,7 @@ e carregue a skill especializada correspondente do Google Drive (pasta "Skills")
 | 11 | `importacao-alterdata-SKILL.md` | Alterdata, EXPORTA.TXT, importação Alterdata, lançamentos Alterdata |
 | 12 | `relatorio-obrigacoes-mensais.skill` | obrigações mensais, calendário fiscal, vencimentos tributos, agenda tributária |
 | 13 | `cnae-analise-societaria-SKILL.md` | CNAE, análise societária, objeto social, enquadramento CNAE, atividade econômica, contrato social, alteração contratual, CNAE principal, CNAE secundário, classificação CNAE, abrir empresa, incluir atividade |
+| 14 | `conversao-legislacao-pdf-markdown-SKILL.md` | adicionar legislação, converter PDF, nova norma, incluir lei, incluir decreto, incluir IN, base de legislação, legislacao-contabil, PDF para markdown, chunks, meta.json |
 
 ---
 
@@ -56,6 +57,7 @@ e carregue a skill especializada correspondente do Google Drive (pasta "Skills")
 - Se a consulta cruzar **reforma + previdenciário**: carregar skill #1 (addendum tem seção previdenciária)
 - Se a consulta mencionar **CNAE, objeto social, abertura de empresa, alteração contratual**: carregar skill #13
 - Se a consulta cruzar **CNAE + reforma tributária**: carregar skills #13 + #1
+- Se a consulta for sobre **adicionar legislação ao repo, converter PDF de norma**: carregar skill #14
 - Na dúvida entre duas skills, **carregue ambas**
 
 ---
@@ -64,11 +66,12 @@ e carregue a skill especializada correspondente do Google Drive (pasta "Skills")
 
 Repositório com textos compilados: `github.com/linckmarcelo/legislacao-contabil`
 
-14 normas indexadas, 2.684 artigos/perguntas vigentes, 177 anexos.
+15 normas indexadas, 2.895 artigos/perguntas vigentes, 178 anexos.
 Normas disponíveis: LC 214/2025, LC 224/2025, LC 227/2026, Decreto 12.955/2026,
 Ato Conjunto 1/2025, 4/2026, 5/2026, IN 2110/2022, IN 83/2001,
 Lei 8.212/1991, Lei 10.256/2001, Lei 13.606/2018, PeR IRPF 2026,
-PeR Tributação Altas Rendas (Lei 15.270/2025).
+PeR Tributação Altas Rendas (Lei 15.270/2025),
+Lei 5.172/1966 (CTN).
 
 ---
 
