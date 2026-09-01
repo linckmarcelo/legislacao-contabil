@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "descricao": "Base de legislacao contabil/tributaria para consulta pela skill contador (RAG).",
   "gerado_em": "2026-09-01",
-  "total_normas": 15,
+  "total_normas": 16,
   "normas": [
     {
       "identificador": "Ato Conjunto 1/2025",
@@ -242,6 +242,26 @@
         "chunks": "lei-5172-1966/lei-5172-1966.chunks.jsonl",
         "meta": "lei-5172-1966/lei-5172-1966.meta.json",
         "anexos_dir": "lei-5172-1966/anexos/"
+      }
+    },
+    {
+      "identificador": "Lei 6404/1976",
+      "slug": "lei-6404-1976",
+      "tipo": "Lei",
+      "numero": "6404",
+      "ano": "1976",
+      "ementa": "Dispõe sobre as Sociedades por Ações.",
+      "fonte_versao": "Texto compilado (Planalto)",
+      "atualizado_em": "2026-09-01",
+      "n_artigos_vigentes": 313,
+      "n_redacoes_anteriores": 1,
+      "n_anexos": 0,
+      "sha256_16": "390d13e6ba2b3a7f",
+      "arquivos": {
+        "markdown": "lei-6404-1976/lei-6404-1976.md",
+        "chunks": "lei-6404-1976/lei-6404-1976.chunks.jsonl",
+        "meta": "lei-6404-1976/lei-6404-1976.meta.json",
+        "anexos_dir": null
       }
     },
     {
