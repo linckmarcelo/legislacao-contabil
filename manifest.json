@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "descricao": "Base de legislacao contabil/tributaria para consulta pela skill contador (RAG).",
   "gerado_em": "2026-09-02",
-  "total_normas": 16,
+  "total_normas": 17,
   "normas": [
     {
       "identificador": "Ato Conjunto 1/2025",
@@ -222,6 +222,26 @@
         "chunks": "lei-13606-2018/lei-13606-2018.chunks.jsonl",
         "meta": "lei-13606-2018/lei-13606-2018.meta.json",
         "anexos_dir": "lei-13606-2018/anexos/"
+      }
+    },
+    {
+      "identificador": "Lei 4504/1964",
+      "slug": "lei-4504-1964",
+      "tipo": "Lei",
+      "numero": "4504",
+      "ano": "1964",
+      "ementa": "Dispõe sobre o Estatuto da Terra, e dá outras providências.",
+      "fonte_versao": "Texto compilado (Planalto)",
+      "atualizado_em": "2026-09-01",
+      "n_artigos_vigentes": 129,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 1,
+      "sha256_16": "573c03bf2c4ae46a",
+      "arquivos": {
+        "markdown": "lei-4504-1964/lei-4504-1964.md",
+        "chunks": "lei-4504-1964/lei-4504-1964.chunks.jsonl",
+        "meta": "lei-4504-1964/lei-4504-1964.meta.json",
+        "anexos_dir": "lei-4504-1964/anexos/"
       }
     },
     {
