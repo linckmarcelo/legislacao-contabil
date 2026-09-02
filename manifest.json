@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "descricao": "Base de legislacao contabil/tributaria para consulta pela skill contador (RAG).",
-  "gerado_em": "2026-09-01",
+  "gerado_em": "2026-09-02",
   "total_normas": 16,
   "normas": [
     {
