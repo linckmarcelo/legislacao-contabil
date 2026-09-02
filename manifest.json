@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "descricao": "Base de legislacao contabil/tributaria para consulta pela skill contador (RAG).",
   "gerado_em": "2026-09-02",
-  "total_normas": 17,
+  "total_normas": 18,
   "normas": [
     {
       "identificador": "Ato Conjunto 1/2025",
@@ -82,6 +82,26 @@
         "chunks": "decreto-12955-2026/decreto-12955-2026.chunks.jsonl",
         "meta": "decreto-12955-2026/decreto-12955-2026.meta.json",
         "anexos_dir": "decreto-12955-2026/anexos/"
+      }
+    },
+    {
+      "identificador": "Decreto-Lei 5452/1943",
+      "slug": "decreto-lei-5452-1943",
+      "tipo": "Decreto-Lei",
+      "numero": "5452",
+      "ano": "1943",
+      "ementa": "Aprova a Consolidação das Leis do Trabalho.",
+      "fonte_versao": "Texto compilado (Planalto)",
+      "atualizado_em": "2026-09-02",
+      "n_artigos_vigentes": 1007,
+      "n_redacoes_anteriores": 4,
+      "n_anexos": 1,
+      "sha256_16": "4eace23ecd07100e",
+      "arquivos": {
+        "markdown": "decreto-lei-5452-1943/decreto-lei-5452-1943.md",
+        "chunks": "decreto-lei-5452-1943/decreto-lei-5452-1943.chunks.jsonl",
+        "meta": "decreto-lei-5452-1943/decreto-lei-5452-1943.meta.json",
+        "anexos_dir": "decreto-lei-5452-1943/anexos/"
       }
     },
     {
