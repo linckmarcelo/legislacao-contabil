@@ -1,0 +1,408 @@
+{
+  "schema_version": "1.0",
+  "descricao": "Base de legislacao contabil/tributaria para consulta pela skill contador (RAG).",
+  "gerado_em": "2026-09-03",
+  "total_normas": 20,
+  "normas": [
+    {
+      "identificador": "Ato Conjunto 1/2025",
+      "slug": "ato-conjunto-1-2025",
+      "tipo": "Ato Conjunto",
+      "numero": "1",
+      "ano": "2025",
+      "ementa": "Dispõe sobre as obrigações acessórias exigíveis para o fornecimento de informações para apuração do Imposto sobre Bens e Serviços - IBS e da Contribuição sobre Bens e Serviços - CBS no ano de 2026.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 5,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "ee1f342dc29c6cbf",
+      "arquivos": {
+        "markdown": "ato-conjunto-1-2025/ato-conjunto-1-2025.md",
+        "chunks": "ato-conjunto-1-2025/ato-conjunto-1-2025.chunks.jsonl",
+        "meta": "ato-conjunto-1-2025/ato-conjunto-1-2025.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
+      "identificador": "Ato Conjunto 4/2026",
+      "slug": "ato-conjunto-4-2026",
+      "tipo": "Ato Conjunto",
+      "numero": "4",
+      "ano": "2026",
+      "ementa": "Estabelece as datas de início da obrigatoriedade de emissão dos documentos fiscais eletrônicos de que trata o art. 112 dos regulamentos do Imposto sobre Bens e Serviços - IBS e da Contribuição sobre Bens e Serviços - CBS e dá outras providências.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 3,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "91dbdaefb51afe2d",
+      "arquivos": {
+        "markdown": "ato-conjunto-4-2026/ato-conjunto-4-2026.md",
+        "chunks": "ato-conjunto-4-2026/ato-conjunto-4-2026.chunks.jsonl",
+        "meta": "ato-conjunto-4-2026/ato-conjunto-4-2026.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
+      "identificador": "Ato Conjunto 5/2026",
+      "slug": "ato-conjunto-5-2026",
+      "tipo": "Ato Conjunto",
+      "numero": "5",
+      "ano": "2026",
+      "ementa": "Regulamenta o Programa Nacional de Conformidade Tributária no ano de 2026.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 4,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "7cc1ff3aa1770bba",
+      "arquivos": {
+        "markdown": "ato-conjunto-5-2026/ato-conjunto-5-2026.md",
+        "chunks": "ato-conjunto-5-2026/ato-conjunto-5-2026.chunks.jsonl",
+        "meta": "ato-conjunto-5-2026/ato-conjunto-5-2026.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
+      "identificador": "Decreto 12955/2026",
+      "slug": "decreto-12955-2026",
+      "tipo": "Decreto",
+      "numero": "12955",
+      "ano": "2026",
+      "ementa": "Regulamenta a Contribuição Social sobre Bens e Serviços – CBS e dá outras providências.",
+      "fonte_versao": "Texto publicado (Planalto)",
+      "atualizado_em": "2026-08-29",
+      "n_artigos_vigentes": 620,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 42,
+      "sha256_16": "d6e2d14ef21837bb",
+      "arquivos": {
+        "markdown": "decreto-12955-2026/decreto-12955-2026.md",
+        "chunks": "decreto-12955-2026/decreto-12955-2026.chunks.jsonl",
+        "meta": "decreto-12955-2026/decreto-12955-2026.meta.json",
+        "anexos_dir": "decreto-12955-2026/anexos/"
+      }
+    },
+    {
+      "identificador": "Decreto-Lei 5452/1943",
+      "slug": "decreto-lei-5452-1943",
+      "tipo": "Decreto-Lei",
+      "numero": "5452",
+      "ano": "1943",
+      "ementa": "Aprova a Consolidação das Leis do Trabalho.",
+      "fonte_versao": "Texto compilado (Planalto)",
+      "atualizado_em": "2026-09-02",
+      "n_artigos_vigentes": 1007,
+      "n_redacoes_anteriores": 4,
+      "n_anexos": 1,
+      "sha256_16": "4eace23ecd07100e",
+      "arquivos": {
+        "markdown": "decreto-lei-5452-1943/decreto-lei-5452-1943.md",
+        "chunks": "decreto-lei-5452-1943/decreto-lei-5452-1943.chunks.jsonl",
+        "meta": "decreto-lei-5452-1943/decreto-lei-5452-1943.meta.json",
+        "anexos_dir": "decreto-lei-5452-1943/anexos/"
+      }
+    },
+    {
+      "identificador": "IN 2110/2022",
+      "slug": "in-2110-2022",
+      "tipo": "IN",
+      "numero": "2110",
+      "ano": "2022",
+      "ementa": "Dispõe sobre normas gerais de tributação previdenciária e de arrecadação das contribuições sociais destinadas à Previdência Social e das contribuições devidas a terceiros, administradas pela Secretaria Especial da Receita Federal do Brasil (RFB).",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 277,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 51,
+      "sha256_16": "3ebd1dd48d40f27c",
+      "arquivos": {
+        "markdown": "in-2110-2022/in-2110-2022.md",
+        "chunks": "in-2110-2022/in-2110-2022.chunks.jsonl",
+        "meta": "in-2110-2022/in-2110-2022.meta.json",
+        "anexos_dir": "in-2110-2022/anexos/"
+      }
+    },
+    {
+      "identificador": "IN 83/2001",
+      "slug": "in-83-2001",
+      "tipo": "IN",
+      "numero": "83",
+      "ano": "2001",
+      "ementa": "Dispõe sobre a tributação dos resultados da atividade rural das pessoas físicas.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 32,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "584827a178ae0ebe",
+      "arquivos": {
+        "markdown": "in-83-2001/in-83-2001.md",
+        "chunks": "in-83-2001/in-83-2001.chunks.jsonl",
+        "meta": "in-83-2001/in-83-2001.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
+      "identificador": "LC 214/2025",
+      "slug": "lc-214-2025",
+      "tipo": "LC",
+      "numero": "214",
+      "ano": "2025",
+      "ementa": "Institui o Imposto sobre Bens e Serviços (IBS), a Contribuição Social sobre Bens e Serviços (CBS) e o Imposto Seletivo (IS); cria o Comitê Gestor do IBS e altera a legislação tributária.",
+      "fonte_versao": "Texto consolidado (Planalto)",
+      "atualizado_em": "2026-08-29",
+      "n_artigos_vigentes": 580,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 70,
+      "sha256_16": "4d5952b6fabaf5ee",
+      "arquivos": {
+        "markdown": "lc-214-2025/lc-214-2025.md",
+        "chunks": "lc-214-2025/lc-214-2025.chunks.jsonl",
+        "meta": "lc-214-2025/lc-214-2025.meta.json",
+        "anexos_dir": "lc-214-2025/anexos/"
+      }
+    },
+    {
+      "identificador": "LC 224/2025",
+      "slug": "lc-224-2025",
+      "tipo": "LC",
+      "numero": "224",
+      "ano": "2025",
+      "ementa": "Dispõe sobre a redução e os critérios de concessão de incentivos e benefícios de natureza tributária, financeira ou creditícia concedidos exclusivamente no âmbito da União; estabelece a responsabilidade solidária de terceiros pelo recolhimento de tributos incidentes sobre a exploração de apostas de quota fixa; e altera as Leis Complementares nºs 101, de 4 de maio de 2000 (Lei de Responsabilidade Fiscal), 105, de 10 de janeiro de 2001, e 215, de 21 de março de 2025, e as Leis nºs 7.689, de 15 de dezembro de 1988, 9.249, de 26 de dezembro de 1995, 13.756, de 12 de dezembro de 2018, e 8.137, de 27 de dezembro de 1990.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 14,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "5349599e96e5dd1a",
+      "arquivos": {
+        "markdown": "lc-224-2025/lc-224-2025.md",
+        "chunks": "lc-224-2025/lc-224-2025.chunks.jsonl",
+        "meta": "lc-224-2025/lc-224-2025.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
+      "identificador": "LC 227/2026",
+      "slug": "lc-227-2026",
+      "tipo": "LC",
+      "numero": "227",
+      "ano": "2026",
+      "ementa": "Institui o Comitê Gestor do Imposto sobre Bens e Serviços (CGIBS); dispõe sobre o processo administrativo tributário do Imposto sobre Bens e Serviços (IBS) e sobre a distribuição do produto da arrecadação do IBS aos entes federativos; institui normas gerais relativas ao Imposto sobre Transmissão Causa mortis e Doação de Quaisquer Bens ou Direitos (ITCMD); altera a Lei nº 5.172, de 25 de outubro de 1966 (Código Tributário Nacional), a Lei nº 1.079, de 10 de abril de 1950, a Lei nº 9.430, de 27 de dezembro de 1996, a Lei nº 10.893, de 13 de julho de 2004, a Lei nº 14.113, de 25 de dezembro de 2020, a Lei Complementar nº 63, de 11 de janeiro de 1990, a Lei Complementar nº 87, de 13 de setembro de 1996 (Lei Kandir), a Lei Complementar nº 123, de 14 de dezembro de 2006, a Lei Complementar nº 141, de 13 de janeiro de 2012, a Lei Complementar nº 192, de 11 de março de 2022, a Lei Complementar nº 214, de 16 de janeiro de 2025, o Decreto-Lei nº 37, de 18 de novembro de 1966, e o Decreto nº 70.235, de 6 de março de 1972; e revoga dispositivos da Lei nº 10.833, de 29 de dezembro de 2003, e da Medida Provisória nº 2.158-35, de 24 de agosto de 2001.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 209,
+      "n_redacoes_anteriores": 1,
+      "n_anexos": 11,
+      "sha256_16": "34faf6e642f2d31d",
+      "arquivos": {
+        "markdown": "lc-227-2026/lc-227-2026.md",
+        "chunks": "lc-227-2026/lc-227-2026.chunks.jsonl",
+        "meta": "lc-227-2026/lc-227-2026.meta.json",
+        "anexos_dir": "lc-227-2026/anexos/"
+      }
+    },
+    {
+      "identificador": "Lei 10256/2001",
+      "slug": "lei-10256-2001",
+      "tipo": "Lei",
+      "numero": "10256",
+      "ano": "2001",
+      "ementa": "Altera a Lei no 8.212, de 24 de julho de 1991, a Lei no 8.870, de 15 de abril de 1994, a Lei no 9.317, de 5 de dezembro de 1996, e a Lei no 9.528, de 10 de dezembro de 1997.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 6,
+      "n_redacoes_anteriores": 1,
+      "n_anexos": 0,
+      "sha256_16": "f3783ea969fd72b0",
+      "arquivos": {
+        "markdown": "lei-10256-2001/lei-10256-2001.md",
+        "chunks": "lei-10256-2001/lei-10256-2001.chunks.jsonl",
+        "meta": "lei-10256-2001/lei-10256-2001.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
+      "identificador": "Lei 13606/2018",
+      "slug": "lei-13606-2018",
+      "tipo": "Lei",
+      "numero": "13606",
+      "ano": "2018",
+      "ementa": "Institui o Programa de Regularização Tributária Rural (PRR) na Secretaria da Receita Federal do Brasil e na Procuradoria-Geral da Fazenda Nacional; altera as Leis nºs 8.212, de 24 de julho de 1991, 8.870, de 15 de abril de 1994, 9.528, de 10 de dezembro de 1997, 13.340, de 28 de setembro de 2016, 10.522, de 19 de julho de 2002, 9.456, de 25 de abril de 1997, 13.001, de 20 de junho de 2014, 8.427, de 27 de maio de 1992, e 11.076, de 30 de dezembro de 2004, e o",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 47,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 2,
+      "sha256_16": "26ad9f93bea4e825",
+      "arquivos": {
+        "markdown": "lei-13606-2018/lei-13606-2018.md",
+        "chunks": "lei-13606-2018/lei-13606-2018.chunks.jsonl",
+        "meta": "lei-13606-2018/lei-13606-2018.meta.json",
+        "anexos_dir": "lei-13606-2018/anexos/"
+      }
+    },
+    {
+      "identificador": "Lei 15270/2025",
+      "slug": "lei-15270-2025",
+      "tipo": "Lei",
+      "numero": "15270",
+      "ano": "2025",
+      "ementa": "Altera a Lei nº 9.250, de 26 de dezembro de 1995, e a Lei nº  9.249, de 26 de dezembro de 1995, para instituir a redução do imposto sobre a renda devido nas bases de cálculo mensal e anual e a tributação mínima para as pessoas físicas que auferem altas rendas; e dá outras providências.",
+      "fonte_versao": "Publicação original (Planalto)",
+      "atualizado_em": "2026-09-03",
+      "n_artigos_vigentes": 8,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "1a507878bcd22c7e",
+      "arquivos": {
+        "markdown": "lei-15270-2025/lei-15270-2025.md",
+        "chunks": "lei-15270-2025/lei-15270-2025.chunks.jsonl",
+        "meta": "lei-15270-2025/lei-15270-2025.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
+      "identificador": "Lei 4504/1964",
+      "slug": "lei-4504-1964",
+      "tipo": "Lei",
+      "numero": "4504",
+      "ano": "1964",
+      "ementa": "Dispõe sobre o Estatuto da Terra, e dá outras providências.",
+      "fonte_versao": "Texto compilado (Planalto)",
+      "atualizado_em": "2026-09-01",
+      "n_artigos_vigentes": 129,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 1,
+      "sha256_16": "573c03bf2c4ae46a",
+      "arquivos": {
+        "markdown": "lei-4504-1964/lei-4504-1964.md",
+        "chunks": "lei-4504-1964/lei-4504-1964.chunks.jsonl",
+        "meta": "lei-4504-1964/lei-4504-1964.meta.json",
+        "anexos_dir": "lei-4504-1964/anexos/"
+      }
+    },
+    {
+      "identificador": "Lei 5172/1966",
+      "slug": "lei-5172-1966",
+      "tipo": "Lei",
+      "numero": "5172",
+      "ano": "1966",
+      "ementa": "Dispõe sobre o Sistema Tributário Nacional e institui normas gerais de direito tributário aplicáveis à União, Estados e Municípios.",
+      "fonte_versao": "Texto compilado (Planalto)",
+      "atualizado_em": "2026-08-31",
+      "n_artigos_vigentes": 211,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 1,
+      "sha256_16": "7a5825b74cfffa01",
+      "arquivos": {
+        "markdown": "lei-5172-1966/lei-5172-1966.md",
+        "chunks": "lei-5172-1966/lei-5172-1966.chunks.jsonl",
+        "meta": "lei-5172-1966/lei-5172-1966.meta.json",
+        "anexos_dir": "lei-5172-1966/anexos/"
+      }
+    },
+    {
+      "identificador": "Lei 6404/1976",
+      "slug": "lei-6404-1976",
+      "tipo": "Lei",
+      "numero": "6404",
+      "ano": "1976",
+      "ementa": "Dispõe sobre as Sociedades por Ações.",
+      "fonte_versao": "Texto compilado (Planalto)",
+      "atualizado_em": "2026-09-01",
+      "n_artigos_vigentes": 313,
+      "n_redacoes_anteriores": 1,
+      "n_anexos": 0,
+      "sha256_16": "390d13e6ba2b3a7f",
+      "arquivos": {
+        "markdown": "lei-6404-1976/lei-6404-1976.md",
+        "chunks": "lei-6404-1976/lei-6404-1976.chunks.jsonl",
+        "meta": "lei-6404-1976/lei-6404-1976.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
+      "identificador": "Lei 8212/1991",
+      "slug": "lei-8212-1991",
+      "tipo": "Lei",
+      "numero": "8212",
+      "ano": "1991",
+      "ementa": "Dispõe sobre a organização da Seguridade Social, institui Plano de Custeio, e dá outras providências.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 112,
+      "n_redacoes_anteriores": 6,
+      "n_anexos": 1,
+      "sha256_16": "c1dbafbdf4d51833",
+      "arquivos": {
+        "markdown": "lei-8212-1991/lei-8212-1991.md",
+        "chunks": "lei-8212-1991/lei-8212-1991.chunks.jsonl",
+        "meta": "lei-8212-1991/lei-8212-1991.meta.json",
+        "anexos_dir": "lei-8212-1991/anexos/"
+      }
+    },
+    {
+      "identificador": "Lei 9250/1995",
+      "slug": "lei-9250-1995",
+      "tipo": "Lei",
+      "numero": "9250",
+      "ano": "1995",
+      "ementa": "Altera a legislação do imposto de renda das pessoas físicas e dá outras providências.",
+      "fonte_versao": "Texto compilado (Planalto)",
+      "atualizado_em": "2026-09-03",
+      "n_artigos_vigentes": 47,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "0b933727d815ee27",
+      "arquivos": {
+        "markdown": "lei-9250-1995/lei-9250-1995.md",
+        "chunks": "lei-9250-1995/lei-9250-1995.chunks.jsonl",
+        "meta": "lei-9250-1995/lei-9250-1995.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
+      "identificador": "PeR IRPF 2026",
+      "slug": "per-irpf-2026",
+      "tipo": "PeR",
+      "numero": null,
+      "ano": "2026",
+      "ementa": "Perguntas e Respostas sobre o Imposto sobre a Renda — Pessoa Física, exercício de 2026 (ano-calendário de 2025). Programa Imposto sobre a Renda 2026, versão 1.00 (23/04/2026).",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 745,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "f3740385c07fa4dc",
+      "arquivos": {
+        "markdown": "per-irpf-2026/per-irpf-2026.md",
+        "chunks": "per-irpf-2026/per-irpf-2026.chunks.jsonl",
+        "meta": "per-irpf-2026/per-irpf-2026.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
+      "identificador": "PeR Tributação Altas Rendas (Lei 15.270/2025)",
+      "slug": "per-tributacao-altas-rendas-2025",
+      "tipo": "PeR",
+      "numero": null,
+      "ano": "2025",
+      "ementa": "Perguntas e Respostas sobre tributação de altas rendas — lucros e dividendos (Lei nº 15.270/2025). Manual Padrão RFB/COTIN, versão 19/12/2025.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 30,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "51712e390f090521",
+      "arquivos": {
+        "markdown": "per-tributacao-altas-rendas-2025/per-tributacao-altas-rendas-2025.md",
+        "chunks": "per-tributacao-altas-rendas-2025/per-tributacao-altas-rendas-2025.chunks.jsonl",
+        "meta": "per-tributacao-altas-rendas-2025/per-tributacao-altas-rendas-2025.meta.json",
+        "anexos_dir": null
+      }
+    }
+  ]
+}
