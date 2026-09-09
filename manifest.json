@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "descricao": "Base de legislacao contabil/tributaria para consulta pela skill contador (RAG).",
-  "gerado_em": "2026-09-02",
-  "total_normas": 18,
+  "gerado_em": "2026-09-09",
+  "total_normas": 20,
   "normas": [
     {
       "identificador": "Ato Conjunto 1/2025",
@@ -245,6 +245,26 @@
       }
     },
     {
+      "identificador": "Lei 15270/2025",
+      "slug": "lei-15270-2025",
+      "tipo": "Lei",
+      "numero": "15270",
+      "ano": "2025",
+      "ementa": "Altera a Lei nº 9.250, de 26 de dezembro de 1995, e a Lei nº  9.249, de 26 de dezembro de 1995, para instituir a redução do imposto sobre a renda devido nas bases de cálculo mensal e anual e a tributação mínima para as pessoas físicas que auferem altas rendas; e dá outras providências.",
+      "fonte_versao": "Publicação original (Planalto)",
+      "atualizado_em": "2026-09-03",
+      "n_artigos_vigentes": 8,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "1a507878bcd22c7e",
+      "arquivos": {
+        "markdown": "lei-15270-2025/lei-15270-2025.md",
+        "chunks": "lei-15270-2025/lei-15270-2025.chunks.jsonl",
+        "meta": "lei-15270-2025/lei-15270-2025.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
       "identificador": "Lei 4504/1964",
       "slug": "lei-4504-1964",
       "tipo": "Lei",
@@ -322,6 +342,26 @@
         "chunks": "lei-8212-1991/lei-8212-1991.chunks.jsonl",
         "meta": "lei-8212-1991/lei-8212-1991.meta.json",
         "anexos_dir": "lei-8212-1991/anexos/"
+      }
+    },
+    {
+      "identificador": "Lei 9250/1995",
+      "slug": "lei-9250-1995",
+      "tipo": "Lei",
+      "numero": "9250",
+      "ano": "1995",
+      "ementa": "Altera a legislação do imposto de renda das pessoas físicas e dá outras providências.",
+      "fonte_versao": "Texto compilado (Planalto)",
+      "atualizado_em": "2026-09-03",
+      "n_artigos_vigentes": 47,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "0b933727d815ee27",
+      "arquivos": {
+        "markdown": "lei-9250-1995/lei-9250-1995.md",
+        "chunks": "lei-9250-1995/lei-9250-1995.chunks.jsonl",
+        "meta": "lei-9250-1995/lei-9250-1995.meta.json",
+        "anexos_dir": null
       }
     },
     {
