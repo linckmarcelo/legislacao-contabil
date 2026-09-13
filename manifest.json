@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "descricao": "Base de legislacao contabil/tributaria para consulta pela skill contador (RAG).",
-  "gerado_em": "2026-09-09",
-  "total_normas": 20,
+  "gerado_em": "2026-09-13",
+  "total_normas": 21,
   "normas": [
     {
       "identificador": "Ato Conjunto 1/2025",
@@ -82,6 +82,26 @@
         "chunks": "decreto-12955-2026/decreto-12955-2026.chunks.jsonl",
         "meta": "decreto-12955-2026/decreto-12955-2026.meta.json",
         "anexos_dir": "decreto-12955-2026/anexos/"
+      }
+    },
+    {
+      "identificador": "Decreto 13075/2026",
+      "slug": "decreto-13075-2026",
+      "tipo": "Decreto",
+      "numero": "13075",
+      "ano": "2026",
+      "ementa": "Altera o Decreto nº 12.955, de 29 de abril de 2026, que regulamenta a Contribuição Social sobre Bens e Serviços - CBS.",
+      "fonte_versao": "DOU Imprensa Nacional, 22/07/2026",
+      "atualizado_em": "2026-09-13",
+      "n_artigos_vigentes": 2,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "b085a76660a8c3a1",
+      "arquivos": {
+        "markdown": "decreto-13075-2026/decreto-13075-2026.md",
+        "chunks": "decreto-13075-2026/decreto-13075-2026.chunks.jsonl",
+        "meta": "decreto-13075-2026/decreto-13075-2026.meta.json",
+        "anexos_dir": null
       }
     },
     {
