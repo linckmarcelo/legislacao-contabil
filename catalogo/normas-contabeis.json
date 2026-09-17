@@ -1,0 +1,2809 @@
+{
+  "meta": {
+    "versao": "1.0",
+    "atualizado_em": "2026-09-17",
+    "fontes": {
+      "cfc": "https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/",
+      "cpc": "http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos"
+    },
+    "convencao": {
+      "no_repo": "true quando o texto integral da norma já está indexado em chunks no repo legislacao-contabil; false quando ainda precisa ser convertido pela skill legislacao-pdf-para-markdown",
+      "situacao_valores": [
+        "vigente",
+        "revogada",
+        "revisada"
+      ],
+      "aplicacao_valores": [
+        "geral",
+        "pme",
+        "microempresa",
+        "setor-publico",
+        "auditoria",
+        "revisao",
+        "outros-trabalhos-asseguracao",
+        "servicos-correlatos",
+        "pericia",
+        "profissional"
+      ]
+    },
+    "familias": {
+      "NBC TG": "Norma Brasileira de Contabilidade — Técnica Geral (Geral Completa); espelha os CPCs",
+      "NBC TG PME": "Norma para Pequenas e Médias Empresas",
+      "ITG": "Interpretação Técnica Geral",
+      "CTG": "Comunicado Técnico Geral",
+      "NBC TSP": "Norma Técnica do Setor Público",
+      "NBC TA": "Norma Técnica de Auditoria de Informação Contábil Histórica",
+      "NBC TR": "Norma Técnica de Revisão de Informação Contábil Histórica",
+      "NBC TO": "Norma Técnica sobre Outros Trabalhos de Asseguração",
+      "NBC TSC": "Norma Técnica sobre Serviços Correlatos",
+      "NBC TP": "Norma Técnica de Perícia",
+      "NBC PG": "Norma Profissional Geral",
+      "NBC PA": "Norma Profissional do Auditor",
+      "NBC PP": "Norma Profissional do Perito",
+      "CPC": "Pronunciamento Técnico do Comitê de Pronunciamentos Contábeis",
+      "ICPC": "Interpretação do CPC",
+      "OCPC": "Orientação do CPC"
+    }
+  },
+  "normas": [
+    {
+      "codigo": "NBC TG Estrutura Conceitual",
+      "titulo": "Estrutura Conceitual para Relatório Financeiro",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 00 (R2)",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "estrutura-conceitual",
+        "framework"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 01",
+      "titulo": "Redução ao Valor Recuperável de Ativos",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 01 (R1)",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "impairment",
+        "ativo",
+        "valor-recuperavel"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 02",
+      "titulo": "Efeitos das Mudanças nas Taxas de Câmbio e Conversão de Demonstrações Contábeis",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 02 (R2)",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "cambio",
+        "conversao",
+        "moeda-estrangeira"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 03",
+      "titulo": "Demonstração dos Fluxos de Caixa",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 03 (R2)",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "dfc",
+        "fluxo-caixa",
+        "demonstracoes"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 04",
+      "titulo": "Ativo Intangível",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 04 (R1)",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "intangivel",
+        "ativo"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 05",
+      "titulo": "Divulgação sobre Partes Relacionadas",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 05 (R1)",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "partes-relacionadas",
+        "divulgacao"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 06",
+      "titulo": "Arrendamentos",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 06 (R2)",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "revoga": [
+        "ICPC 03"
+      ],
+      "tags": [
+        "arrendamento",
+        "leasing",
+        "direito-uso"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 07",
+      "titulo": "Subvenção e Assistência Governamentais",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 07 (R1)",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "subvencao",
+        "governo",
+        "assistencia-governamental"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 08",
+      "titulo": "Custos de Transação e Prêmios na Emissão de Títulos e Valores Mobiliários",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 08 (R1)",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "custos-transacao",
+        "emissao",
+        "titulos"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 09",
+      "titulo": "Demonstração do Valor Adicionado",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 09",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "dva",
+        "valor-adicionado",
+        "demonstracoes"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 10",
+      "titulo": "Pagamento Baseado em Ações",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 10 (R1)",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "stock-options",
+        "pagamento-acoes",
+        "remuneracao"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 11",
+      "titulo": "Contratos de Seguro",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 11",
+      "situacao": "revogada",
+      "revogada_por": "NBC TG 50 (CPC 50)",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "seguros"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 12",
+      "titulo": "Ajuste a Valor Presente",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 12",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "avp",
+        "valor-presente",
+        "mensuracao"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 13",
+      "titulo": "Adoção Inicial da Lei nº 11.638/07 e MP nº 449/08",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 13",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "adocao-inicial",
+        "lei-11638",
+        "historico"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 15",
+      "titulo": "Combinação de Negócios",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 15 (R1)",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "combinacao-negocios",
+        "aquisicao",
+        "goodwill"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 16",
+      "titulo": "Estoques",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 16 (R1)",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "estoques",
+        "inventario",
+        "custo"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 17",
+      "titulo": "Contratos de Construção",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 17 (R1)",
+      "situacao": "revogada",
+      "revogada_por": "NBC TG 47 (CPC 47)",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "contratos-construcao",
+        "receita"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 18",
+      "titulo": "Investimento em Coligada, em Controlada e em Empreendimento Controlado em Conjunto",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 18 (R2)",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "coligada",
+        "controlada",
+        "mep",
+        "equivalencia-patrimonial"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 19",
+      "titulo": "Negócios em Conjunto",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 19 (R2)",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "joint-venture",
+        "negocios-conjunto"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 20",
+      "titulo": "Custos de Empréstimos",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 20 (R1)",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "custos-emprestimos",
+        "capitalizacao",
+        "juros"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 21",
+      "titulo": "Demonstração Intermediária",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 21 (R1)",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "itr",
+        "intermediaria",
+        "demonstracoes"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 22",
+      "titulo": "Informações por Segmento",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 22",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "segmento",
+        "divulgacao"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 23",
+      "titulo": "Políticas Contábeis, Mudança de Estimativa e Retificação de Erro",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 23",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "politicas-contabeis",
+        "estimativas",
+        "erros"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 24",
+      "titulo": "Evento Subsequente",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 24",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "evento-subsequente",
+        "divulgacao"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 25",
+      "titulo": "Provisões, Passivos Contingentes e Ativos Contingentes",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 25",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "provisoes",
+        "contingencias",
+        "passivo"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 26",
+      "titulo": "Apresentação das Demonstrações Contábeis",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 26 (R1)",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "apresentacao",
+        "demonstracoes",
+        "estrutura"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 27",
+      "titulo": "Ativo Imobilizado",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 27",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "imobilizado",
+        "ativo",
+        "depreciacao"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 28",
+      "titulo": "Propriedade para Investimento",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 28",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "propriedade-investimento",
+        "ativo"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 29",
+      "titulo": "Ativo Biológico e Produto Agrícola",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 29",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "biologico",
+        "agro",
+        "produto-agricola"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 30",
+      "titulo": "Receitas",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 30 (R1)",
+      "situacao": "revogada",
+      "revogada_por": "NBC TG 47 (CPC 47)",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "receita"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 31",
+      "titulo": "Ativo Não Circulante Mantido para Venda e Operação Descontinuada",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 31",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "ativo-mantido-venda",
+        "operacao-descontinuada"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 32",
+      "titulo": "Tributos sobre o Lucro",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 32",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "tributos-lucro",
+        "ir",
+        "csll",
+        "impostos-diferidos"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 33",
+      "titulo": "Benefícios a Empregados",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 33 (R1)",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "beneficios",
+        "empregados",
+        "previdencia",
+        "ferias"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 35",
+      "titulo": "Demonstrações Separadas",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 35 (R2)",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "separadas",
+        "demonstracoes",
+        "controladora"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 36",
+      "titulo": "Demonstrações Consolidadas",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 36 (R3)",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "consolidadas",
+        "demonstracoes",
+        "grupo"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 37",
+      "titulo": "Adoção Inicial das Normas Internacionais de Contabilidade",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 37 (R1)",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "ifrs",
+        "adocao-inicial",
+        "conversao"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 38",
+      "titulo": "Instrumentos Financeiros: Reconhecimento e Mensuração",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 38",
+      "situacao": "revogada",
+      "revogada_por": "NBC TG 48 (CPC 48)",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "instrumentos-financeiros"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 39",
+      "titulo": "Instrumentos Financeiros: Apresentação",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 39",
+      "situacao": "revogada",
+      "revogada_por": "NBC TG 48 (CPC 48)",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "instrumentos-financeiros"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 40",
+      "titulo": "Instrumentos Financeiros: Evidenciação",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 40",
+      "situacao": "revogada",
+      "revogada_por": "NBC TG 48 (CPC 48)",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "instrumentos-financeiros",
+        "divulgacao"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 41",
+      "titulo": "Resultado por Ação",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 41",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "lpa",
+        "resultado-acao",
+        "capital"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 43",
+      "titulo": "Adoção Inicial dos Pronunciamentos Técnicos CPCs 15 a 41",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 43 (R1)",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "adocao-inicial",
+        "cpc"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 44",
+      "titulo": "Demonstrações Combinadas",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 44",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "combinadas",
+        "demonstracoes"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 45",
+      "titulo": "Divulgação de Participações em Outras Entidades",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 45",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "participacoes",
+        "divulgacao"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 46",
+      "titulo": "Mensuração do Valor Justo",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 46",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "valor-justo",
+        "fair-value",
+        "mensuracao"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 47",
+      "titulo": "Receita de Contrato com Cliente",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 47",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "revoga": [
+        "NBC TG 17 (CPC 17 R1)",
+        "NBC TG 30 (CPC 30 R1)"
+      ],
+      "tags": [
+        "receita",
+        "reconhecimento",
+        "contratos",
+        "cliente"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 48",
+      "titulo": "Instrumentos Financeiros",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 48",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "revoga": [
+        "NBC TG 38 (CPC 38)",
+        "NBC TG 39 (CPC 39)",
+        "NBC TG 40 (CPC 40)"
+      ],
+      "tags": [
+        "instrumentos-financeiros",
+        "hedge",
+        "perda-esperada"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 49",
+      "titulo": "Contabilização e Relatório Contábil de Planos de Benefícios de Aposentadoria",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 49",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "planos-aposentadoria",
+        "previdencia"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 50",
+      "titulo": "Contratos de Seguro",
+      "familia": "NBC TG",
+      "correspondencia_cpc": "CPC 50",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "revoga": [
+        "NBC TG 11 (CPC 11)"
+      ],
+      "tags": [
+        "seguros",
+        "ifrs-17"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 1000",
+      "titulo": "Contabilidade para Pequenas e Médias Empresas",
+      "familia": "NBC TG PME",
+      "situacao": "vigente",
+      "aplicacao": [
+        "pme"
+      ],
+      "tags": [
+        "pme",
+        "small-medium",
+        "contabilidade-simplificada"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "ITG 1000",
+      "titulo": "Modelo Contábil para Microempresa e Empresa de Pequeno Porte",
+      "familia": "ITG",
+      "situacao": "vigente",
+      "aplicacao": [
+        "microempresa",
+        "pme"
+      ],
+      "tags": [
+        "me",
+        "epp",
+        "simples",
+        "modelo-simplificado"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "ITG 02",
+      "titulo": "Entidade Coberta por Regime Próprio de Previdência Social",
+      "familia": "ITG",
+      "situacao": "vigente",
+      "aplicacao": [
+        "setor-publico"
+      ],
+      "tags": [
+        "rpps",
+        "previdencia",
+        "setor-publico"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "ITG 04",
+      "titulo": "Aplicação Inicial ao Ativo Biológico e ao Produto Agrícola",
+      "familia": "ITG",
+      "correspondencia_cpc": "vinculada ao CPC 29",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "biologico",
+        "agro",
+        "adocao-inicial"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "ITG 07",
+      "titulo": "Incorporação Imobiliária",
+      "familia": "ITG",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "incorporacao",
+        "imobiliario",
+        "construcao"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "ITG 09",
+      "titulo": "Demonstrações Contábeis Individuais, Demonstrações Separadas, Demonstrações Consolidadas e Aplicação do Método da Equivalência Patrimonial",
+      "familia": "ITG",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "individuais",
+        "separadas",
+        "consolidadas",
+        "mep"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "ITG 10",
+      "titulo": "Aplicação Inicial ao Ativo Imobilizado e à Propriedade para Investimento",
+      "familia": "ITG",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "imobilizado",
+        "propriedade-investimento",
+        "adocao-inicial"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "ITG 11",
+      "titulo": "Recebimento em Transferência de Ativos dos Clientes",
+      "familia": "ITG",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "transferencia-ativos",
+        "clientes"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "ITG 2000",
+      "titulo": "Escrituração Contábil",
+      "familia": "ITG",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "escrituracao",
+        "livro-diario",
+        "livro-razao"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "ITG 2001",
+      "titulo": "Contribuintes Individuais do Instituto Nacional do Seguro Social",
+      "familia": "ITG",
+      "situacao": "vigente",
+      "aplicacao": [
+        "profissional"
+      ],
+      "tags": [
+        "inss",
+        "contribuinte-individual"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "ITG 2002",
+      "titulo": "Entidades sem Finalidade de Lucros",
+      "familia": "ITG",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "terceiro-setor",
+        "ong",
+        "sem-fins-lucrativos",
+        "associacoes"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "ITG 2003",
+      "titulo": "Entidades Desportivas Profissionais",
+      "familia": "ITG",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "desportivas",
+        "clubes",
+        "futebol"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "ITG 2004",
+      "titulo": "Entidades Cooperativas",
+      "familia": "ITG",
+      "situacao": "revogada",
+      "revogada_por": "NBC TG 1004",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "cooperativas"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "ICPC 01",
+      "titulo": "Contratos de Concessão",
+      "familia": "ICPC",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "concessao",
+        "servico-publico"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "ICPC 02",
+      "titulo": "Contrato de Construção do Setor Imobiliário",
+      "familia": "ICPC",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "construcao",
+        "imobiliario"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "ICPC 04",
+      "titulo": "Alcance do Pronunciamento Técnico CPC 10 - Pagamento Baseado em Ações",
+      "familia": "ICPC",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "pagamento-acoes"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "ICPC 05",
+      "titulo": "Pagamento Baseado em Ações - Transações de Ações do Grupo e em Tesouraria",
+      "familia": "ICPC",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "pagamento-acoes",
+        "tesouraria"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "ICPC 06",
+      "titulo": "Hedge de Investimento Líquido em Operação no Exterior",
+      "familia": "ICPC",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "hedge",
+        "cambio",
+        "exterior"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "ICPC 07",
+      "titulo": "Distribuição de Lucros in Natura",
+      "familia": "ICPC",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "distribuicao-lucros",
+        "dividendos"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "ICPC 08",
+      "titulo": "Contabilização da Proposta de Pagamento de Dividendos",
+      "familia": "ICPC",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "dividendos",
+        "proposta"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "ICPC 09",
+      "titulo": "Demonstrações Contábeis Individuais, Demonstrações Separadas, Demonstrações Consolidadas e Aplicação do Método da Equivalência Patrimonial",
+      "familia": "ICPC",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "individuais",
+        "consolidadas",
+        "mep"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "ICPC 10",
+      "titulo": "Interpretação sobre a Aplicação Inicial ao Ativo Imobilizado e à Propriedade para Investimento",
+      "familia": "ICPC",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "imobilizado",
+        "propriedade-investimento"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "ICPC 11",
+      "titulo": "Recebimento em Transferência de Ativos dos Clientes",
+      "familia": "ICPC",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "transferencia-ativos"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "ICPC 12",
+      "titulo": "Mudanças em Passivos por Desativação, Restauração e Outros Passivos Similares",
+      "familia": "ICPC",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "desativacao",
+        "restauracao",
+        "passivo"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "ICPC 13",
+      "titulo": "Direitos a Participações Decorrentes de Fundos de Desativação, Restauração e Recuperação Ambiental",
+      "familia": "ICPC",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "fundos",
+        "recuperacao-ambiental"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "ICPC 14",
+      "titulo": "Cotas de Cooperados em Entidades Cooperativas e Instrumentos Similares",
+      "familia": "ICPC",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "cooperativas",
+        "cotas"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "ICPC 15",
+      "titulo": "Passivo Decorrente de Participação em Mercado Específico - Resíduos de Equipamentos Eletroeletrônicos",
+      "familia": "ICPC",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "residuos",
+        "eletroeletronicos",
+        "logistica-reversa"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "ICPC 16",
+      "titulo": "Extinção de Passivos Financeiros com Instrumentos Patrimoniais",
+      "familia": "ICPC",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "passivos-financeiros",
+        "extincao"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "ICPC 17",
+      "titulo": "Contratos de Concessão: Evidenciação",
+      "familia": "ICPC",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "concessao",
+        "divulgacao"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "ICPC 18",
+      "titulo": "Custos de Remoção de Estéril (Stripping) de Mina de Superfície na Fase de Produção",
+      "familia": "ICPC",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "mineracao",
+        "custos"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "ICPC 19",
+      "titulo": "Tributos",
+      "familia": "ICPC",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "tributos",
+        "obrigacao"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "ICPC 20",
+      "titulo": "Limite de Ativo de Benefício Definido, Requisitos de Custeio Mínimo e sua Interação",
+      "familia": "ICPC",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "beneficio-definido",
+        "previdencia"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "ICPC 21",
+      "titulo": "Transação em Moeda Estrangeira e Adiantamento",
+      "familia": "ICPC",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "moeda-estrangeira",
+        "adiantamento"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "ICPC 22",
+      "titulo": "Incerteza sobre Tratamento de Tributos sobre o Lucro",
+      "familia": "ICPC",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "tributos-lucro",
+        "incerteza"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "OCPC 01",
+      "titulo": "Entidades de Incorporação Imobiliária",
+      "familia": "OCPC",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "incorporacao",
+        "imobiliario"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "OCPC 02",
+      "titulo": "Esclarecimentos sobre as Demonstrações Contábeis de 2008",
+      "familia": "OCPC",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "esclarecimentos",
+        "historico"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "OCPC 03",
+      "titulo": "Instrumentos Financeiros: Reconhecimento, Mensuração e Evidenciação",
+      "familia": "OCPC",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "instrumentos-financeiros"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "OCPC 04",
+      "titulo": "Aplicação da Interpretação Técnica ICPC 02 às Entidades de Incorporação Imobiliária Brasileiras",
+      "familia": "OCPC",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "incorporacao",
+        "imobiliario"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "OCPC 05",
+      "titulo": "Contratos de Concessão",
+      "familia": "OCPC",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "concessao"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "OCPC 06",
+      "titulo": "Apresentação de Informações Financeiras Pró-Forma",
+      "familia": "OCPC",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "pro-forma",
+        "informacoes-financeiras"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "OCPC 07",
+      "titulo": "Evidenciação na Divulgação dos Relatórios Contábil-Financeiros de Propósito Geral",
+      "familia": "OCPC",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "evidenciacao",
+        "divulgacao"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "OCPC 08",
+      "titulo": "Reconhecimento de Determinados Ativos e Passivos nos Relatórios Contábil-Financeiros para Fins Gerais",
+      "familia": "OCPC",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "reconhecimento",
+        "ativos",
+        "passivos"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "OCPC 09",
+      "titulo": "Ganho por Compra Vantajosa",
+      "familia": "OCPC",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "ganho-compra-vantajosa",
+        "combinacao-negocios"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "CTG 01",
+      "titulo": "Entidades Cooperativas",
+      "familia": "CTG",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "cooperativas"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "CTG 02",
+      "titulo": "Escrituração Contábil Simplificada para Microempresa e Empresa de Pequeno Porte",
+      "familia": "CTG",
+      "situacao": "vigente",
+      "aplicacao": [
+        "microempresa",
+        "pme"
+      ],
+      "tags": [
+        "me",
+        "epp",
+        "simples",
+        "escrituracao"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "CTG 03",
+      "titulo": "Adoção Antecipada dos CPCs 47 e 48",
+      "familia": "CTG",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "adocao-antecipada",
+        "cpc-47",
+        "cpc-48"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "CTG 04",
+      "titulo": "Aplicação da NBC TG 1000 e ITG 1000 pelas Entidades",
+      "familia": "CTG",
+      "situacao": "vigente",
+      "aplicacao": [
+        "pme",
+        "microempresa"
+      ],
+      "tags": [
+        "pme",
+        "me",
+        "epp"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "CTG 06",
+      "titulo": "Aspectos Contábeis Relacionados à Reforma Tributária (LC 214/2025 e correlatos)",
+      "familia": "CTG",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "reforma-tributaria",
+        "ibs",
+        "cbs",
+        "lc-214"
+      ],
+      "observacao": "Verificar versão vigente — matéria em evolução (LC 214/2025, LC 227/2026, Decreto 12.955/2026)",
+      "no_repo": false
+    },
+    {
+      "codigo": "CTG 2000",
+      "titulo": "Escrituração Contábil",
+      "familia": "CTG",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "escrituracao"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "CTG 2001",
+      "titulo": "Definição de Tratamento Contábil das Contribuições Recebidas pelas Entidades sem Finalidade de Lucros",
+      "familia": "CTG",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "terceiro-setor",
+        "contribuicoes"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "CTG 2002",
+      "titulo": "Demonstrações Contábeis das Cooperativas",
+      "familia": "CTG",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "cooperativas",
+        "demonstracoes"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "CTG 2003",
+      "titulo": "Demonstrações Contábeis das Entidades Desportivas Profissionais",
+      "familia": "CTG",
+      "situacao": "vigente",
+      "aplicacao": [
+        "geral"
+      ],
+      "tags": [
+        "desportivas",
+        "demonstracoes"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TSP Estrutura Conceitual",
+      "titulo": "Estrutura Conceitual para Elaboração e Divulgação de Informação Contábil de Propósito Geral pelas Entidades do Setor Público",
+      "familia": "NBC TSP",
+      "situacao": "vigente",
+      "aplicacao": [
+        "setor-publico"
+      ],
+      "tags": [
+        "setor-publico",
+        "estrutura-conceitual"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TSP 01",
+      "titulo": "Receita de Transação sem Contraprestação",
+      "familia": "NBC TSP",
+      "situacao": "vigente",
+      "aplicacao": [
+        "setor-publico"
+      ],
+      "tags": [
+        "setor-publico",
+        "receita"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TSP 02",
+      "titulo": "Receita de Transação com Contraprestação",
+      "familia": "NBC TSP",
+      "situacao": "vigente",
+      "aplicacao": [
+        "setor-publico"
+      ],
+      "tags": [
+        "setor-publico",
+        "receita"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TSP 03",
+      "titulo": "Provisões, Passivos Contingentes e Ativos Contingentes",
+      "familia": "NBC TSP",
+      "situacao": "vigente",
+      "aplicacao": [
+        "setor-publico"
+      ],
+      "tags": [
+        "setor-publico",
+        "provisoes",
+        "contingencias"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TSP 04",
+      "titulo": "Estoques",
+      "familia": "NBC TSP",
+      "situacao": "vigente",
+      "aplicacao": [
+        "setor-publico"
+      ],
+      "tags": [
+        "setor-publico",
+        "estoques"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TSP 05",
+      "titulo": "Contratos de Concessão de Serviços Públicos pelo Concedente",
+      "familia": "NBC TSP",
+      "situacao": "vigente",
+      "aplicacao": [
+        "setor-publico"
+      ],
+      "tags": [
+        "setor-publico",
+        "concessao"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TSP 06",
+      "titulo": "Propriedade para Investimento",
+      "familia": "NBC TSP",
+      "situacao": "vigente",
+      "aplicacao": [
+        "setor-publico"
+      ],
+      "tags": [
+        "setor-publico",
+        "propriedade-investimento"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TSP 07",
+      "titulo": "Ativo Imobilizado",
+      "familia": "NBC TSP",
+      "situacao": "vigente",
+      "aplicacao": [
+        "setor-publico"
+      ],
+      "tags": [
+        "setor-publico",
+        "imobilizado"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TSP 08",
+      "titulo": "Ativo Intangível",
+      "familia": "NBC TSP",
+      "situacao": "vigente",
+      "aplicacao": [
+        "setor-publico"
+      ],
+      "tags": [
+        "setor-publico",
+        "intangivel"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TSP 09",
+      "titulo": "Redução ao Valor Recuperável de Ativo Não Gerador de Caixa",
+      "familia": "NBC TSP",
+      "situacao": "vigente",
+      "aplicacao": [
+        "setor-publico"
+      ],
+      "tags": [
+        "setor-publico",
+        "impairment"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TSP 10",
+      "titulo": "Redução ao Valor Recuperável de Ativo Gerador de Caixa",
+      "familia": "NBC TSP",
+      "situacao": "vigente",
+      "aplicacao": [
+        "setor-publico"
+      ],
+      "tags": [
+        "setor-publico",
+        "impairment"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TSP 11",
+      "titulo": "Apresentação das Demonstrações Contábeis",
+      "familia": "NBC TSP",
+      "situacao": "vigente",
+      "aplicacao": [
+        "setor-publico"
+      ],
+      "tags": [
+        "setor-publico",
+        "apresentacao"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TSP 12",
+      "titulo": "Demonstração dos Fluxos de Caixa",
+      "familia": "NBC TSP",
+      "situacao": "vigente",
+      "aplicacao": [
+        "setor-publico"
+      ],
+      "tags": [
+        "setor-publico",
+        "dfc"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TSP 13",
+      "titulo": "Apresentação de Informação Orçamentária nas Demonstrações Contábeis",
+      "familia": "NBC TSP",
+      "situacao": "vigente",
+      "aplicacao": [
+        "setor-publico"
+      ],
+      "tags": [
+        "setor-publico",
+        "orcamento"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TSP 14",
+      "titulo": "Divulgação sobre Partes Relacionadas",
+      "familia": "NBC TSP",
+      "situacao": "vigente",
+      "aplicacao": [
+        "setor-publico"
+      ],
+      "tags": [
+        "setor-publico",
+        "partes-relacionadas"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TSP 15",
+      "titulo": "Benefícios a Empregados",
+      "familia": "NBC TSP",
+      "situacao": "vigente",
+      "aplicacao": [
+        "setor-publico"
+      ],
+      "tags": [
+        "setor-publico",
+        "beneficios-empregados"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TSP 16",
+      "titulo": "Custos de Empréstimos",
+      "familia": "NBC TSP",
+      "situacao": "vigente",
+      "aplicacao": [
+        "setor-publico"
+      ],
+      "tags": [
+        "setor-publico",
+        "custos-emprestimos"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TSP 17",
+      "titulo": "Investimento em Coligada e em Controlada",
+      "familia": "NBC TSP",
+      "situacao": "vigente",
+      "aplicacao": [
+        "setor-publico"
+      ],
+      "tags": [
+        "setor-publico",
+        "coligada",
+        "controlada"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TSP 18",
+      "titulo": "Empreendimento Controlado em Conjunto",
+      "familia": "NBC TSP",
+      "situacao": "vigente",
+      "aplicacao": [
+        "setor-publico"
+      ],
+      "tags": [
+        "setor-publico",
+        "controlado-conjunto"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TSP 19",
+      "titulo": "Combinações no Setor Público",
+      "familia": "NBC TSP",
+      "situacao": "vigente",
+      "aplicacao": [
+        "setor-publico"
+      ],
+      "tags": [
+        "setor-publico",
+        "combinacao"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TSP 20",
+      "titulo": "Demonstrações Consolidadas",
+      "familia": "NBC TSP",
+      "situacao": "vigente",
+      "aplicacao": [
+        "setor-publico"
+      ],
+      "tags": [
+        "setor-publico",
+        "consolidadas"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TSP 21",
+      "titulo": "Demonstrações Separadas",
+      "familia": "NBC TSP",
+      "situacao": "vigente",
+      "aplicacao": [
+        "setor-publico"
+      ],
+      "tags": [
+        "setor-publico",
+        "separadas"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TSP 22",
+      "titulo": "Divulgação de Participações em Outras Entidades",
+      "familia": "NBC TSP",
+      "situacao": "vigente",
+      "aplicacao": [
+        "setor-publico"
+      ],
+      "tags": [
+        "setor-publico",
+        "participacoes"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TSP 23",
+      "titulo": "Ativos Biológicos e Produtos Agrícolas",
+      "familia": "NBC TSP",
+      "situacao": "vigente",
+      "aplicacao": [
+        "setor-publico"
+      ],
+      "tags": [
+        "setor-publico",
+        "biologico",
+        "agro"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TSP 24",
+      "titulo": "Instrumentos Financeiros",
+      "familia": "NBC TSP",
+      "situacao": "vigente",
+      "aplicacao": [
+        "setor-publico"
+      ],
+      "tags": [
+        "setor-publico",
+        "instrumentos-financeiros"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TSP 25",
+      "titulo": "Políticas Contábeis, Mudança de Estimativa e Retificação de Erro",
+      "familia": "NBC TSP",
+      "situacao": "vigente",
+      "aplicacao": [
+        "setor-publico"
+      ],
+      "tags": [
+        "setor-publico",
+        "politicas-contabeis"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TSP 26",
+      "titulo": "Efeitos das Mudanças nas Taxas de Câmbio e Conversão de Demonstrações Contábeis",
+      "familia": "NBC TSP",
+      "situacao": "vigente",
+      "aplicacao": [
+        "setor-publico"
+      ],
+      "tags": [
+        "setor-publico",
+        "cambio"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TSP 27",
+      "titulo": "Demonstração Intermediária",
+      "familia": "NBC TSP",
+      "situacao": "vigente",
+      "aplicacao": [
+        "setor-publico"
+      ],
+      "tags": [
+        "setor-publico",
+        "intermediaria"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA Estrutura Conceitual",
+      "titulo": "Estrutura Conceitual para Trabalhos de Asseguração",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "asseguracao",
+        "estrutura-conceitual"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 200",
+      "titulo": "Objetivos Gerais do Auditor Independente e a Condução da Auditoria em Conformidade com Normas de Auditoria",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "objetivos-gerais"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 210",
+      "titulo": "Concordância com os Termos do Trabalho de Auditoria",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "carta-contratacao"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 220",
+      "titulo": "Controle de Qualidade da Auditoria de Demonstrações Contábeis",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "controle-qualidade"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 230",
+      "titulo": "Documentação de Auditoria",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "documentacao",
+        "papeis-trabalho"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 240",
+      "titulo": "Responsabilidade do Auditor em Relação a Fraude, no Contexto da Auditoria de Demonstrações Contábeis",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "fraude"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 250",
+      "titulo": "Consideração de Leis e Regulamentos na Auditoria de Demonstrações Contábeis",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "leis",
+        "regulamentos"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 260",
+      "titulo": "Comunicação com os Responsáveis pela Governança",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "governanca",
+        "comunicacao"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 265",
+      "titulo": "Comunicação de Deficiências de Controle Interno",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "controle-interno",
+        "deficiencias"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 300",
+      "titulo": "Planejamento da Auditoria de Demonstrações Contábeis",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "planejamento"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 315",
+      "titulo": "Identificação e Avaliação dos Riscos de Distorção Relevante",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "riscos",
+        "distorcao"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 320",
+      "titulo": "Materialidade no Planejamento e na Execução da Auditoria",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "materialidade"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 330",
+      "titulo": "Resposta do Auditor aos Riscos Avaliados",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "riscos"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 402",
+      "titulo": "Considerações de Auditoria para a Entidade que Utiliza Organização Prestadora de Serviços",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "servicos-terceirizados"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 450",
+      "titulo": "Avaliação das Distorções Identificadas Durante a Auditoria",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "distorcao"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 500",
+      "titulo": "Evidência de Auditoria",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "evidencia"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 501",
+      "titulo": "Evidência de Auditoria - Considerações Específicas para Itens Selecionados",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "evidencia"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 505",
+      "titulo": "Confirmações Externas",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "confirmacoes-externas"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 510",
+      "titulo": "Trabalhos Iniciais de Auditoria - Saldos Iniciais",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "saldos-iniciais"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 520",
+      "titulo": "Procedimentos Analíticos",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "procedimentos-analiticos"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 530",
+      "titulo": "Amostragem em Auditoria",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "amostragem"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 540",
+      "titulo": "Auditoria de Estimativas Contábeis e Divulgações Correspondentes",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "estimativas"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 550",
+      "titulo": "Partes Relacionadas",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "partes-relacionadas"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 560",
+      "titulo": "Eventos Subsequentes",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "eventos-subsequentes"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 570",
+      "titulo": "Continuidade Operacional",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "continuidade",
+        "going-concern"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 580",
+      "titulo": "Representações Formais",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "carta-representacao"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 600",
+      "titulo": "Considerações Especiais - Auditorias de Demonstrações Contábeis de Grupos",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "grupos",
+        "consolidadas"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 610",
+      "titulo": "Utilização do Trabalho de Auditoria Interna",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "auditoria-interna"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 620",
+      "titulo": "Utilização do Trabalho de Especialistas",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "especialistas"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 700",
+      "titulo": "Formação da Opinião e Emissão do Relatório do Auditor Independente",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "relatorio",
+        "opiniao"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 701",
+      "titulo": "Comunicação dos Principais Assuntos de Auditoria no Relatório do Auditor Independente",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "paa",
+        "principais-assuntos"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 705",
+      "titulo": "Modificações na Opinião do Auditor Independente",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "opiniao-modificada"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 706",
+      "titulo": "Parágrafos de Ênfase e Parágrafos de Outros Assuntos no Relatório do Auditor Independente",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "enfase",
+        "outros-assuntos"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 710",
+      "titulo": "Informações Comparativas - Valores Correspondentes e Demonstrações Contábeis Comparativas",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "comparativas"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 720",
+      "titulo": "Responsabilidade do Auditor em Relação a Outras Informações",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "outras-informacoes"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 800",
+      "titulo": "Considerações Especiais - Auditorias de Demonstrações Contábeis Elaboradas de Acordo com Estruturas Conceituais de Contabilidade para Propósitos Especiais",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "propositos-especiais"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 805",
+      "titulo": "Considerações Especiais - Auditorias de Quadros Isolados das Demonstrações Contábeis e de Elementos, Contas ou Itens Específicos",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "elementos-especificos"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TA 810",
+      "titulo": "Trabalhos para a Apresentação de Relatórios sobre Demonstrações Contábeis Condensadas",
+      "familia": "NBC TA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria"
+      ],
+      "tags": [
+        "auditoria",
+        "condensadas"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TR 2400",
+      "titulo": "Trabalhos de Revisão de Demonstrações Contábeis Passadas",
+      "familia": "NBC TR",
+      "situacao": "vigente",
+      "aplicacao": [
+        "revisao"
+      ],
+      "tags": [
+        "revisao",
+        "demonstracoes"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TR 2410",
+      "titulo": "Revisão de Informações Intermediárias Executada pelo Auditor da Entidade",
+      "familia": "NBC TR",
+      "situacao": "vigente",
+      "aplicacao": [
+        "revisao"
+      ],
+      "tags": [
+        "revisao",
+        "intermediaria"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TO 3000",
+      "titulo": "Trabalhos de Asseguração Diferente de Auditoria e Revisão",
+      "familia": "NBC TO",
+      "situacao": "vigente",
+      "aplicacao": [
+        "outros-trabalhos-asseguracao"
+      ],
+      "tags": [
+        "asseguracao"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TO 3402",
+      "titulo": "Relatórios de Asseguração sobre Controles em Organização Prestadora de Serviços",
+      "familia": "NBC TO",
+      "situacao": "vigente",
+      "aplicacao": [
+        "outros-trabalhos-asseguracao"
+      ],
+      "tags": [
+        "asseguracao",
+        "controles"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TO 3410",
+      "titulo": "Trabalhos de Asseguração sobre Declarações de Gases de Efeito Estufa",
+      "familia": "NBC TO",
+      "situacao": "vigente",
+      "aplicacao": [
+        "outros-trabalhos-asseguracao"
+      ],
+      "tags": [
+        "asseguracao",
+        "gee",
+        "sustentabilidade"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TO 3420",
+      "titulo": "Trabalhos de Asseguração para Emissão de Relatório sobre Compilação de Informações Financeiras Pro Forma",
+      "familia": "NBC TO",
+      "situacao": "vigente",
+      "aplicacao": [
+        "outros-trabalhos-asseguracao"
+      ],
+      "tags": [
+        "asseguracao",
+        "pro-forma"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TSC 4400",
+      "titulo": "Trabalhos de Procedimentos Previamente Acordados sobre Informações Contábeis",
+      "familia": "NBC TSC",
+      "situacao": "vigente",
+      "aplicacao": [
+        "servicos-correlatos"
+      ],
+      "tags": [
+        "procedimentos-acordados"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TSC 4410",
+      "titulo": "Trabalhos de Compilação de Informações Contábeis",
+      "familia": "NBC TSC",
+      "situacao": "vigente",
+      "aplicacao": [
+        "servicos-correlatos"
+      ],
+      "tags": [
+        "compilacao"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC TP 01",
+      "titulo": "Perícia Contábil",
+      "familia": "NBC TP",
+      "situacao": "vigente",
+      "aplicacao": [
+        "pericia"
+      ],
+      "tags": [
+        "pericia"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC PG 01",
+      "titulo": "Código de Ética Profissional do Contador",
+      "familia": "NBC PG",
+      "situacao": "vigente",
+      "aplicacao": [
+        "profissional"
+      ],
+      "tags": [
+        "etica",
+        "codigo-etica",
+        "profissional"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC PG 12",
+      "titulo": "Educação Profissional Continuada",
+      "familia": "NBC PG",
+      "situacao": "vigente",
+      "aplicacao": [
+        "profissional"
+      ],
+      "tags": [
+        "epc",
+        "educacao-continuada"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC PG 100",
+      "titulo": "Aplicação Geral aos Profissionais da Contabilidade",
+      "familia": "NBC PG",
+      "situacao": "vigente",
+      "aplicacao": [
+        "profissional"
+      ],
+      "tags": [
+        "profissional"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC PG 200",
+      "titulo": "Contadores que Prestam Serviços (Contadores Externos)",
+      "familia": "NBC PG",
+      "situacao": "vigente",
+      "aplicacao": [
+        "profissional"
+      ],
+      "tags": [
+        "profissional",
+        "contador-externo"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC PG 300",
+      "titulo": "Contadores Empregados (Contadores Internos)",
+      "familia": "NBC PG",
+      "situacao": "vigente",
+      "aplicacao": [
+        "profissional"
+      ],
+      "tags": [
+        "profissional",
+        "contador-interno"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC PA 01",
+      "titulo": "Controle de Qualidade para Firmas (Pessoas Jurídicas e Físicas) de Auditores Independentes",
+      "familia": "NBC PA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria",
+        "profissional"
+      ],
+      "tags": [
+        "auditoria",
+        "controle-qualidade",
+        "isqm"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC PA 03",
+      "titulo": "Exame de Qualificação Técnica para Registro no Cadastro Nacional de Auditores Independentes (CNAI)",
+      "familia": "NBC PA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria",
+        "profissional"
+      ],
+      "tags": [
+        "auditoria",
+        "cnai",
+        "qualificacao"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC PA 290",
+      "titulo": "Independência - Trabalhos de Auditoria e Revisão",
+      "familia": "NBC PA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria",
+        "profissional"
+      ],
+      "tags": [
+        "auditoria",
+        "independencia"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC PA 291",
+      "titulo": "Independência - Outros Trabalhos de Asseguração",
+      "familia": "NBC PA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria",
+        "profissional"
+      ],
+      "tags": [
+        "auditoria",
+        "independencia"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC PA 400",
+      "titulo": "Revisão Externa de Qualidade pelos Pares",
+      "familia": "NBC PA",
+      "situacao": "vigente",
+      "aplicacao": [
+        "auditoria",
+        "profissional"
+      ],
+      "tags": [
+        "auditoria",
+        "revisao-pares"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC PP 01",
+      "titulo": "Perito Contábil",
+      "familia": "NBC PP",
+      "situacao": "vigente",
+      "aplicacao": [
+        "pericia",
+        "profissional"
+      ],
+      "tags": [
+        "pericia",
+        "perito"
+      ],
+      "no_repo": false
+    },
+    {
+      "codigo": "NBC PP 02",
+      "titulo": "Exame de Qualificação Técnica para Perito Contábil",
+      "familia": "NBC PP",
+      "situacao": "vigente",
+      "aplicacao": [
+        "pericia",
+        "profissional"
+      ],
+      "tags": [
+        "pericia",
+        "qualificacao"
+      ],
+      "no_repo": false
+    }
+  ]
+}
