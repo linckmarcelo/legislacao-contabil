@@ -473,7 +473,7 @@
         "ativo",
         "depreciacao"
       ],
-      "no_repo": true
+      "no_repo": false
     },
     {
       "codigo": "NBC TG 28",
@@ -760,7 +760,7 @@
         "contratos",
         "cliente"
       ],
-      "no_repo": true
+      "no_repo": false
     },
     {
       "codigo": "NBC TG 48",
@@ -781,7 +781,7 @@
         "hedge",
         "perda-esperada"
       ],
-      "no_repo": true
+      "no_repo": false
     },
     {
       "codigo": "NBC TG 49",
