@@ -1,0 +1,33 @@
+{
+  "tipo": "CPC",
+  "numero": "46",
+  "revisao": "Original",
+  "titulo": "Mensuração do Valor Justo",
+  "correlacao_ifrs": "IFRS 13",
+  "identificador": "CPC 46",
+  "ementa": "O objetivo deste Pronunciamento é: (a) definir valor justo; (b) estabelecer em um único Pronunciamento a estrutura para a mensuração do valor justo; e (c) estabelecer divulgações sobre mensurações do valor justo.",
+  "fonte_arquivo": "395_CPC_46_rev 14.pdf",
+  "sha256_16": "462ed34845f0b12b",
+  "n_itens": 151,
+  "n_itens_vigentes": 148,
+  "n_itens_apendice": 50,
+  "n_redacoes_anteriores": 3,
+  "n_alineas": 217,
+  "n_secoes": 12,
+  "secoes": [
+    "MENSURAÇÃO DO VALOR JUSTO",
+    "APÊNDICE A – Definição de termos",
+    "APÊNDICE B – Guia de aplicação",
+    "APÊNDICE C – Disposições transitórias",
+    "EXEMPLOS ILUSTRATIVOS",
+    "Objetivo",
+    "Alcance",
+    "Mensuração",
+    "Princípios gerais",
+    "Técnicas de avaliação",
+    "Divulgação",
+    "APÊNDICE B – Orientação de aplicação"
+  ],
+  "n_anexos_csv": 2,
+  "n_paginas": 55
+}

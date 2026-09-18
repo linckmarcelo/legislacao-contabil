@@ -2,7 +2,7 @@
 
 > **Versao:** 1.0 - **Atualizado em:** 2026-09-17
 
-> **Cobertura:** 187 normas (5 indexadas, 175 pendentes, 7 revogadas)
+> **Cobertura:** 187 normas (7 indexadas, 173 pendentes, 7 revogadas)
 
 Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 
@@ -17,7 +17,7 @@ Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 | NBC TG 03 | CPC 03 (R2) | Demonstração dos Fluxos de Caixa | [  ] |
 | NBC TG 04 | CPC 04 (R1) | Ativo Intangível | [  ] |
 | NBC TG 05 | CPC 05 (R1) | Divulgação sobre Partes Relacionadas | [  ] |
-| NBC TG 06 | CPC 06 (R2) | Arrendamentos | [  ] |
+| NBC TG 06 | CPC 06 (R2) | Arrendamentos | [OK] |
 | NBC TG 07 | CPC 07 (R1) | Subvenção e Assistência Governamentais | [  ] |
 | NBC TG 08 | CPC 08 (R1) | Custos de Transação e Prêmios na Emissão de Títulos e Valores Mobiliários | [  ] |
 | NBC TG 09 | CPC 09 | Demonstração do Valor Adicionado | [  ] |
@@ -54,7 +54,7 @@ Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 | NBC TG 43 | CPC 43 (R1) | Adoção Inicial dos Pronunciamentos Técnicos CPCs 15 a 41 | [  ] |
 | NBC TG 44 | CPC 44 | Demonstrações Combinadas | [  ] |
 | NBC TG 45 | CPC 45 | Divulgação de Participações em Outras Entidades | [  ] |
-| NBC TG 46 | CPC 46 | Mensuração do Valor Justo | [  ] |
+| NBC TG 46 | CPC 46 | Mensuração do Valor Justo | [OK] |
 | NBC TG 47 | CPC 47 | Receita de Contrato com Cliente | [OK] |
 | NBC TG 48 | CPC 48 | Instrumentos Financeiros | [OK] |
 | NBC TG 49 | CPC 49 | Contabilização e Relatório Contábil de Planos de Benefícios de Aposentadoria | [  ] |

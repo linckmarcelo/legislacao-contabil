@@ -156,7 +156,7 @@
         "leasing",
         "direito-uso"
       ],
-      "no_repo": false
+      "no_repo": true
     },
     {
       "codigo": "NBC TG 07",
@@ -739,7 +739,7 @@
         "fair-value",
         "mensuracao"
       ],
-      "no_repo": false
+      "no_repo": true
     },
     {
       "codigo": "NBC TG 47",
