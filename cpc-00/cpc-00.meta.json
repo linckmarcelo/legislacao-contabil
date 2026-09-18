@@ -1,0 +1,29 @@
+{
+  "tipo": "CPC",
+  "numero": "00",
+  "revisao": "R2",
+  "titulo": "Estrutura Conceitual para Relatório Financeiro",
+  "correlacao_ifrs": null,
+  "identificador": "CPC 00 (R2)",
+  "ementa": null,
+  "fonte_arquivo": "573_CPC00(R2).pdf",
+  "sha256_16": "acb69b58ab30db63",
+  "n_itens": 315,
+  "n_itens_vigentes": 315,
+  "n_itens_apendice": 0,
+  "n_redacoes_anteriores": 0,
+  "n_alineas": 164,
+  "n_secoes": 8,
+  "secoes": [
+    "ESTRUTURA CONCEITUAL PARA RELATÓRIO FINANCEIRO",
+    "FINANCEIRAS ÚTEIS",
+    "FATORES A SEREM CONSIDERADOS AO SELECIONAR A BASE DE",
+    "SITUAÇÃO E FINALIDADE DA ESTRUTURA CONCEITUAL",
+    "Introdução",
+    "Custo histórico",
+    "Balanço patrimonial",
+    "Compensação"
+  ],
+  "n_anexos_csv": 11,
+  "n_paginas": 62
+}
