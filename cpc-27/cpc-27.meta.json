@@ -1,0 +1,31 @@
+{
+  "tipo": "CPC",
+  "numero": "27",
+  "revisao": "Original",
+  "titulo": "Ativo Imobilizado",
+  "correlacao_ifrs": "IAS 16",
+  "identificador": "CPC 27",
+  "ementa": "O objetivo deste Pronunciamento é estabelecer o tratamento contábil para ativos imobilizados, de forma que os usuários das demonstrações contábeis possam discernir a informação sobre o investimento da entidade em seus ativos imobilizados, bem como suas mutações. Os principais pontos a serem considerados na contabilização do ativo imobilizado são o reconhecimento dos ativos, a determinação dos seus valores contábeis e os valores de depreciação e perdas por desvalorização a serem reconhecidas em r",
+  "fonte_arquivo": "316_CPC_27_rev 22.pdf",
+  "sha256_16": "0fa0400a65a27efa",
+  "n_itens": 104,
+  "n_itens_vigentes": 93,
+  "n_itens_apendice": 0,
+  "n_redacoes_anteriores": 11,
+  "n_alineas": 92,
+  "n_secoes": 10,
+  "secoes": [
+    "ATIVO IMOBILIZADO",
+    "OBJETIVO",
+    "DEFINIÇÕES",
+    "DISPOSIÇÃO TRANSITÓRIA",
+    "Objetivo",
+    "Alcance",
+    "Definições",
+    "Reconhecimento",
+    "Depreciação",
+    "Divulgação"
+  ],
+  "n_anexos_csv": 0,
+  "n_paginas": 18
+}
