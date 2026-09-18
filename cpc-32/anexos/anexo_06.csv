@@ -1,0 +1,15 @@
+$,col1
+"Lucro fiscal futuro provável (prejuízo) em 20X2 (relativamente ao qual o
+tributo sobre o lucro é pago (ou recuperável))",(200.000)
+"Adicionar de volta: reversão de diferenças temporárias dedutíveis que
+se espera sejam revertidas em 20X2",487.143
+"Menos: reversão de diferenças temporárias tributáveis (utilizada no
+Passo 1)",(78.571)
+"Lucro tributável provável, excluindo as deduções fiscais, para
+avaliar a utilização de diferenças temporárias dedutíveis em 20X2",208.572
+"Diferenças temporárias dedutíveis restantes que possam ser avaliadas
+para utilização a partir do Passo 1",408.572
+Utilização com base no lucro tributável futuro (Passo 2),208.572
+"Utilização com base na reversão de diferenças temporárias tributáveis
+(Passo 1)",78.571
+Utilização total de diferenças temporárias dedutíveis,287.143

@@ -2,7 +2,7 @@
 
 > **Versao:** 1.0 - **Atualizado em:** 2026-09-17
 
-> **Cobertura:** 187 normas (4 indexadas, 176 pendentes, 7 revogadas)
+> **Cobertura:** 187 normas (5 indexadas, 175 pendentes, 7 revogadas)
 
 Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 
@@ -42,7 +42,7 @@ Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 | NBC TG 29 | CPC 29 | Ativo Biológico e Produto Agrícola | [  ] |
 | NBC TG 30 | CPC 30 (R1) | Receitas | [REV] (rev. NBC TG 47 (CPC 47)) |
 | NBC TG 31 | CPC 31 | Ativo Não Circulante Mantido para Venda e Operação Descontinuada | [  ] |
-| NBC TG 32 | CPC 32 | Tributos sobre o Lucro | [  ] |
+| NBC TG 32 | CPC 32 | Tributos sobre o Lucro | [OK] |
 | NBC TG 33 | CPC 33 (R1) | Benefícios a Empregados | [  ] |
 | NBC TG 35 | CPC 35 (R2) | Demonstrações Separadas | [  ] |
 | NBC TG 36 | CPC 36 (R3) | Demonstrações Consolidadas | [  ] |
