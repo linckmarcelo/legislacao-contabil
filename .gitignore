@@ -1,46 +1,81 @@
-# -----------------------------------------------------------------------------
-# Source PDFs de pronunciamentos CPC/NBC TG
-# -----------------------------------------------------------------------------
-# Os arquivos abaixo sao material de TRABALHO (PDFs/DOCs originais baixados do
-# site do CPC ou CFC) para conversao pela skill conversao-legislacao-pdf-markdown
-# ou pelo conversor-cpc.py. Nao devem ser versionados: aumentam muito o repo,
-# poluem o historico, e o conteudo normativo ja fica indexado como .md/chunks
-# nas pastas dos pronunciamentos (ex: cpc-47/).
+# =============================================================================
+# Source files de normas/legislacao — nunca devem entrar no repo
+# =============================================================================
+# Este repositorio guarda APENAS o texto ja convertido (Markdown estruturado +
+# chunks JSONL + meta.json). Os arquivos source (PDFs baixados do CPC/CFC/Planalto,
+# DOCs do CPC antigo, ZIPs de cesta de download) ficam LOCALMENTE na maquina do
+# desenvolvedor para o conversor rodar — nao devem ser versionados.
+#
+# Se voce precisa guardar sources versionados para colaboracao, sugerimos:
+#   - Storage separado (Google Drive, S3, Dropbox)
+#   - Repositorio privado dedicado a arquivos binarios
+#   - Git LFS (nao configurado neste repo)
+
+# --- PDFs, DOCs e binarios de origem ---
+*.pdf
+*.doc
+*.docx
+*.rtf
+*.odt
+
+# --- Excecoes: arquivos que PODEM ser texto processavel, se preciso ---
+# (nao ha excecoes hoje — se algum dia precisar, adicionar com "!nome-do-arquivo")
+
+# --- Arquivos compactados ---
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+
+# --- Planilhas fonte (as tabelas parametricas ficam como JSON no repo) ---
+*.xls
+*.xlsx
+*.ods
+
+# --- Pastas conhecidas de material de trabalho ---
 catalogo/Documento/
 catalogo/documento/
-catalogo/*.zip
-catalogo/*.rar
+tabelas-reforma-para-repo/
+lei4504-para-repo/
+tmp/
+scratch/
 
-# Se voce quiser guardar os sources em outro lugar, sugestao:
-#   C:\Users\<seu-usuario>\Documents\CPC-sources\
-# ou qualquer pasta FORA do repo.
+# --- Pasta "cnae-concla" (dados originais externos, nao pertencem ao repo) ---
+cnae-concla/
 
-# -----------------------------------------------------------------------------
+# =============================================================================
 # Python
-# -----------------------------------------------------------------------------
+# =============================================================================
 __pycache__/
 *.pyc
 *.pyo
 *.egg-info/
 .venv/
 venv/
+.pytest_cache/
 
-# -----------------------------------------------------------------------------
+# =============================================================================
 # Editores / IDEs
-# -----------------------------------------------------------------------------
+# =============================================================================
 .vscode/
 .idea/
 *.swp
+*.swo
+*~
 
-# -----------------------------------------------------------------------------
+# =============================================================================
 # OS
-# -----------------------------------------------------------------------------
+# =============================================================================
 .DS_Store
 Thumbs.db
 desktop.ini
+$RECYCLE.BIN/
 
-# -----------------------------------------------------------------------------
-# Temporarios de conversao
-# -----------------------------------------------------------------------------
-tmp/
-scratch/
+# =============================================================================
+# Logs e temporarios
+# =============================================================================
+*.log
+*.bak
+*.tmp
