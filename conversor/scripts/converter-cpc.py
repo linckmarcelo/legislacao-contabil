@@ -172,17 +172,20 @@ def clean_text(pages: list[str]) -> str:
 
 
 def _merge_orphan_numbers(text: str) -> str:
-    """Junta linha só com 'N.' ou 'N.º' com a próxima linha não-vazia."""
+    """Junta linha só com 'N.', 'N.º', ou 'N.M.P' (hierárquico) com a próxima linha não-vazia."""
     lines = text.splitlines()
     out: list[str] = []
     i = 0
+    # Formato simples: "1.", "129.", "112A."
     orphan_rx = re.compile(r"^(\d+[A-Z]?)\.\s*$")
-    orphan_apx_rx = re.compile(r"^([A-Z])(\d+[A-Z]?)\.\s*$")
+    # Formato hierárquico: "2.4", "3.3.1", "6.5.11" (SEM ponto no final)
+    orphan_hier_rx = re.compile(r"^(\d+(?:\.\d+)+[A-Z]?)\s*$")
+    # Formato apêndice: "B1.", "B15A.", "B5.4"
+    orphan_apx_rx = re.compile(r"^([A-Z])\.?(\d+(?:\.\d+)*[A-Z]?)\.?\s*$")
     while i < len(lines):
         s = lines[i].strip()
-        m = orphan_rx.match(s) or orphan_apx_rx.match(s)
-        if m:
-            # buscar próxima linha não-vazia
+        m = orphan_rx.match(s) or orphan_hier_rx.match(s) or orphan_apx_rx.match(s)
+        if m and len(s) <= 12:  # limite pra evitar falsos positivos (linhas curtas)
             j = i + 1
             while j < len(lines) and not lines[j].strip():
                 j += 1
@@ -334,8 +337,13 @@ def slugify(value: str) -> str:
 
 # Item principal: "1. Este Pronunciamento..." ou "129. A entidade..." ou "112A. ..."
 RX_ITEM_CPC = re.compile(r"^(\d+[A-Z]?)\.\s+(.+)$")
-# Item de apêndice: "B1. ..." ou "B15A. ..."
+# Item HIERÁRQUICO: "2.4 Este pronunciamento..." ou "3.3.1 A entidade..." (SEM ponto no final)
+# Usado por CPC 48 (Instrumentos Financeiros), CPC 50 e afins que herdam a estrutura IFRS moderna.
+RX_ITEM_HIER = re.compile(r"^(\d+(?:\.\d+)+[A-Z]?)\s+(.+)$")
+# Item de apêndice: "B1. ..." ou "B15A. ..." (formato CPC 47)
 RX_ITEM_APENDICE = re.compile(r"^([A-Z])(\d+[A-Z]?)\.\s+(.+)$")
+# Item de apêndice HIERÁRQUICO: "B5.4 ..." ou "A.1.2 ..." (formato CPC 48)
+RX_ITEM_APENDICE_HIER = re.compile(r"^([A-Z])\.?(\d+(?:\.\d+)*[A-Z]?)\s+(.+)$")
 # Alínea: "(a) ..." ou "(b) ..."
 RX_ALINEA = re.compile(r"^\(([a-z])\)\s+(.+)$")
 # Sub-item: "(i) ..." ou "(ii) ..." (romanos minúsculos entre parênteses)
@@ -455,9 +463,18 @@ def _classify_line(s: str) -> tuple[str, dict]:
     if m:
         return "apendice", {"letra": m.group(1), "titulo": (m.group(2) or "").strip()}
 
+    # Ordem importa: tentar formatos MAIS ESPECÍFICOS primeiro
+    m = RX_ITEM_APENDICE_HIER.match(s)
+    if m and "." in m.group(2):  # exige numeração hierárquica pra evitar falso positivo com B1
+        return "item_apendice", {"apendice": m.group(1), "numero": m.group(2), "texto": m.group(3).strip()}
+
     m = RX_ITEM_APENDICE.match(s)
     if m:
         return "item_apendice", {"apendice": m.group(1), "numero": m.group(2), "texto": m.group(3).strip()}
+
+    m = RX_ITEM_HIER.match(s)
+    if m:
+        return "item", {"numero": m.group(1), "texto": m.group(2).strip()}
 
     m = RX_ITEM_CPC.match(s)
     if m:

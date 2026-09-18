@@ -1,0 +1,26 @@
+{
+  "tipo": "CPC",
+  "numero": "48",
+  "revisao": "Original",
+  "titulo": "Instrumentos Financeiros",
+  "correlacao_ifrs": "IFRS 9",
+  "identificador": "CPC 48",
+  "ementa": null,
+  "fonte_arquivo": "530_CPC_48_rev_19.pdf",
+  "sha256_16": "22fd4e8df8ff2c93",
+  "n_itens": 558,
+  "n_itens_vigentes": 552,
+  "n_itens_apendice": 318,
+  "n_redacoes_anteriores": 6,
+  "n_alineas": 425,
+  "n_secoes": 5,
+  "secoes": [
+    "INSTRUMENTOS FINANCEIROS",
+    "Apresentação",
+    "APÊNDICE A – Definição de termos",
+    "APÊNDICE B – Orientação de aplicação",
+    "Redução ao valor recuperável"
+  ],
+  "n_anexos_csv": 1,
+  "n_paginas": 130
+}

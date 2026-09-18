@@ -2,7 +2,7 @@
 
 > **Versao:** 1.0 - **Atualizado em:** 2026-09-17
 
-> **Cobertura:** 187 normas (2 indexadas, 178 pendentes, 7 revogadas)
+> **Cobertura:** 187 normas (3 indexadas, 177 pendentes, 7 revogadas)
 
 Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 
@@ -56,7 +56,7 @@ Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 | NBC TG 45 | CPC 45 | Divulgação de Participações em Outras Entidades | [  ] |
 | NBC TG 46 | CPC 46 | Mensuração do Valor Justo | [  ] |
 | NBC TG 47 | CPC 47 | Receita de Contrato com Cliente | [OK] |
-| NBC TG 48 | CPC 48 | Instrumentos Financeiros | [  ] |
+| NBC TG 48 | CPC 48 | Instrumentos Financeiros | [OK] |
 | NBC TG 49 | CPC 49 | Contabilização e Relatório Contábil de Planos de Benefícios de Aposentadoria | [  ] |
 | NBC TG 50 | CPC 50 | Contratos de Seguro | [  ] |
 | NBC TG Estrutura Conceitual | CPC 00 (R2) | Estrutura Conceitual para Relatório Financeiro | [  ] |
