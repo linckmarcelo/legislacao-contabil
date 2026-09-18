@@ -1,7 +1,7 @@
 {
   "meta": {
     "versao": "1.0",
-    "atualizado_em": "2026-09-17",
+    "atualizado_em": "2026-09-18",
     "fontes": {
       "cfc": "https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/",
       "cpc": "http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos"
@@ -830,6 +830,43 @@
         "contabilidade-simplificada"
       ],
       "no_repo": false
+    },
+    {
+      "codigo": "NBC TG 1001",
+      "titulo": "Contabilidade para Pequenas Empresas",
+      "familia": "NBC TG PME",
+      "situacao": "vigente",
+      "aplicacao": [
+        "pme"
+      ],
+      "tags": [
+        "pme",
+        "pequenas-empresas",
+        "contabilidade-simplificada"
+      ],
+      "resolucao": "Resolução CFC nº 1.418/2012 (revisada)",
+      "data_emissao": "2021-11-18",
+      "observacao": "Aplicável a empresas com receita bruta entre R$ 4,8 mi e R$ 78 mi. Simplificada em relação à NBC TG 1000 (PME).",
+      "no_repo": true
+    },
+    {
+      "codigo": "NBC TG 1002",
+      "titulo": "Contabilidade para Microentidades",
+      "familia": "NBC TG PME",
+      "situacao": "vigente",
+      "aplicacao": [
+        "microempresa"
+      ],
+      "tags": [
+        "me",
+        "microempresa",
+        "microentidade",
+        "contabilidade-simplificada"
+      ],
+      "resolucao": "NBC TG 1002/2021",
+      "data_emissao": "2021-11-18",
+      "observacao": "Aplicável a microentidades (receita bruta até R$ 4,8 mi/ano).",
+      "no_repo": true
     },
     {
       "codigo": "ITG 1000",

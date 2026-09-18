@@ -1,8 +1,8 @@
 # Catalogo de Normas Contabeis Brasileiras
 
-> **Versao:** 1.0 - **Atualizado em:** 2026-09-17
+> **Versao:** 1.0 - **Atualizado em:** 2026-09-18
 
-> **Cobertura:** 187 normas (7 indexadas, 173 pendentes, 7 revogadas)
+> **Cobertura:** 189 normas (9 indexadas, 173 pendentes, 7 revogadas)
 
 Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 
@@ -66,6 +66,8 @@ Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 | Código | Título | Status |
 |---|---|---|
 | NBC TG 1000 | Contabilidade para Pequenas e Médias Empresas | [  ] |
+| NBC TG 1001 | Contabilidade para Pequenas Empresas | [OK] |
+| NBC TG 1002 | Contabilidade para Microentidades | [OK] |
 | ITG 1000 | Modelo Contábil para Microempresa e Empresa de Pequeno Porte | [  ] |
 
 ## 3. ITG - Interpretacoes Tecnicas Gerais

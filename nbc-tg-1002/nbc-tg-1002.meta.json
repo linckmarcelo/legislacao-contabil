@@ -1,0 +1,30 @@
+{
+  "tipo": "NBC TG",
+  "numero": "1002",
+  "revisao": "Original",
+  "titulo": "Contabilidade para Microentidades",
+  "correlacao_ifrs": null,
+  "identificador": "NBC TG 1002",
+  "ementa": "dispõe sobre a contabilidade para microentidades.",
+  "fonte_arquivo": "NBCTG1002.pdf",
+  "sha256_16": "22e993c60f44fb4a",
+  "n_itens": 128,
+  "n_itens_vigentes": 128,
+  "n_itens_apendice": 1,
+  "n_redacoes_anteriores": 0,
+  "n_alineas": 69,
+  "n_secoes": 9,
+  "secoes": [
+    "Introdução",
+    "DEMONSTRAÇÃO DAS MUTAÇÕES DO PATRIMÔNIO LÍQUIDO E DE LUCROS O",
+    "TRANSAÇÕES EM MOEDA ESTRANGEIRA E CONVERSÃO DE",
+    "ADOÇÃO INICIAL DESTA NORMA",
+    "Continuidade",
+    "Materialidade e agregação",
+    "Alcance",
+    "Divulgação",
+    "Vigência"
+  ],
+  "n_anexos_csv": 0,
+  "n_paginas": 17
+}

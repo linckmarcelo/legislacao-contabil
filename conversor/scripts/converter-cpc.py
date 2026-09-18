@@ -251,6 +251,29 @@ def _extract_title(head_text: str, header_match_end: int) -> str | None:
     return None
 
 
+def _extract_nbc_titulo(text: str, numero: str) -> str | None:
+    """Título da NBC TG vem depois em linha 'NBC TG XXXX – TÍTULO EM MAIÚSCULO'."""
+    # Espaço literal (não \s) pra parar em quebra de linha; máx 100 chars
+    m = re.search(
+        rf"NBC\s+TG\s+{re.escape(numero)}\s*[–\-—]\s*([A-ZÁÉÍÓÚÂÊÔÃÕÇ][A-ZÁÉÍÓÚÂÊÔÃÕÇ ,]{{5,100}})",
+        text,
+    )
+    if m:
+        return _pt_title_case(m.group(1).strip().rstrip(","))
+    return None
+
+
+def _extract_ementa_nbc(text: str) -> str | None:
+    """Ementa NBC vem da linha 'Aprova a NBC TG XXXX, que dispõe sobre...'."""
+    m = re.search(
+        r"Aprova\s+a\s+NBC\s+TG\s+\d+[,]?\s*(?:que\s+)?(disp[õo]e\s+sobre[^.]+\.)",
+        text, re.IGNORECASE | re.DOTALL,
+    )
+    if m:
+        return re.sub(r"\s+", " ", m.group(1).strip())
+    return None
+
+
 def _extract_objetivo(text: str) -> str | None:
     """O item 1 do CPC tipicamente enuncia o objetivo — funciona como ementa."""
     # Buscar padrão "OBJETIVO\n1. ..." ou logo o "1. " após o header
@@ -285,13 +308,15 @@ def detect_metadata(text: str, raw_head: str, pdf_path: Path) -> dict:
         revisao = f"R{m.group(2)}" if m.group(2) else "Original"
         titulo = _extract_title(source, m.end())
     else:
-        # 2) Fallback: NBC TG
+        # 2) Fallback: NBC TG (formato "NORMA BRASILEIRA DE CONTABILIDADE, NBC TG XXXX, DE ...")
         m = _RX_HEADER_NBC.search(source)
         if m:
             tipo = "NBC TG"
             numero = m.group(1)
             revisao = f"R{m.group(2)}" if m.group(2) else "Original"
-            titulo = _extract_title(source, m.end())
+            # Formato típico das NBC TG 1001/1002: "NBC TG 1001 – CONTABILIDADE PARA PEQUENAS EMPRESAS"
+            titulo_nbc = _extract_nbc_titulo(source, numero)
+            titulo = titulo_nbc or _extract_title(source, m.end())
 
     # 3) Correlação IFRS
     mifrs = _RX_IFRS.search(source[:2000])
@@ -299,11 +324,13 @@ def detect_metadata(text: str, raw_head: str, pdf_path: Path) -> dict:
         correlacao = f"{mifrs.group(1).upper()} {mifrs.group(2)}"
 
     # 4) Ementa (objetivo do pronunciamento)
-    ementa = _extract_objetivo(text)
+    ementa = _extract_ementa_nbc(source) if tipo == "NBC TG" else None
+    if not ementa:
+        ementa = _extract_objetivo(text)
 
-    # 5) Identificador canônico
+    # 5) Identificador canônico — usa tipo detectado (CPC ou NBC TG)
     if numero:
-        base_id = f"CPC {numero}"
+        base_id = f"{tipo} {numero}"
         if revisao and revisao != "Original":
             base_id += f" ({revisao})"
         identificador = base_id
@@ -337,6 +364,8 @@ def slugify(value: str) -> str:
 
 # Item principal: "1. Este Pronunciamento..." ou "129. A entidade..." ou "112A. ..."
 RX_ITEM_CPC = re.compile(r"^(\d+[A-Z]?)\.\s+(.+)$")
+# Item com prefixo (NBC TG 1001/1002): "P1", "P2", "P25A" — sem ponto no final
+RX_ITEM_PREFIX = re.compile(r"^(P\d+[A-Z]?)\s+(.+)$")
 # Item HIERÁRQUICO: "2.4 Este pronunciamento..." ou "3.3.1 A entidade..." (SEM ponto no final)
 # Usado por CPC 48 (Instrumentos Financeiros), CPC 50 e afins que herdam a estrutura IFRS moderna.
 RX_ITEM_HIER = re.compile(r"^(\d+(?:\.\d+)+[A-Z]?)\s+(.+)$")
@@ -477,6 +506,11 @@ def _classify_line(s: str) -> tuple[str, dict]:
         return "item", {"numero": m.group(1), "texto": m.group(2).strip()}
 
     m = RX_ITEM_CPC.match(s)
+    if m:
+        return "item", {"numero": m.group(1), "texto": m.group(2).strip()}
+
+    # Item com prefixo alfanumérico (NBC TG 1001/1002: P1, P2, P25A)
+    m = RX_ITEM_PREFIX.match(s)
     if m:
         return "item", {"numero": m.group(1), "texto": m.group(2).strip()}
 
