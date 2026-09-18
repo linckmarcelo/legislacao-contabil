@@ -2,7 +2,7 @@
 
 > **Versao:** 1.0 - **Atualizado em:** 2026-09-17
 
-> **Cobertura:** 187 normas (1 indexadas, 179 pendentes, 7 revogadas)
+> **Cobertura:** 187 normas (2 indexadas, 178 pendentes, 7 revogadas)
 
 Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 
@@ -36,7 +36,7 @@ Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 | NBC TG 23 | CPC 23 | Políticas Contábeis, Mudança de Estimativa e Retificação de Erro | [  ] |
 | NBC TG 24 | CPC 24 | Evento Subsequente | [  ] |
 | NBC TG 25 | CPC 25 | Provisões, Passivos Contingentes e Ativos Contingentes | [  ] |
-| NBC TG 26 | CPC 26 (R1) | Apresentação das Demonstrações Contábeis | [  ] |
+| NBC TG 26 | CPC 26 (R1) | Apresentação das Demonstrações Contábeis | [OK] |
 | NBC TG 27 | CPC 27 | Ativo Imobilizado | [  ] |
 | NBC TG 28 | CPC 28 | Propriedade para Investimento | [  ] |
 | NBC TG 29 | CPC 29 | Ativo Biológico e Produto Agrícola | [  ] |

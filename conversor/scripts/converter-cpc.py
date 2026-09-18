@@ -344,15 +344,83 @@ RX_SUBITEM = re.compile(r"^\(([ivxlcdm]+)\)\s+(.+)$")
 RX_SECAO = re.compile(r"^([A-ZÁÉÍÓÚÂÊÔÃÕÇ][A-ZÁÉÍÓÚÂÊÔÃÕÇ\s\-]{2,})$")
 # Seções conhecidas de CPC/NBC TG em title case (não são MAIÚSCULO no PDF)
 _SECOES_CPC_KNOWN = {
-    "objetivo", "alcance", "reconhecimento", "mensuração", "mensuracao",
+    # Genéricas (aparecem em quase todo CPC)
+    "objetivo", "alcance", "escopo", "reconhecimento", "mensuração", "mensuracao",
     "divulgação", "divulgacao", "definições", "definicoes",
     "apresentação", "apresentacao", "identificação", "identificacao",
-    "escopo", "vigência", "vigencia", "transição", "transicao",
+    "vigência", "vigencia", "transição", "transicao",
+    "introdução", "introducao",
+    # CPC 47 (Receita)
     "custos do contrato", "obrigações de desempenho", "obrigacoes de desempenho",
+    "obrigações de performance", "obrigacoes de performance",
     "preço da transação", "preco da transacao",
     "alocação do preço", "alocacao do preco",
     "modificação do contrato", "modificacao do contrato",
     "contrato com cliente", "receita de contrato com cliente",
+    # CPC 26 (Apresentação de DCs)
+    "conjunto completo de demonstrações contábeis",
+    "conjunto completo de demonstracoes contabeis",
+    "considerações gerais", "consideracoes gerais",
+    "apresentação apropriada e conformidade",
+    "apresentacao apropriada e conformidade",
+    "continuidade", "regime de competência", "regime de competencia",
+    "materialidade e agregação", "materialidade e agregacao",
+    "compensação", "compensacao",
+    "frequência de apresentação de relatório",
+    "frequencia de apresentacao de relatorio",
+    "informação comparativa", "informacao comparativa",
+    "consistência de apresentação", "consistencia de apresentacao",
+    "estrutura e conteúdo", "estrutura e conteudo",
+    "estrutura", "identificação das demonstrações contábeis",
+    "identificacao das demonstracoes contabeis",
+    "balanço patrimonial", "balanco patrimonial",
+    "informação a ser apresentada", "informacao a ser apresentada",
+    "distinção entre ativo circulante e não circulante",
+    "distincao entre ativo circulante e nao circulante",
+    "ativo circulante", "passivo circulante",
+    "demonstração do resultado", "demonstracao do resultado",
+    "demonstração do resultado abrangente",
+    "demonstracao do resultado abrangente",
+    "outros resultados abrangentes",
+    "ajustes de reclassificação", "ajustes de reclassificacao",
+    "demonstração das mutações do patrimônio líquido",
+    "demonstracao das mutacoes do patrimonio liquido",
+    "demonstração dos fluxos de caixa",
+    "demonstracao dos fluxos de caixa",
+    "notas explicativas",
+    "divulgação das políticas contábeis",
+    "divulgacao das politicas contabeis",
+    "fontes de incerteza acerca de estimativas",
+    "capital", "outras divulgações", "outras divulgacoes",
+    # Comum em outros CPCs
+    "objetivo do pronunciamento", "objetivos",
+    "princípios gerais", "principios gerais",
+    "hierarquia do valor justo", "abordagem", "abordagens de avaliação",
+    "técnicas de avaliação", "tecnicas de avaliacao",
+    "método da equivalência patrimonial",
+    "metodo da equivalencia patrimonial",
+    "combinação de negócios", "combinacao de negocios",
+    "goodwill", "ativos intangíveis", "ativos intangiveis",
+    "depreciação", "depreciacao", "amortização", "amortizacao",
+    "custo histórico", "custo historico",
+    "valor recuperável", "valor recuperavel",
+    "impairment", "redução ao valor recuperável",
+    "reducao ao valor recuperavel",
+    "arrendamento", "arrendamentos",
+    "provisões", "provisoes", "passivos contingentes",
+    "eventos subsequentes", "políticas contábeis", "politicas contabeis",
+    "mudanças em estimativas", "mudancas em estimativas",
+    "erros", "retificação de erros", "retificacao de erros",
+    # Fluxos, ativos, passivos
+    "atividades operacionais", "atividades de investimento",
+    "atividades de financiamento",
+    "ativos financeiros", "passivos financeiros",
+    "hedge", "hedge contábil", "hedge contabil",
+    "contabilidade de hedge",
+    "instrumentos derivativos",
+    # PME
+    "conceitos e princípios", "conceitos e principios",
+    "seção", "secao",
 }
 # Apêndice header
 RX_APENDICE = re.compile(r"^AP[ÊE]NDICE\s+([A-Z])(?:\s*[–\-—]\s*(.+))?", re.I)
@@ -678,7 +746,12 @@ def convert(pdf_path: Path, out_root: Path, ocr_mode: str, threshold_rows: int) 
     pages = extract_pages(pdf_path, ocr_mode)
     text = clean_text(pages)
     meta = detect_metadata(text, "\n".join(pages[:3]), pdf_path)
-    slug = slugify(str(meta["identificador"]))
+    # Slug sempre pelo tipo+número (sem revisão), pra manter consistência:
+    # CPC 26 R1 -> cpc-26; CPC 47 Original -> cpc-47
+    if meta.get("numero"):
+        slug = slugify(f"{meta.get('tipo', 'CPC')} {meta['numero']}")
+    else:
+        slug = slugify(str(meta["identificador"]))
     out_dir = out_root / slug
     out_dir.mkdir(parents=True, exist_ok=True)
 
