@@ -1,7 +1,46 @@
+# -----------------------------------------------------------------------------
+# Source PDFs de pronunciamentos CPC/NBC TG
+# -----------------------------------------------------------------------------
+# Os arquivos abaixo sao material de TRABALHO (PDFs/DOCs originais baixados do
+# site do CPC ou CFC) para conversao pela skill conversao-legislacao-pdf-markdown
+# ou pelo conversor-cpc.py. Nao devem ser versionados: aumentam muito o repo,
+# poluem o historico, e o conteudo normativo ja fica indexado como .md/chunks
+# nas pastas dos pronunciamentos (ex: cpc-47/).
+catalogo/Documento/
+catalogo/documento/
+catalogo/*.zip
+catalogo/*.rar
+
+# Se voce quiser guardar os sources em outro lugar, sugestao:
+#   C:\Users\<seu-usuario>\Documents\CPC-sources\
+# ou qualquer pasta FORA do repo.
+
+# -----------------------------------------------------------------------------
+# Python
+# -----------------------------------------------------------------------------
 __pycache__/
 *.pyc
-tmp/
-.DS_Store
+*.pyo
+*.egg-info/
+.venv/
+venv/
 
-# PDFs fonte das normas não são versionados (só as saídas convertidas)
-*.pdf
+# -----------------------------------------------------------------------------
+# Editores / IDEs
+# -----------------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+
+# -----------------------------------------------------------------------------
+# OS
+# -----------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -----------------------------------------------------------------------------
+# Temporarios de conversao
+# -----------------------------------------------------------------------------
+tmp/
+scratch/
