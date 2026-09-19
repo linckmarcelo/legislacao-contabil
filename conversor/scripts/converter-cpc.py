@@ -289,16 +289,51 @@ def _pt_title_case(s: str) -> str:
     return " ".join(out)
 
 
+_TITULO_BLOCK_PREFIXES = (
+    "Correla", "IFRS", "IAS", "COMIT", "Este material", "Termos", "Os pronunc",
+    "Pronunciamentos", "República", "Federativa", "Notice", "Reproduced",
+    "CPC/CPC", "Committee", "Support", "Foundation", "Accounting",
+    "Pronounc", "* ", "de outras partes", "deverá ser", "são emitidos",
+    "não devem ser", "não foram", "contém material", "in respect", "This material",
+    "Todos esses", "organismo",
+)
+
+
 def _extract_title(head_text: str, header_match_end: int) -> str | None:
-    """Após o header do pronunciamento, o título aparece em MAIÚSCULO nas próximas linhas."""
+    """Extrai o título do pronunciamento após o header.
+
+    Tenta, em ordem: (1) uma linha em CAIXA ALTA (padrão antigo, ex: CPC 47);
+    (2) linha em Title Case curta (padrão dos CPCs de estrutura mais enxuta,
+    ex: 'Estoques' no CPC 16); (3) linha longa em Title Case (fallback).
+    """
     tail = head_text[header_match_end:header_match_end + 800]
+    # Passo 1: procurar CAIXA ALTA
     for line in tail.splitlines():
         s = line.strip()
         if not s:
             continue
         if s.isupper() and 5 <= len(s) <= 150 and not any(x in s for x in ("CORRELA", "IFRS", "IAS")):
             return _pt_title_case(s)
-        if len(s) > 15 and not s.startswith(("Correla", "IFRS", "IAS", "COMIT")):
+        # Se já cruzou uma linha significativa não-UPPER, para o passo 1
+        if len(s) > 40:
+            break
+    # Passo 2: título curto em Title Case ("Estoques", "Impairment", "Combinação de Negócios")
+    for line in tail.splitlines():
+        s = line.strip()
+        if not s:
+            continue
+        if s.startswith(_TITULO_BLOCK_PREFIXES):
+            continue
+        if 3 <= len(s) <= 60 and s[0].isupper() and not s.endswith(".") and not s.endswith(","):
+            # Não pode conter dígitos de artigo ou ser algo estruturado
+            if not re.match(r"^\d", s) and not s.startswith("("):
+                return s
+    # Passo 3: fallback antigo — linha longa em Title Case
+    for line in tail.splitlines():
+        s = line.strip()
+        if not s or s.startswith(_TITULO_BLOCK_PREFIXES):
+            continue
+        if len(s) > 15:
             words = s.split()
             if len(words) >= 3 and sum(1 for w in words if w[0].isupper()) >= len(words) * 0.6:
                 return s
@@ -339,10 +374,14 @@ def _extract_objetivo(text: str) -> str | None:
         if m2:
             texto = m2.group(1).strip()
             return re.sub(r"\s+", " ", texto)[:500]
-    # Fallback: primeiro item "1. ..." após o header
-    m = re.search(r"^\s*1\.\s+(.{40,400}?)(?:\n\s*(?:2\.|\(a\)))", text, re.MULTILINE | re.DOTALL)
+    # Fallback: primeiro item "1. ..." após o header — para no próximo item, alínea,
+    # linha em title case iniciando outra seção, ou linha em CAIXA ALTA
+    m = re.search(
+        r"^\s*1\.\s+(.{40,600}?)(?=\n\s*(?:2\.|\(a\)|[A-Z][a-záéíóúãõç]+\s*$|[A-ZÁÉÍÓÚÂÊÔÃÕÇ ]{3,}$))",
+        text, re.MULTILINE | re.DOTALL,
+    )
     if m:
-        return re.sub(r"\s+", " ", m.group(1).strip())
+        return re.sub(r"\s+", " ", m.group(1).strip())[:500]
     return None
 
 
@@ -529,6 +568,21 @@ _SECOES_CPC_KNOWN = {
     "alteracao passivo decorrente atividade financiamento",
     "componentes de caixa e equivalentes de caixa",
     "compomentes de caixa e equivalentes de caixa",  # typo real no PDF
+    # CPC 16 R1 (Estoques)
+    "mensuração de estoque", "mensuracao de estoque",
+    "mensuração dos estoques", "mensuracao dos estoques",
+    "custos do estoque", "custos dos estoques",
+    "custos de aquisição", "custos de aquisicao",
+    "custos de transformação", "custos de transformacao",
+    "outros custos", "custos de estoque de prestador de serviços",
+    "custos de estoque de prestador de servicos",
+    "custo do produto agrícola colhido proveniente de ativo biológico",
+    "custo do produto agricola colhido proveniente de ativo biologico",
+    "outras formas para mensuração do custo",
+    "outras formas para mensuracao do custo",
+    "critérios de valoração de estoque", "criterios de valoracao de estoque",
+    "valor realizável líquido", "valor realizavel liquido",
+    "reconhecimento no resultado", "reconhecimento como despesa no resultado",
     "disposições transitórias", "disposicoes transitorias",
     "revogação de outro pronunciamento", "revogacao de outro pronunciamento",
     "exemplos ilustrativos",
