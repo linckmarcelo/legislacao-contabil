@@ -2,7 +2,7 @@
 
 > **Versao:** 1.0 - **Atualizado em:** 2026-09-18
 
-> **Cobertura:** 189 normas (11 indexadas, 171 pendentes, 7 revogadas)
+> **Cobertura:** 189 normas (13 indexadas, 169 pendentes, 7 revogadas)
 
 Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 
@@ -26,7 +26,7 @@ Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 | NBC TG 12 | CPC 12 | Ajuste a Valor Presente | [  ] |
 | NBC TG 13 | CPC 13 | Adoção Inicial da Lei nº 11.638/07 e MP nº 449/08 | [  ] |
 | NBC TG 15 | CPC 15 (R1) | Combinação de Negócios | [  ] |
-| NBC TG 16 | CPC 16 (R1) | Estoques | [  ] |
+| NBC TG 16 | CPC 16 (R1) | Estoques | [OK] |
 | NBC TG 17 | CPC 17 (R1) | Contratos de Construção | [REV] (rev. NBC TG 47 (CPC 47)) |
 | NBC TG 18 | CPC 18 (R2) | Investimento em Coligada, em Controlada e em Empreendimento Controlado em Conjunto | [  ] |
 | NBC TG 19 | CPC 19 (R2) | Negócios em Conjunto | [  ] |
@@ -35,7 +35,7 @@ Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 | NBC TG 22 | CPC 22 | Informações por Segmento | [  ] |
 | NBC TG 23 | CPC 23 | Políticas Contábeis, Mudança de Estimativa e Retificação de Erro | [  ] |
 | NBC TG 24 | CPC 24 | Evento Subsequente | [  ] |
-| NBC TG 25 | CPC 25 | Provisões, Passivos Contingentes e Ativos Contingentes | [  ] |
+| NBC TG 25 | CPC 25 | Provisões, Passivos Contingentes e Ativos Contingentes | [OK] |
 | NBC TG 26 | CPC 26 (R1) | Apresentação das Demonstrações Contábeis | [OK] |
 | NBC TG 27 | CPC 27 | Ativo Imobilizado | [OK] |
 | NBC TG 28 | CPC 28 | Propriedade para Investimento | [  ] |
