@@ -1,0 +1,32 @@
+{
+  "tipo": "CPC",
+  "numero": "05",
+  "revisao": "R1",
+  "titulo": "Divulgação sobre Partes Relacionadas",
+  "correlacao_ifrs": "IAS 24",
+  "identificador": "CPC 05 (R1)",
+  "ementa": "O objetivo deste Pronunciamento Técnico é assegurar que as demonstrações contábeis da entidade contenham as divulgações necessárias para chamar a atenção dos usuários para a possibilidade de o balanço patrimonial e a demonstração do resultado da entidade estarem afetados pela existência de partes relacionadas e por transações e saldos, incluindo compromissos, com referidas partes relacionadas.",
+  "fonte_arquivo": "cpc05r1.pdf",
+  "sha256_16": "43f141c460b1ff4e",
+  "n_itens": 34,
+  "n_itens_vigentes": 31,
+  "n_itens_apendice": 0,
+  "n_redacoes_anteriores": 3,
+  "n_alineas": 64,
+  "n_secoes": 11,
+  "secoes": [
+    "Divulgação sobre Partes Relacionadas",
+    "REVOGAÇÃO DE OUTRO PRONUNCIAMENTO EXEMPLOS ILUSTRATIVOS",
+    "NOTA EXPLICATIVA AO PRONUNCIAMENTO",
+    "Objetivo",
+    "Alcance",
+    "Definições",
+    "Divulgação",
+    "Todas as entidades",
+    "Disposições transitórias",
+    "Revogação de outro pronunciamento",
+    "EXEMPLOS ILUSTRATIVOS"
+  ],
+  "n_anexos_csv": 0,
+  "n_paginas": 17
+}

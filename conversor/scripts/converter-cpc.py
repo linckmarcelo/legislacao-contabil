@@ -286,8 +286,18 @@ _TITLE_LOWER = {"a", "à", "as", "às", "ao", "aos", "com", "da", "das", "de", "
 
 
 def _pt_title_case(s: str) -> str:
-    """Title case em português: preposições e artigos ficam em minúsculas."""
-    words = s.strip().split()
+    """Title case em português: preposições e artigos ficam em minúsculas.
+
+    Também remove letra isolada no final (notas de rodapé em superscript que o
+    extrator de PDF costuma renderizar como caractere solto — ex: "Benefícios a
+    Empregados b" onde o "b" é uma referência de nota).
+    """
+    s = s.strip()
+    # Remove letra minúscula ou dígito isolado no final (ex: "Título b", "Título 1")
+    m = re.match(r"^(.+?)\s+[a-z0-9]$", s)
+    if m and len(m.group(1)) >= 5:
+        s = m.group(1)
+    words = s.split()
     if not words:
         return s
     out = [words[0].capitalize()]
@@ -334,7 +344,8 @@ def _extract_title(head_text: str, header_match_end: int) -> str | None:
         if 3 <= len(s) <= 60 and s[0].isupper() and not s.endswith(".") and not s.endswith(","):
             # Não pode conter dígitos de artigo ou ser algo estruturado
             if not re.match(r"^\d", s) and not s.startswith("("):
-                return s
+                # Passa por _pt_title_case pra remover letra isolada de nota de rodapé
+                return _pt_title_case(s)
     # Passo 3: fallback antigo — linha longa em Title Case
     for line in tail.splitlines():
         s = line.strip()
@@ -686,6 +697,49 @@ _SECOES_CPC_KNOWN = {
     "testando unidade geradora de caixa com agio por expectativa de rentabilidade futura (goodwill) para reducao ao valor recuperavel",
     "estimativas utilizadas para mensurar o valor recuperável de unidade geradora de caixa contendo ágio por expectativa de rentabilidade futura (goodwill) ou ativo intangível com vida útil indefinida",
     "estimativas utilizadas para mensurar o valor recuperavel de unidade geradora de caixa contendo agio por expectativa de rentabilidade futura (goodwill) ou ativo intangivel com vida util indefinida",
+    # CPC 33 R1 (Benefícios a Empregados)
+    "benefícios de curto prazo aos empregados",
+    "beneficios de curto prazo aos empregados",
+    "benefícios pós-emprego: distinção entre planos de contribuição definida e planos de benefício definido",
+    "beneficios pos-emprego: distincao entre planos de contribuicao definida e planos de beneficio definido",
+    "benefícios pós-emprego: planos de contribuição definida",
+    "beneficios pos-emprego: planos de contribuicao definida",
+    "benefícios pós-emprego: planos de benefício definido",
+    "beneficios pos-emprego: planos de beneficio definido",
+    "outros benefícios de longo prazo a empregados",
+    "outros beneficios de longo prazo a empregados",
+    "benefícios rescisórios", "beneficios rescisorios",
+    "planos multiempregadores", "planos governamentais",
+    "benefícios segurados", "beneficios segurados",
+    "contabilização de obrigação implícita decorrente de plano informal",
+    "contabilizacao de obrigacao implicita decorrente de plano informal",
+    "custo dos serviços passados", "custo dos servicos passados",
+    "custo do serviço corrente", "custo do servico corrente",
+    "juros líquidos sobre o passivo (ativo) de benefício definido líquido",
+    "juros liquidos sobre o passivo (ativo) de beneficio definido liquido",
+    "remensurações do passivo (ativo) de benefício definido líquido",
+    "remensuracoes do passivo (ativo) de beneficio definido liquido",
+    "ganhos e perdas atuariais",
+    "retorno dos ativos do plano",
+    "valor presente da obrigação de benefício definido e custo do serviço corrente",
+    "valor presente da obrigacao de beneficio definido e custo do servico corrente",
+    "método da unidade de crédito projetada",
+    "metodo da unidade de credito projetada",
+    "premissas atuariais", "premissas demográficas", "premissas financeiras",
+    "premissas demograficas",
+    "obrigação de benefício definido descontada", "obrigacao de beneficio definido descontada",
+    "ativos do plano", "teto do ativo", "asset ceiling",
+    "reembolsos", "combinações de negócios", "combinacoes de negocios",
+    "reconhecimento e mensuração", "reconhecimento e mensuracao",
+    "compensação", "compensacao",
+    "balanço patrimonial", "balanco patrimonial",
+    # CPC 05 R1 (Partes Relacionadas)
+    "divulgação sobre partes relacionadas", "divulgacao sobre partes relacionadas",
+    "todas as entidades", "controladora",
+    "pessoal-chave da administração", "pessoal chave da administracao",
+    "transações com partes relacionadas", "transacoes com partes relacionadas",
+    "compromissos", "isenções à divulgação para entidades ligadas ao governo",
+    "isencoes a divulgacao para entidades ligadas ao governo",
     "disposições transitórias", "disposicoes transitorias",
     "revogação de outro pronunciamento", "revogacao de outro pronunciamento",
     "exemplos ilustrativos",
