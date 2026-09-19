@@ -59,7 +59,7 @@
         "estrutura-conceitual",
         "framework"
       ],
-      "no_repo": false
+      "no_repo": true
     },
     {
       "codigo": "NBC TG 01",
@@ -107,7 +107,7 @@
         "fluxo-caixa",
         "demonstracoes"
       ],
-      "no_repo": false
+      "no_repo": true
     },
     {
       "codigo": "NBC TG 04",

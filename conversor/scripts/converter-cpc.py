@@ -165,10 +165,64 @@ def clean_text(pages: list[str]) -> str:
     # Padrão CPC: itens vêm quebrados como "1.\n\nO objetivo..." — juntar o "N."
     # sozinho com o próximo parágrafo não-vazio.
     joined = _merge_orphan_numbers(joined)
+    joined = _merge_uppercase_titles(joined)
     joined = _rejoin_soft_breaks(joined)
     joined = re.sub(r"[ \t]+", " ", joined)
     joined = re.sub(r"\n{3,}", "\n\n", joined)
     return joined.strip()
+
+
+def _merge_uppercase_titles(text: str) -> str:
+    """Junta linhas MAIÚSCULAS consecutivas em um único título.
+
+    Títulos longos de seção no PDF quebram em duas ou mais linhas curtas em CAIXA ALTA:
+        APRESENTAÇÃO DOS FLUXOS DE CAIXA DAS ATIVIDADES DE
+        INVESTIMENTO E DE FINANCIAMENTO
+    Sem esse merge, cada linha vira uma "seção" distinta e o detector se perde.
+    Só mescla quando ambas as linhas: (a) são >=3 chars, (b) estão em CAIXA ALTA
+    (permitindo dígitos, hífen, espaço, cedilha, acentos), (c) nenhuma delas
+    termina em ponto/vírgula (que indicariam frase).
+    """
+    lines = text.splitlines()
+    is_title_line = re.compile(
+        r"^[A-ZÁÉÍÓÚÂÊÔÃÕÇ][A-ZÁÉÍÓÚÂÊÔÃÕÇ0-9\s\-]{2,}$"
+    )
+    out: list[str] = []
+    i = 0
+    while i < len(lines):
+        cur = lines[i].rstrip()
+        stripped = cur.strip()
+        # Ignora linhas com pontuação de fim (não são pedaço de título)
+        if (
+            stripped
+            and is_title_line.match(stripped)
+            and not stripped.endswith((".", ",", ":", ";"))
+            and len(stripped) <= 80
+        ):
+            merged = stripped
+            j = i + 1
+            # Mescla linhas em branco não contam; mas para o merge exigimos
+            # linhas ADJACENTES (título quebrado geralmente é linha seguinte)
+            while j < len(lines):
+                nxt = lines[j].strip()
+                if not nxt:
+                    break
+                if (
+                    is_title_line.match(nxt)
+                    and not nxt.endswith((".", ",", ":", ";"))
+                    and len(nxt) <= 80
+                ):
+                    merged += " " + nxt
+                    j += 1
+                    continue
+                break
+            if j > i + 1:
+                out.append(merged)
+                i = j
+                continue
+        out.append(cur)
+        i += 1
+    return "\n".join(out)
 
 
 def _merge_orphan_numbers(text: str) -> str:
@@ -451,6 +505,34 @@ _SECOES_CPC_KNOWN = {
     # Fluxos, ativos, passivos
     "atividades operacionais", "atividades de investimento",
     "atividades de financiamento",
+    # CPC 03 R2 (DFC)
+    "benefícios da informação dos fluxos de caixa",
+    "beneficios da informacao dos fluxos de caixa",
+    "apresentação da demonstração dos fluxos de caixa",
+    "apresentacao da demonstracao dos fluxos de caixa",
+    "apresentação dos fluxos de caixa das atividades operacionais",
+    "apresentacao dos fluxos de caixa das atividades operacionais",
+    "apresentação dos fluxos de caixa das atividades de investimento e de financiamento",
+    "apresentacao dos fluxos de caixa das atividades de investimento e de financiamento",
+    "apresentação dos fluxos de caixa em base líquida",
+    "apresentacao dos fluxos de caixa em base liquida",
+    "fluxos de caixa em moeda estrangeira",
+    "juros e dividendos",
+    "imposto de renda e contribuição social sobre o lucro líquido",
+    "imposto de renda e contribuicao social sobre o lucro liquido",
+    "investimento em controlada, coligada e empreendimento controlado em conjunto",
+    "alteração da participação em controlada e em outros negócios",
+    "alteracao da participacao em controlada e em outros negocios",
+    "transação que não envolve caixa ou equivalentes de caixa",
+    "transacao que nao envolve caixa ou equivalentes de caixa",
+    "alteração passivo decorrente atividade financiamento",
+    "alteracao passivo decorrente atividade financiamento",
+    "componentes de caixa e equivalentes de caixa",
+    "compomentes de caixa e equivalentes de caixa",  # typo real no PDF
+    "disposições transitórias", "disposicoes transitorias",
+    "revogação de outro pronunciamento", "revogacao de outro pronunciamento",
+    "exemplos ilustrativos",
+    "nota explicativa ao pronunciamento",
     "ativos financeiros", "passivos financeiros",
     "hedge", "hedge contábil", "hedge contabil",
     "contabilidade de hedge",

@@ -2,7 +2,7 @@
 
 > **Versao:** 1.0 - **Atualizado em:** 2026-09-18
 
-> **Cobertura:** 189 normas (9 indexadas, 173 pendentes, 7 revogadas)
+> **Cobertura:** 189 normas (11 indexadas, 171 pendentes, 7 revogadas)
 
 Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 
@@ -14,7 +14,7 @@ Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 |---|---|---|---|
 | NBC TG 01 | CPC 01 (R1) | Redução ao Valor Recuperável de Ativos | [  ] |
 | NBC TG 02 | CPC 02 (R2) | Efeitos das Mudanças nas Taxas de Câmbio e Conversão de Demonstrações Contábeis | [  ] |
-| NBC TG 03 | CPC 03 (R2) | Demonstração dos Fluxos de Caixa | [  ] |
+| NBC TG 03 | CPC 03 (R2) | Demonstração dos Fluxos de Caixa | [OK] |
 | NBC TG 04 | CPC 04 (R1) | Ativo Intangível | [  ] |
 | NBC TG 05 | CPC 05 (R1) | Divulgação sobre Partes Relacionadas | [  ] |
 | NBC TG 06 | CPC 06 (R2) | Arrendamentos | [OK] |
@@ -59,7 +59,7 @@ Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 | NBC TG 48 | CPC 48 | Instrumentos Financeiros | [OK] |
 | NBC TG 49 | CPC 49 | Contabilização e Relatório Contábil de Planos de Benefícios de Aposentadoria | [  ] |
 | NBC TG 50 | CPC 50 | Contratos de Seguro | [  ] |
-| NBC TG Estrutura Conceitual | CPC 00 (R2) | Estrutura Conceitual para Relatório Financeiro | [  ] |
+| NBC TG Estrutura Conceitual | CPC 00 (R2) | Estrutura Conceitual para Relatório Financeiro | [OK] |
 
 ## 2. PME e Microempresa
 
