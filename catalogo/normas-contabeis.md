@@ -2,7 +2,7 @@
 
 > **Versao:** 1.0 - **Atualizado em:** 2026-09-18
 
-> **Cobertura:** 189 normas (16 indexadas, 166 pendentes, 7 revogadas)
+> **Cobertura:** 189 normas (18 indexadas, 164 pendentes, 7 revogadas)
 
 Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 
@@ -12,10 +12,10 @@ Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 
 | Código | Correspondência | Título | Status |
 |---|---|---|---|
-| NBC TG 01 | CPC 01 (R1) | Redução ao Valor Recuperável de Ativos | [  ] |
+| NBC TG 01 | CPC 01 (R1) | Redução ao Valor Recuperável de Ativos | [OK] |
 | NBC TG 02 | CPC 02 (R2) | Efeitos das Mudanças nas Taxas de Câmbio e Conversão de Demonstrações Contábeis | [  ] |
 | NBC TG 03 | CPC 03 (R2) | Demonstração dos Fluxos de Caixa | [OK] |
-| NBC TG 04 | CPC 04 (R1) | Ativo Intangível | [  ] |
+| NBC TG 04 | CPC 04 (R1) | Ativo Intangível | [OK] |
 | NBC TG 05 | CPC 05 (R1) | Divulgação sobre Partes Relacionadas | [  ] |
 | NBC TG 06 | CPC 06 (R2) | Arrendamentos | [OK] |
 | NBC TG 07 | CPC 07 (R1) | Subvenção e Assistência Governamentais | [  ] |

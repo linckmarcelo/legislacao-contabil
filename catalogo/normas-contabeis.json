@@ -75,7 +75,7 @@
         "ativo",
         "valor-recuperavel"
       ],
-      "no_repo": false
+      "no_repo": true
     },
     {
       "codigo": "NBC TG 02",
@@ -122,7 +122,7 @@
         "intangivel",
         "ativo"
       ],
-      "no_repo": false
+      "no_repo": true
     },
     {
       "codigo": "NBC TG 05",
@@ -204,7 +204,7 @@
         "valor-adicionado",
         "demonstracoes"
       ],
-      "no_repo": false
+      "no_repo": true
     },
     {
       "codigo": "NBC TG 10",
