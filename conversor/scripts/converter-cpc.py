@@ -187,11 +187,18 @@ def _merge_uppercase_titles(text: str) -> str:
     is_title_line = re.compile(
         r"^[A-ZÁÉÍÓÚÂÊÔÃÕÇ][A-ZÁÉÍÓÚÂÊÔÃÕÇ0-9\s\-]{2,}$"
     )
+    # Detecta espaçamento decorativo: "M O D E L O S", "P L A N O S"
+    # (letras isoladas separadas por espaço, com pelo menos 3 letras)
+    is_spaced_title = re.compile(r"^(?:[A-ZÁÉÍÓÚÂÊÔÃÕÇ]\s+){2,}[A-ZÁÉÍÓÚÂÊÔÃÕÇ]$")
     out: list[str] = []
     i = 0
     while i < len(lines):
         cur = lines[i].rstrip()
         stripped = cur.strip()
+        # Normalizar espaçamento decorativo antes das outras checagens
+        if is_spaced_title.match(stripped):
+            stripped = re.sub(r"\s+", "", stripped)
+            cur = stripped
         # Ignora linhas com pontuação de fim (não são pedaço de título)
         if (
             stripped
@@ -583,6 +590,37 @@ _SECOES_CPC_KNOWN = {
     "critérios de valoração de estoque", "criterios de valoracao de estoque",
     "valor realizável líquido", "valor realizavel liquido",
     "reconhecimento no resultado", "reconhecimento como despesa no resultado",
+    # CPC 09 R1 (DVA)
+    "alcance e apresentação", "alcance e apresentacao",
+    "características das informações da dva", "caracteristicas das informacoes da dva",
+    "formação da riqueza", "formacao da riqueza",
+    "distribuição da riqueza", "distribuicao da riqueza",
+    "casos especiais – alguns exemplos", "casos especiais - alguns exemplos",
+    "casos especiais alguns exemplos",
+    "atividade de intermediação financeira (bancária)",
+    "atividade de intermediacao financeira (bancaria)",
+    "atividade de seguro e resseguro",
+    "atividades de seguro e resseguro",
+    "modelos", "modelo geral",
+    "modelo para instituições financeiras",
+    "modelo para instituicoes financeiras",
+    "modelo para seguradoras e resseguradoras",
+    "pressupostos para a elaboração da dva",
+    "pressupostos para a elaboracao da dva",
+    "bases para conclusões", "bases para conclusoes",
+    "origem e razões conceituais para a elaboração e divulgação da dva",
+    "origem e razoes conceituais para a elaboracao e divulgacao da dva",
+    "utilidade da dva e sua relação com as informações ambientais, sociais e de governança (asg)",
+    "utilidade da dva e sua relacao com as informacoes ambientais, sociais e de governanca (asg)",
+    "histórico da dva", "historico da dva",
+    "primórdios da dva na europa", "primordios da dva na europa",
+    "surgimento da dva no brasil",
+    "conceito de valor adicionado e sua destinação",
+    "conceito de valor adicionado e sua destinacao",
+    "diferenças entre critérios econômicos e critérios contábeis",
+    "diferencas entre criterios economicos e criterios contabeis",
+    "dre é a base fundamental para a elaboração da dva",
+    "dre e a base fundamental para a elaboracao da dva",
     "disposições transitórias", "disposicoes transitorias",
     "revogação de outro pronunciamento", "revogacao de outro pronunciamento",
     "exemplos ilustrativos",
@@ -747,9 +785,12 @@ def parse_structure_cpc(text: str) -> Documento:
 
     flush()
 
-    # Dedup: quando o mesmo (numero, apendice) aparece 2x, a versão com nota
-    # "(Alterada pela Revisão CPC XX)" ou "(Substituída pela...)" é a vigente;
-    # as demais são redação anterior.
+    # Dedup: só marca como redação anterior quando há evidência EXPLÍCITA de
+    # substituição por revisão — texto contém "(Alterada pela Revisão CPC XX)",
+    # "(Substituída pela...)", "(Nova redação dada pela...)" ou similar.
+    # Se o mesmo número aparece 2x mas nenhum traz marca de revisão, os itens
+    # são de contextos distintos (ex: corpo principal x notas explicativas
+    # renumeradas a partir de 1., como no CPC 09 R1) — mantém todos vigentes.
     _RX_REV_NOTA = re.compile(r"\((?:Alterad|Revis[ãa]o|Substitu[íi]d|Nova\s+reda)", re.I)
     posicoes: dict[tuple[str, str | None], list[int]] = defaultdict(list)
     for i, it in enumerate(doc.itens):
@@ -757,7 +798,12 @@ def parse_structure_cpc(text: str) -> Documento:
     for chave, pos in posicoes.items():
         if len(pos) > 1:
             com_rev = [p for p in pos if _RX_REV_NOTA.search(doc.itens[p].texto)]
-            vigente = com_rev[-1] if com_rev else pos[-1]
+            if not com_rev:
+                # Nenhum traz marca de revisão → não é caso de dedup por revisão.
+                # Mantém todos como vigentes (contextos distintos).
+                continue
+            # O último item com marca de revisão é o vigente; demais anteriores.
+            vigente = com_rev[-1]
             for p in pos:
                 if p != vigente:
                     doc.itens[p].redacao_anterior = True
