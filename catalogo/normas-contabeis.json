@@ -410,7 +410,7 @@
         "estimativas",
         "erros"
       ],
-      "no_repo": false
+      "no_repo": true
     },
     {
       "codigo": "NBC TG 24",
@@ -425,7 +425,7 @@
         "evento-subsequente",
         "divulgacao"
       ],
-      "no_repo": false
+      "no_repo": true
     },
     {
       "codigo": "NBC TG 25",

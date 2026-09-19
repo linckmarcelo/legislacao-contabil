@@ -2,7 +2,7 @@
 
 > **Versao:** 1.0 - **Atualizado em:** 2026-09-18
 
-> **Cobertura:** 189 normas (13 indexadas, 169 pendentes, 7 revogadas)
+> **Cobertura:** 189 normas (16 indexadas, 166 pendentes, 7 revogadas)
 
 Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 
@@ -20,7 +20,7 @@ Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 | NBC TG 06 | CPC 06 (R2) | Arrendamentos | [OK] |
 | NBC TG 07 | CPC 07 (R1) | Subvenção e Assistência Governamentais | [  ] |
 | NBC TG 08 | CPC 08 (R1) | Custos de Transação e Prêmios na Emissão de Títulos e Valores Mobiliários | [  ] |
-| NBC TG 09 | CPC 09 | Demonstração do Valor Adicionado | [  ] |
+| NBC TG 09 | CPC 09 | Demonstração do Valor Adicionado | [OK] |
 | NBC TG 10 | CPC 10 (R1) | Pagamento Baseado em Ações | [  ] |
 | NBC TG 11 | CPC 11 | Contratos de Seguro | [REV] (rev. NBC TG 50 (CPC 50)) |
 | NBC TG 12 | CPC 12 | Ajuste a Valor Presente | [  ] |
@@ -33,8 +33,8 @@ Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 | NBC TG 20 | CPC 20 (R1) | Custos de Empréstimos | [  ] |
 | NBC TG 21 | CPC 21 (R1) | Demonstração Intermediária | [  ] |
 | NBC TG 22 | CPC 22 | Informações por Segmento | [  ] |
-| NBC TG 23 | CPC 23 | Políticas Contábeis, Mudança de Estimativa e Retificação de Erro | [  ] |
-| NBC TG 24 | CPC 24 | Evento Subsequente | [  ] |
+| NBC TG 23 | CPC 23 | Políticas Contábeis, Mudança de Estimativa e Retificação de Erro | [OK] |
+| NBC TG 24 | CPC 24 | Evento Subsequente | [OK] |
 | NBC TG 25 | CPC 25 | Provisões, Passivos Contingentes e Ativos Contingentes | [OK] |
 | NBC TG 26 | CPC 26 (R1) | Apresentação das Demonstrações Contábeis | [OK] |
 | NBC TG 27 | CPC 27 | Ativo Imobilizado | [OK] |

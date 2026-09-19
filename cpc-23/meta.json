@@ -1,0 +1,26 @@
+{
+  "tipo": "CPC",
+  "numero": "23",
+  "revisao": "Original",
+  "titulo": "Políticas Contábeis, Mudança de Estimativa e Retificação de Erro",
+  "correlacao_ifrs": "IAS 8",
+  "identificador": "CPC 23",
+  "ementa": "O objetivo deste Pronunciamento é definir critérios para a seleção e a mudança de políticas contábeis, juntamente com o tratamento contábil e divulgação de mudança nas políticas contábeis, a mudança nas estimativas contábeis e a retificação de erro. O Pronunciamento tem como objetivo melhorar a relevância e a confiabilidade das demonstrações contábeis da entidade, bem como permitir sua comparabilidade ao longo do tempo com as demonstrações contábeis de outras entidades.",
+  "fonte_arquivo": "cpc23.pdf",
+  "sha256_16": "d76e50342da47bb3",
+  "n_itens": 63,
+  "n_itens_vigentes": 59,
+  "n_itens_apendice": 0,
+  "n_redacoes_anteriores": 4,
+  "n_alineas": 66,
+  "n_secoes": 5,
+  "secoes": [
+    "Objetivo",
+    "Alcance",
+    "Definições",
+    "Políticas contábeis",
+    "Divulgação"
+  ],
+  "n_anexos_csv": 0,
+  "n_paginas": 14
+}

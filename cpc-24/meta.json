@@ -1,0 +1,26 @@
+{
+  "tipo": "CPC",
+  "numero": "24",
+  "revisao": "Original",
+  "titulo": "Evento Subsequente",
+  "correlacao_ifrs": "IAS 10",
+  "identificador": "CPC 24",
+  "ementa": "O objetivo deste Pronunciamento é determinar:",
+  "fonte_arquivo": "cpc24.pdf",
+  "sha256_16": "002601961b02de0b",
+  "n_itens": 23,
+  "n_itens_vigentes": 22,
+  "n_itens_apendice": 0,
+  "n_redacoes_anteriores": 1,
+  "n_alineas": 26,
+  "n_secoes": 5,
+  "secoes": [
+    "Objetivo",
+    "Alcance",
+    "Definições",
+    "Continuidade",
+    "Divulgação"
+  ],
+  "n_anexos_csv": 0,
+  "n_paginas": 7
+}
