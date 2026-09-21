@@ -334,16 +334,23 @@ def _extract_title(head_text: str, header_match_end: int) -> str | None:
         # Se já cruzou uma linha significativa não-UPPER, para o passo 1
         if len(s) > 40:
             break
-    # Passo 2: título curto em Title Case ("Estoques", "Impairment", "Combinação de Negócios")
+    # Passo 2: título em Title Case (curto como "Estoques" ou longo como
+    # "Efeitos das Mudanças nas Taxas de Câmbio e Conversão de Demonstrações
+    # Contábeis")
     for line in tail.splitlines():
         s = line.strip()
         if not s:
             continue
         if s.startswith(_TITULO_BLOCK_PREFIXES):
             continue
-        if 3 <= len(s) <= 60 and s[0].isupper() and not s.endswith(".") and not s.endswith(","):
-            # Não pode conter dígitos de artigo ou ser algo estruturado
+        if 3 <= len(s) <= 130 and s[0].isupper() and not s.endswith(".") and not s.endswith(","):
+            # Não pode começar com dígito ou parêntese
             if not re.match(r"^\d", s) and not s.startswith("("):
+                # Se o título colou com "Correlação às..." (comum quando o PDF
+                # junta duas linhas em uma), corta antes.
+                m_corr = re.search(r"\s+Correla[çc][ãa]o", s)
+                if m_corr:
+                    s = s[: m_corr.start()].rstrip()
                 # Passa por _pt_title_case pra remover letra isolada de nota de rodapé
                 return _pt_title_case(s)
     # Passo 3: fallback antigo — linha longa em Title Case

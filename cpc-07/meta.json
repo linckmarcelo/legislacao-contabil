@@ -1,0 +1,32 @@
+{
+  "tipo": "CPC",
+  "numero": "07",
+  "revisao": "R1",
+  "titulo": "Subvenção e Assistência Governamentais",
+  "correlacao_ifrs": "IAS 20",
+  "identificador": "CPC 07 (R1)",
+  "ementa": "Este Pronunciamento Técnico deve ser aplicado na contabilização e na divulgação de subvenção governamental e na divulgação de outras formas de assistência governamental.",
+  "fonte_arquivo": "cpc07r1.pdf",
+  "sha256_16": "11df55a6da361fc9",
+  "n_itens": 55,
+  "n_itens_vigentes": 53,
+  "n_itens_apendice": 0,
+  "n_redacoes_anteriores": 2,
+  "n_alineas": 15,
+  "n_secoes": 11,
+  "secoes": [
+    "SEM RELAÇÃO ESPECÍFICA COM AS",
+    "ATIVIDADES OPERACIONAIS",
+    "NOTA EXPLICATIVA AO PRONUNCIAMENTO",
+    "Alcance",
+    "Definições",
+    "Divulgação",
+    "Disposições transitórias",
+    "Revogação de outro pronunciamento",
+    "INTERPRETAÇÃO TÉCNICA",
+    "ASSISTÊNCIA GOVERNAMENTAL SEM RELAÇÃO ESPECÍFICA COM AS ATIVIDADES OPERACIONAIS",
+    "Bases para conclusões"
+  ],
+  "n_anexos_csv": 0,
+  "n_paginas": 12
+}

@@ -1,0 +1,27 @@
+{
+  "tipo": "CPC",
+  "numero": "20",
+  "revisao": "R1",
+  "titulo": "Custos de Empréstimos",
+  "correlacao_ifrs": "IAS 23",
+  "identificador": "CPC 20 (R1)",
+  "ementa": "Custos de empréstimos que são diretamente atribuíveis à aquisição, construção ou produção de um ativo qualificável formam parte do custo de tal ativo. Outros custos de empréstimos devem ser reconhecidos como despesa.",
+  "fonte_arquivo": "cpc20r1.pdf",
+  "sha256_16": "d418c5f42ec4d8a6",
+  "n_itens": 31,
+  "n_itens_vigentes": 29,
+  "n_itens_apendice": 0,
+  "n_redacoes_anteriores": 2,
+  "n_alineas": 23,
+  "n_secoes": 6,
+  "secoes": [
+    "Objetivo",
+    "Alcance",
+    "Definições",
+    "Reconhecimento",
+    "Divulgação",
+    "Disposições transitórias"
+  ],
+  "n_anexos_csv": 0,
+  "n_paginas": 6
+}

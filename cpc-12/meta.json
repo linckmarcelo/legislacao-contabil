@@ -1,0 +1,26 @@
+{
+  "tipo": "CPC",
+  "numero": "12",
+  "revisao": "R1",
+  "titulo": "Ajuste a Valor Presente",
+  "correlacao_ifrs": null,
+  "identificador": "CPC 12 (R1)",
+  "ementa": "O objetivo deste Pronunciamento é esclarecer os requisitos básicos a serem observados quando da apuração do ajuste a valor presente de elementos do ativo e do passivo quando da elaboração de demonstrações contábeis, dirimindo algumas questões controversas advindas de tal procedimento, do tipo:",
+  "fonte_arquivo": "cpc12r1.pdf",
+  "sha256_16": "356573e52dcccc95",
+  "n_itens": 52,
+  "n_itens_vigentes": 52,
+  "n_itens_apendice": 0,
+  "n_redacoes_anteriores": 0,
+  "n_alineas": 23,
+  "n_secoes": 5,
+  "secoes": [
+    "Objetivo",
+    "Alcance",
+    "Divulgação",
+    "Disposições Transitórias",
+    "ANEXO"
+  ],
+  "n_anexos_csv": 0,
+  "n_paginas": 21
+}

@@ -91,7 +91,7 @@
         "conversao",
         "moeda-estrangeira"
       ],
-      "no_repo": false
+      "no_repo": true
     },
     {
       "codigo": "NBC TG 03",
@@ -137,7 +137,7 @@
         "partes-relacionadas",
         "divulgacao"
       ],
-      "no_repo": false
+      "no_repo": true
     },
     {
       "codigo": "NBC TG 06",
@@ -172,7 +172,7 @@
         "governo",
         "assistencia-governamental"
       ],
-      "no_repo": false
+      "no_repo": true
     },
     {
       "codigo": "NBC TG 08",
@@ -251,7 +251,7 @@
         "valor-presente",
         "mensuracao"
       ],
-      "no_repo": false
+      "no_repo": true
     },
     {
       "codigo": "NBC TG 13",
@@ -332,7 +332,7 @@
         "mep",
         "equivalencia-patrimonial"
       ],
-      "no_repo": false
+      "no_repo": true
     },
     {
       "codigo": "NBC TG 19",
@@ -363,7 +363,7 @@
         "capitalizacao",
         "juros"
       ],
-      "no_repo": false
+      "no_repo": true
     },
     {
       "codigo": "NBC TG 21",
@@ -568,7 +568,7 @@
         "previdencia",
         "ferias"
       ],
-      "no_repo": false
+      "no_repo": true
     },
     {
       "codigo": "NBC TG 35",

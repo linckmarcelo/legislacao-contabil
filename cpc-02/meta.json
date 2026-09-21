@@ -1,0 +1,30 @@
+{
+  "tipo": "CPC",
+  "numero": "02",
+  "revisao": "R2",
+  "titulo": "Efeitos das Mudanças nas Taxas de Câmbio e Conversão de Demonstrações Contábeis",
+  "correlacao_ifrs": "IAS 21",
+  "identificador": "CPC 02 (R2)",
+  "ementa": "Uma entidade pode manter atividades em moeda estrangeira de duas formas. Ela pode ter transações em moedas estrangeiras ou pode ter operações no exterior. Adicionalmente, a entidade pode apresentar suas demonstrações contábeis em uma moeda estrangeira. O objetivo deste Pronunciamento Técnico é orientar acerca de como incluir transações em moeda estrangeira e operações no exterior nas demonstrações contábeis da entidade e como converter demonstrações contábeis para moeda de apresentação.",
+  "fonte_arquivo": "cpc02r2.pdf",
+  "sha256_16": "7beebab551d2225d",
+  "n_itens": 85,
+  "n_itens_vigentes": 75,
+  "n_itens_apendice": 1,
+  "n_redacoes_anteriores": 10,
+  "n_alineas": 62,
+  "n_secoes": 9,
+  "secoes": [
+    "APÊNDICE A – Orientação de aplicação - Conversibilidade",
+    "Objetivo",
+    "Alcance",
+    "Definições",
+    "RESUMO DA ABORDAGEM REQUERIDA POR ESTE PRONUNCIAMENTO",
+    "Divulgação",
+    "Disposições transitórias",
+    "Revogação de outro pronunciamento",
+    "APÊNDICE A"
+  ],
+  "n_anexos_csv": 1,
+  "n_paginas": 26
+}

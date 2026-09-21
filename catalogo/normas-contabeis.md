@@ -2,7 +2,7 @@
 
 > **Versao:** 1.0 - **Atualizado em:** 2026-09-18
 
-> **Cobertura:** 189 normas (18 indexadas, 164 pendentes, 7 revogadas)
+> **Cobertura:** 189 normas (25 indexadas, 157 pendentes, 7 revogadas)
 
 Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 
@@ -13,24 +13,24 @@ Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 | Código | Correspondência | Título | Status |
 |---|---|---|---|
 | NBC TG 01 | CPC 01 (R1) | Redução ao Valor Recuperável de Ativos | [OK] |
-| NBC TG 02 | CPC 02 (R2) | Efeitos das Mudanças nas Taxas de Câmbio e Conversão de Demonstrações Contábeis | [  ] |
+| NBC TG 02 | CPC 02 (R2) | Efeitos das Mudanças nas Taxas de Câmbio e Conversão de Demonstrações Contábeis | [OK] |
 | NBC TG 03 | CPC 03 (R2) | Demonstração dos Fluxos de Caixa | [OK] |
 | NBC TG 04 | CPC 04 (R1) | Ativo Intangível | [OK] |
-| NBC TG 05 | CPC 05 (R1) | Divulgação sobre Partes Relacionadas | [  ] |
+| NBC TG 05 | CPC 05 (R1) | Divulgação sobre Partes Relacionadas | [OK] |
 | NBC TG 06 | CPC 06 (R2) | Arrendamentos | [OK] |
-| NBC TG 07 | CPC 07 (R1) | Subvenção e Assistência Governamentais | [  ] |
+| NBC TG 07 | CPC 07 (R1) | Subvenção e Assistência Governamentais | [OK] |
 | NBC TG 08 | CPC 08 (R1) | Custos de Transação e Prêmios na Emissão de Títulos e Valores Mobiliários | [  ] |
 | NBC TG 09 | CPC 09 | Demonstração do Valor Adicionado | [OK] |
 | NBC TG 10 | CPC 10 (R1) | Pagamento Baseado em Ações | [  ] |
 | NBC TG 11 | CPC 11 | Contratos de Seguro | [REV] (rev. NBC TG 50 (CPC 50)) |
-| NBC TG 12 | CPC 12 | Ajuste a Valor Presente | [  ] |
+| NBC TG 12 | CPC 12 | Ajuste a Valor Presente | [OK] |
 | NBC TG 13 | CPC 13 | Adoção Inicial da Lei nº 11.638/07 e MP nº 449/08 | [  ] |
 | NBC TG 15 | CPC 15 (R1) | Combinação de Negócios | [  ] |
 | NBC TG 16 | CPC 16 (R1) | Estoques | [OK] |
 | NBC TG 17 | CPC 17 (R1) | Contratos de Construção | [REV] (rev. NBC TG 47 (CPC 47)) |
-| NBC TG 18 | CPC 18 (R2) | Investimento em Coligada, em Controlada e em Empreendimento Controlado em Conjunto | [  ] |
+| NBC TG 18 | CPC 18 (R2) | Investimento em Coligada, em Controlada e em Empreendimento Controlado em Conjunto | [OK] |
 | NBC TG 19 | CPC 19 (R2) | Negócios em Conjunto | [  ] |
-| NBC TG 20 | CPC 20 (R1) | Custos de Empréstimos | [  ] |
+| NBC TG 20 | CPC 20 (R1) | Custos de Empréstimos | [OK] |
 | NBC TG 21 | CPC 21 (R1) | Demonstração Intermediária | [  ] |
 | NBC TG 22 | CPC 22 | Informações por Segmento | [  ] |
 | NBC TG 23 | CPC 23 | Políticas Contábeis, Mudança de Estimativa e Retificação de Erro | [OK] |
@@ -43,7 +43,7 @@ Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 | NBC TG 30 | CPC 30 (R1) | Receitas | [REV] (rev. NBC TG 47 (CPC 47)) |
 | NBC TG 31 | CPC 31 | Ativo Não Circulante Mantido para Venda e Operação Descontinuada | [  ] |
 | NBC TG 32 | CPC 32 | Tributos sobre o Lucro | [OK] |
-| NBC TG 33 | CPC 33 (R1) | Benefícios a Empregados | [  ] |
+| NBC TG 33 | CPC 33 (R1) | Benefícios a Empregados | [OK] |
 | NBC TG 35 | CPC 35 (R2) | Demonstrações Separadas | [  ] |
 | NBC TG 36 | CPC 36 (R3) | Demonstrações Consolidadas | [  ] |
 | NBC TG 37 | CPC 37 (R1) | Adoção Inicial das Normas Internacionais de Contabilidade | [  ] |

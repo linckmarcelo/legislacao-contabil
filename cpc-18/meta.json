@@ -1,0 +1,26 @@
+{
+  "tipo": "CPC",
+  "numero": "18",
+  "revisao": "R3",
+  "titulo": "Investimento em Coligada e em Empreendimento Controlado em Conjunto",
+  "correlacao_ifrs": "IAS 28",
+  "identificador": "CPC 18 (R3)",
+  "ementa": "O objetivo deste Pronunciamento é estabelecer a contabilização de investimentos em coligadas e definir os requisitos para a aplicação do método da equivalência patrimonial quando da contabilização de investimentos em coligadas e em empreendimentos controlados em conjunto (joint ventures).",
+  "fonte_arquivo": "cpc18r3.pdf",
+  "sha256_16": "fdc0f3dbb89b2154",
+  "n_itens": 59,
+  "n_itens_vigentes": 59,
+  "n_itens_apendice": 0,
+  "n_redacoes_anteriores": 0,
+  "n_alineas": 27,
+  "n_secoes": 5,
+  "secoes": [
+    "Objetivo",
+    "Alcance",
+    "Definições",
+    "Método da equivalência patrimonial",
+    "Disposições transitórias"
+  ],
+  "n_anexos_csv": 1,
+  "n_paginas": 13
+}
