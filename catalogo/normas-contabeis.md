@@ -2,7 +2,7 @@
 
 > **Versao:** 1.0 - **Atualizado em:** 2026-09-18
 
-> **Cobertura:** 189 normas (25 indexadas, 157 pendentes, 7 revogadas)
+> **Cobertura:** 189 normas (26 indexadas, 156 pendentes, 7 revogadas)
 
 Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 
@@ -39,7 +39,7 @@ Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 | NBC TG 26 | CPC 26 (R1) | Apresentação das Demonstrações Contábeis | [OK] |
 | NBC TG 27 | CPC 27 | Ativo Imobilizado | [OK] |
 | NBC TG 28 | CPC 28 | Propriedade para Investimento | [  ] |
-| NBC TG 29 | CPC 29 | Ativo Biológico e Produto Agrícola | [  ] |
+| NBC TG 29 | CPC 29 | Ativo Biológico e Produto Agrícola | [OK] |
 | NBC TG 30 | CPC 30 (R1) | Receitas | [REV] (rev. NBC TG 47 (CPC 47)) |
 | NBC TG 31 | CPC 31 | Ativo Não Circulante Mantido para Venda e Operação Descontinuada | [  ] |
 | NBC TG 32 | CPC 32 | Tributos sobre o Lucro | [OK] |

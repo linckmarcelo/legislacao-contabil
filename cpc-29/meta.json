@@ -1,0 +1,31 @@
+{
+  "tipo": "CPC",
+  "numero": "29",
+  "revisao": "Original",
+  "titulo": "Ativo Biológico e Produto Agrícola",
+  "correlacao_ifrs": "IAS 41",
+  "identificador": "CPC 29",
+  "ementa": "Este Pronunciamento deve ser aplicado para contabilizar os seguintes itens relacionados com as atividades agrícolas: (a) ativos biológicos; (b) produção agrícola no ponto de colheita; (c) subvenções governamentais previstas nos itens 34 e 35.",
+  "fonte_arquivo": "cpc29.pdf",
+  "sha256_16": "22109cb49b5eb4c1",
+  "n_itens": 71,
+  "n_itens_vigentes": 71,
+  "n_itens_apendice": 0,
+  "n_redacoes_anteriores": 0,
+  "n_alineas": 50,
+  "n_secoes": 10,
+  "secoes": [
+    "OBJETIVO",
+    "RECONHECIMENTO E MENSURAÇÃO",
+    "Objetivo",
+    "Alcance",
+    "Definições",
+    "Reconhecimento e mensuração",
+    "Divulgação",
+    "APÊNDICE E",
+    "Balanço Patrimonial",
+    "PATRIMÔNIO LÍQUIDO E PASSIVO"
+  ],
+  "n_anexos_csv": 1,
+  "n_paginas": 18
+}
