@@ -1,0 +1,14 @@
+{
+  "tipo": "LC",
+  "numero": "123",
+  "ano": "2006",
+  "identificador": "LC 123/2006",
+  "ementa": "Institui o Estatuto Nacional da Microempresa e da Empresa de Pequeno Porte; altera dispositivos das Leis no 8.212 e 8.213, ambas de 24 de julho de 1991, da Consolidação das Leis do Trabalho - CLT, aprovada pelo Decreto-Lei no 5.452, de 1o de maio de 1943, da Lei no 10.189, de 14 de fevereiro de 2001, da Lei Complementar no 63, de 11 de janeiro de 1990; e revoga as Leis no 9.317, de 5 de dezembro de 1996, e 9.841, de 5 de outubro de 1999.",
+  "fonte_arquivo": "lc-123-2006.pdf",
+  "sha256_16": "0834025c23dc2ae5",
+  "n_artigos": 158,
+  "n_artigos_vigentes": 134,
+  "n_redacoes_anteriores": 24,
+  "n_anexos_csv": 17,
+  "n_paginas": 44
+}
