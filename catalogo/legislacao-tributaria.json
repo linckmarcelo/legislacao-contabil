@@ -208,6 +208,27 @@
       "no_repo": true
     },
     {
+      "codigo": "LC 147/2014",
+      "titulo": "Altera a LC 123/2006 (Estatuto da ME e EPP) e demais leis — universalização do Simples Nacional e tratamento diferenciado",
+      "familia": "LC",
+      "ambito": "federal",
+      "assunto": [
+        "simples-nacional",
+        "tributario-federal"
+      ],
+      "data": "2014-08-07",
+      "pasta_repo": "lc-147-2014",
+      "situacao": "vigente",
+      "tags": [
+        "simples-nacional",
+        "me",
+        "epp",
+        "universalizacao",
+        "altera-lc-123"
+      ],
+      "no_repo": true
+    },
+    {
       "codigo": "Lei 13.606/2018",
       "titulo": "Programa de Regularização Tributária Rural (PRR) e outras providências",
       "familia": "LEI",
