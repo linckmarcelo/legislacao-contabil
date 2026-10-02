@@ -1,8 +1,8 @@
 # Catalogo de Legislacao Tributaria, Trabalhista e Societaria
 
-> **Versao:** 1.0 - **Atualizado em:** 2026-09-17
+> **Versao:** 1.0 - **Atualizado em:** 2026-10-02
 
-> **Cobertura:** 21 pecas indexadas (21 com texto integral no repo)
+> **Cobertura:** 22 pecas indexadas (22 com texto integral no repo)
 
 Este catalogo complementa [`normas-contabeis.md`](./normas-contabeis.md), que cobre CFC/CPC.
 
@@ -27,6 +27,7 @@ Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 | Codigo | Titulo | Data | Pasta no repo | Status |
 |---|---|---|---|---|
 | Lei 5.172/1966 | Código Tributário Nacional (CTN) | 1966-10-25 | [`lei-5172-1966`](../lei-5172-1966/) | [OK] |
+| LC 123/2006 | Estatuto Nacional da Microempresa e da Empresa de Pequeno Porte (Simples Nacional) | 2006-12-14 | [`lc-123-2006`](../lc-123-2006/) | [OK] |
 | Lei 13.606/2018 | Programa de Regularização Tributária Rural (PRR) e outras providências | 2018-01-09 | [`lei-13606-2018`](../lei-13606-2018/) | [OK] |
 | LC 224/2025 | Redução e critérios de concessão de incentivos e benefícios tributários federais; responsabilidade solidária em apostas de quota fixa; e alterações em LCs 101, 105 e 215 e Leis 7.689, 9.249, 13.756 e 8.137 | 2025 | [`lc-224-2025`](../lc-224-2025/) | [OK] |
 
@@ -80,6 +81,7 @@ Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 | Lei 9.250/1995 | Alterações na legislação do Imposto de Renda das Pessoas Físicas | 1995-12-26 | [`lei-9250-1995`](../lei-9250-1995/) | [OK] |
 | Lei 10.256/2001 | Contribuição previdenciária do empregador rural pessoa física e jurídica | 2001-07-09 | [`lei-10256-2001`](../lei-10256-2001/) | [OK] |
 | IN SRF 83/2001 | Tributação dos rendimentos da atividade rural das pessoas físicas | 2001-10-11 | [`in-83-2001`](../in-83-2001/) | [OK] |
+| LC 123/2006 | Estatuto Nacional da Microempresa e da Empresa de Pequeno Porte (Simples Nacional) | 2006-12-14 | [`lc-123-2006`](../lc-123-2006/) | [OK] |
 | Lei 13.606/2018 | Programa de Regularização Tributária Rural (PRR) e outras providências | 2018-01-09 | [`lei-13606-2018`](../lei-13606-2018/) | [OK] |
 | IN RFB 2.110/2022 | Normas gerais de tributação previdenciária e de arrecadação das contribuições sociais destinadas à Previdência Social | 2022-10-17 | [`in-2110-2022`](../in-2110-2022/) | [OK] |
 | LC 224/2025 | Redução e critérios de concessão de incentivos e benefícios tributários federais; responsabilidade solidária em apostas de quota fixa; e alterações em LCs 101, 105 e 215 e Leis 7.689, 9.249, 13.756 e 8.137 | 2025 | [`lc-224-2025`](../lc-224-2025/) | [OK] |

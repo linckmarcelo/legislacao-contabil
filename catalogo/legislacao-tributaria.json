@@ -1,13 +1,33 @@
 {
   "meta": {
     "versao": "1.0",
-    "atualizado_em": "2026-09-17",
+    "atualizado_em": "2026-10-02",
     "descricao": "Catálogo de legislação tributária, trabalhista e societária relevante para a prática contábil. Complementa o catálogo normas-contabeis.json (CFC/CPC).",
     "convencao": {
       "no_repo": "true quando o texto integral está indexado em chunks no repo legislacao-contabil; false quando ainda precisa ser convertido",
-      "situacao_valores": ["vigente", "revogada", "parcialmente-vigente"],
-      "ambito_valores": ["federal", "estadual", "municipal", "distrital"],
-      "assunto_valores": ["reforma-tributaria", "tributario-federal", "trabalhista", "previdenciario", "societario", "agrario", "irpf", "irpj", "simples-nacional", "administrativo"]
+      "situacao_valores": [
+        "vigente",
+        "revogada",
+        "parcialmente-vigente"
+      ],
+      "ambito_valores": [
+        "federal",
+        "estadual",
+        "municipal",
+        "distrital"
+      ],
+      "assunto_valores": [
+        "reforma-tributaria",
+        "tributario-federal",
+        "trabalhista",
+        "previdenciario",
+        "societario",
+        "agrario",
+        "irpf",
+        "irpj",
+        "simples-nacional",
+        "administrativo"
+      ]
     },
     "familias": {
       "LEI": "Lei ordinária federal",
@@ -25,11 +45,17 @@
       "titulo": "Consolidação das Leis do Trabalho (CLT)",
       "familia": "DECRETO-LEI",
       "ambito": "federal",
-      "assunto": ["trabalhista"],
+      "assunto": [
+        "trabalhista"
+      ],
       "data": "1943-05-01",
       "pasta_repo": "decreto-lei-5452-1943",
       "situacao": "vigente",
-      "tags": ["clt", "trabalhista", "consolidacao"],
+      "tags": [
+        "clt",
+        "trabalhista",
+        "consolidacao"
+      ],
       "no_repo": true
     },
     {
@@ -37,11 +63,17 @@
       "titulo": "Estatuto da Terra",
       "familia": "LEI",
       "ambito": "federal",
-      "assunto": ["agrario"],
+      "assunto": [
+        "agrario"
+      ],
       "data": "1964-11-30",
       "pasta_repo": "lei-4504-1964",
       "situacao": "vigente",
-      "tags": ["estatuto-terra", "agrario", "produtor-rural"],
+      "tags": [
+        "estatuto-terra",
+        "agrario",
+        "produtor-rural"
+      ],
       "no_repo": true
     },
     {
@@ -49,11 +81,17 @@
       "titulo": "Código Tributário Nacional (CTN)",
       "familia": "LEI",
       "ambito": "federal",
-      "assunto": ["tributario-federal"],
+      "assunto": [
+        "tributario-federal"
+      ],
       "data": "1966-10-25",
       "pasta_repo": "lei-5172-1966",
       "situacao": "vigente",
-      "tags": ["ctn", "tributario", "codigo"],
+      "tags": [
+        "ctn",
+        "tributario",
+        "codigo"
+      ],
       "no_repo": true
     },
     {
@@ -61,11 +99,17 @@
       "titulo": "Lei das Sociedades por Ações",
       "familia": "LEI",
       "ambito": "federal",
-      "assunto": ["societario"],
+      "assunto": [
+        "societario"
+      ],
       "data": "1976-12-15",
       "pasta_repo": "lei-6404-1976",
       "situacao": "vigente",
-      "tags": ["lei-sa", "societario", "sociedade-anonima"],
+      "tags": [
+        "lei-sa",
+        "societario",
+        "sociedade-anonima"
+      ],
       "no_repo": true
     },
     {
@@ -73,11 +117,17 @@
       "titulo": "Lei Orgânica da Seguridade Social (Custeio da Previdência)",
       "familia": "LEI",
       "ambito": "federal",
-      "assunto": ["previdenciario"],
+      "assunto": [
+        "previdenciario"
+      ],
       "data": "1991-07-24",
       "pasta_repo": "lei-8212-1991",
       "situacao": "vigente",
-      "tags": ["previdencia", "seguridade-social", "custeio"],
+      "tags": [
+        "previdencia",
+        "seguridade-social",
+        "custeio"
+      ],
       "no_repo": true
     },
     {
@@ -85,11 +135,17 @@
       "titulo": "Alterações na legislação do Imposto de Renda das Pessoas Físicas",
       "familia": "LEI",
       "ambito": "federal",
-      "assunto": ["irpf"],
+      "assunto": [
+        "irpf"
+      ],
       "data": "1995-12-26",
       "pasta_repo": "lei-9250-1995",
       "situacao": "vigente",
-      "tags": ["irpf", "imposto-renda", "pessoa-fisica"],
+      "tags": [
+        "irpf",
+        "imposto-renda",
+        "pessoa-fisica"
+      ],
       "no_repo": true
     },
     {
@@ -97,11 +153,18 @@
       "titulo": "Contribuição previdenciária do empregador rural pessoa física e jurídica",
       "familia": "LEI",
       "ambito": "federal",
-      "assunto": ["previdenciario", "agrario"],
+      "assunto": [
+        "previdenciario",
+        "agrario"
+      ],
       "data": "2001-07-09",
       "pasta_repo": "lei-10256-2001",
       "situacao": "vigente",
-      "tags": ["previdencia-rural", "funrural", "empregador-rural"],
+      "tags": [
+        "previdencia-rural",
+        "funrural",
+        "empregador-rural"
+      ],
       "no_repo": true
     },
     {
@@ -109,11 +172,39 @@
       "titulo": "Tributação dos rendimentos da atividade rural das pessoas físicas",
       "familia": "IN",
       "ambito": "federal",
-      "assunto": ["irpf", "agrario"],
+      "assunto": [
+        "irpf",
+        "agrario"
+      ],
       "data": "2001-10-11",
       "pasta_repo": "in-83-2001",
       "situacao": "vigente",
-      "tags": ["atividade-rural", "irpf", "produtor-rural"],
+      "tags": [
+        "atividade-rural",
+        "irpf",
+        "produtor-rural"
+      ],
+      "no_repo": true
+    },
+    {
+      "codigo": "LC 123/2006",
+      "titulo": "Estatuto Nacional da Microempresa e da Empresa de Pequeno Porte (Simples Nacional)",
+      "familia": "LC",
+      "ambito": "federal",
+      "assunto": [
+        "simples-nacional",
+        "tributario-federal"
+      ],
+      "data": "2006-12-14",
+      "pasta_repo": "lc-123-2006",
+      "situacao": "vigente",
+      "tags": [
+        "simples-nacional",
+        "me",
+        "epp",
+        "mei",
+        "estatuto"
+      ],
       "no_repo": true
     },
     {
@@ -121,11 +212,19 @@
       "titulo": "Programa de Regularização Tributária Rural (PRR) e outras providências",
       "familia": "LEI",
       "ambito": "federal",
-      "assunto": ["tributario-federal", "agrario", "previdenciario"],
+      "assunto": [
+        "tributario-federal",
+        "agrario",
+        "previdenciario"
+      ],
       "data": "2018-01-09",
       "pasta_repo": "lei-13606-2018",
       "situacao": "vigente",
-      "tags": ["prr", "funrural", "regularizacao"],
+      "tags": [
+        "prr",
+        "funrural",
+        "regularizacao"
+      ],
       "no_repo": true
     },
     {
@@ -133,23 +232,17 @@
       "titulo": "Normas gerais de tributação previdenciária e de arrecadação das contribuições sociais destinadas à Previdência Social",
       "familia": "IN",
       "ambito": "federal",
-      "assunto": ["previdenciario"],
+      "assunto": [
+        "previdenciario"
+      ],
       "data": "2022-10-17",
       "pasta_repo": "in-2110-2022",
       "situacao": "vigente",
-      "tags": ["previdencia", "contribuicao-social", "in-rfb"],
-      "no_repo": true
-    },
-    {
-      "codigo": "LC 214/2025",
-      "titulo": "Regulamentação da Reforma Tributária — IBS, CBS e Imposto Seletivo",
-      "familia": "LC",
-      "ambito": "federal",
-      "assunto": ["reforma-tributaria", "tributario-federal"],
-      "data": "2025-01-16",
-      "pasta_repo": "lc-214-2025",
-      "situacao": "vigente",
-      "tags": ["reforma-tributaria", "ibs", "cbs", "imposto-seletivo"],
+      "tags": [
+        "previdencia",
+        "contribuicao-social",
+        "in-rfb"
+      ],
       "no_repo": true
     },
     {
@@ -157,11 +250,19 @@
       "titulo": "Redução e critérios de concessão de incentivos e benefícios tributários federais; responsabilidade solidária em apostas de quota fixa; e alterações em LCs 101, 105 e 215 e Leis 7.689, 9.249, 13.756 e 8.137",
       "familia": "LC",
       "ambito": "federal",
-      "assunto": ["tributario-federal"],
+      "assunto": [
+        "tributario-federal"
+      ],
       "data": "2025",
       "pasta_repo": "lc-224-2025",
       "situacao": "vigente",
-      "tags": ["beneficios-fiscais", "incentivos-tributarios", "bets", "apostas", "lrf"],
+      "tags": [
+        "beneficios-fiscais",
+        "incentivos-tributarios",
+        "bets",
+        "apostas",
+        "lrf"
+      ],
       "no_repo": true
     },
     {
@@ -169,23 +270,18 @@
       "titulo": "Redução do IRPF e tributação mínima para pessoas físicas de altas rendas (altera Leis 9.250/1995 e 9.249/1995)",
       "familia": "LEI",
       "ambito": "federal",
-      "assunto": ["irpf"],
+      "assunto": [
+        "irpf"
+      ],
       "data": "2025",
       "pasta_repo": "lei-15270-2025",
       "situacao": "vigente",
-      "tags": ["irpf", "altas-rendas", "tributacao-minima", "reducao-imposto"],
-      "no_repo": true
-    },
-    {
-      "codigo": "Ato Conjunto RFB/CGIBS 1/2025",
-      "titulo": "Obrigações acessórias exigíveis para fornecimento de informações para apuração do IBS e da CBS no ano de 2026",
-      "familia": "ATO CONJUNTO",
-      "ambito": "federal",
-      "assunto": ["reforma-tributaria"],
-      "data": "2025-12-22",
-      "pasta_repo": "ato-conjunto-1-2025",
-      "situacao": "vigente",
-      "tags": ["ibs", "cbs", "obrigacoes-acessorias", "rfb", "cgibs"],
+      "tags": [
+        "irpf",
+        "altas-rendas",
+        "tributacao-minima",
+        "reducao-imposto"
+      ],
       "no_repo": true
     },
     {
@@ -193,11 +289,57 @@
       "titulo": "Perguntas e Respostas — Tributação de Altas Rendas 2025",
       "familia": "PER",
       "ambito": "federal",
-      "assunto": ["irpf"],
+      "assunto": [
+        "irpf"
+      ],
       "data": "2025",
       "pasta_repo": "per-tributacao-altas-rendas-2025",
       "situacao": "vigente",
-      "tags": ["altas-rendas", "irpf", "perguntas-respostas"],
+      "tags": [
+        "altas-rendas",
+        "irpf",
+        "perguntas-respostas"
+      ],
+      "no_repo": true
+    },
+    {
+      "codigo": "LC 214/2025",
+      "titulo": "Regulamentação da Reforma Tributária — IBS, CBS e Imposto Seletivo",
+      "familia": "LC",
+      "ambito": "federal",
+      "assunto": [
+        "reforma-tributaria",
+        "tributario-federal"
+      ],
+      "data": "2025-01-16",
+      "pasta_repo": "lc-214-2025",
+      "situacao": "vigente",
+      "tags": [
+        "reforma-tributaria",
+        "ibs",
+        "cbs",
+        "imposto-seletivo"
+      ],
+      "no_repo": true
+    },
+    {
+      "codigo": "Ato Conjunto RFB/CGIBS 1/2025",
+      "titulo": "Obrigações acessórias exigíveis para fornecimento de informações para apuração do IBS e da CBS no ano de 2026",
+      "familia": "ATO CONJUNTO",
+      "ambito": "federal",
+      "assunto": [
+        "reforma-tributaria"
+      ],
+      "data": "2025-12-22",
+      "pasta_repo": "ato-conjunto-1-2025",
+      "situacao": "vigente",
+      "tags": [
+        "ibs",
+        "cbs",
+        "obrigacoes-acessorias",
+        "rfb",
+        "cgibs"
+      ],
       "no_repo": true
     },
     {
@@ -205,23 +347,17 @@
       "titulo": "Decreto 12.955/2026 — Reforma Tributária (regulamentação)",
       "familia": "DECRETO",
       "ambito": "federal",
-      "assunto": ["reforma-tributaria"],
+      "assunto": [
+        "reforma-tributaria"
+      ],
       "data": "2026",
       "pasta_repo": "decreto-12955-2026",
       "situacao": "vigente",
-      "tags": ["decreto", "reforma-tributaria", "2026"],
-      "no_repo": true
-    },
-    {
-      "codigo": "Decreto 13.075/2026",
-      "titulo": "Altera o Decreto 12.955/2026, que regulamenta a Contribuição Social sobre Bens e Serviços (CBS)",
-      "familia": "DECRETO",
-      "ambito": "federal",
-      "assunto": ["reforma-tributaria"],
-      "data": "2026-07-21",
-      "pasta_repo": "decreto-13075-2026",
-      "situacao": "vigente",
-      "tags": ["cbs", "regulamentacao", "reforma-tributaria"],
+      "tags": [
+        "decreto",
+        "reforma-tributaria",
+        "2026"
+      ],
       "no_repo": true
     },
     {
@@ -229,35 +365,17 @@
       "titulo": "Lei Complementar 227/2026 — Alterações na Reforma Tributária",
       "familia": "LC",
       "ambito": "federal",
-      "assunto": ["reforma-tributaria"],
+      "assunto": [
+        "reforma-tributaria"
+      ],
       "data": "2026",
       "pasta_repo": "lc-227-2026",
       "situacao": "vigente",
-      "tags": ["lei-complementar", "reforma-tributaria", "2026"],
-      "no_repo": true
-    },
-    {
-      "codigo": "Ato Conjunto RFB/CGIBS 4/2026",
-      "titulo": "Datas de início da obrigatoriedade de emissão dos documentos fiscais eletrônicos previstos no art. 112 dos regulamentos do IBS e da CBS",
-      "familia": "ATO CONJUNTO",
-      "ambito": "federal",
-      "assunto": ["reforma-tributaria"],
-      "data": "2026-07-30",
-      "pasta_repo": "ato-conjunto-4-2026",
-      "situacao": "vigente",
-      "tags": ["ibs", "cbs", "documentos-fiscais-eletronicos", "rfb", "cgibs"],
-      "no_repo": true
-    },
-    {
-      "codigo": "Ato Conjunto RFB/CGIBS 5/2026",
-      "titulo": "Regulamenta o Programa Nacional de Conformidade Tributária no ano de 2026",
-      "familia": "ATO CONJUNTO",
-      "ambito": "federal",
-      "assunto": ["reforma-tributaria"],
-      "data": "2026-08-12",
-      "pasta_repo": "ato-conjunto-5-2026",
-      "situacao": "vigente",
-      "tags": ["conformidade-tributaria", "programa-nacional", "rfb", "cgibs"],
+      "tags": [
+        "lei-complementar",
+        "reforma-tributaria",
+        "2026"
+      ],
       "no_repo": true
     },
     {
@@ -265,11 +383,74 @@
       "titulo": "Perguntas e Respostas — IRPF 2026",
       "familia": "PER",
       "ambito": "federal",
-      "assunto": ["irpf"],
+      "assunto": [
+        "irpf"
+      ],
       "data": "2026",
       "pasta_repo": "per-irpf-2026",
       "situacao": "vigente",
-      "tags": ["irpf", "perguntas-respostas", "2026"],
+      "tags": [
+        "irpf",
+        "perguntas-respostas",
+        "2026"
+      ],
+      "no_repo": true
+    },
+    {
+      "codigo": "Decreto 13.075/2026",
+      "titulo": "Altera o Decreto 12.955/2026, que regulamenta a Contribuição Social sobre Bens e Serviços (CBS)",
+      "familia": "DECRETO",
+      "ambito": "federal",
+      "assunto": [
+        "reforma-tributaria"
+      ],
+      "data": "2026-07-21",
+      "pasta_repo": "decreto-13075-2026",
+      "situacao": "vigente",
+      "tags": [
+        "cbs",
+        "regulamentacao",
+        "reforma-tributaria"
+      ],
+      "no_repo": true
+    },
+    {
+      "codigo": "Ato Conjunto RFB/CGIBS 4/2026",
+      "titulo": "Datas de início da obrigatoriedade de emissão dos documentos fiscais eletrônicos previstos no art. 112 dos regulamentos do IBS e da CBS",
+      "familia": "ATO CONJUNTO",
+      "ambito": "federal",
+      "assunto": [
+        "reforma-tributaria"
+      ],
+      "data": "2026-07-30",
+      "pasta_repo": "ato-conjunto-4-2026",
+      "situacao": "vigente",
+      "tags": [
+        "ibs",
+        "cbs",
+        "documentos-fiscais-eletronicos",
+        "rfb",
+        "cgibs"
+      ],
+      "no_repo": true
+    },
+    {
+      "codigo": "Ato Conjunto RFB/CGIBS 5/2026",
+      "titulo": "Regulamenta o Programa Nacional de Conformidade Tributária no ano de 2026",
+      "familia": "ATO CONJUNTO",
+      "ambito": "federal",
+      "assunto": [
+        "reforma-tributaria"
+      ],
+      "data": "2026-08-12",
+      "pasta_repo": "ato-conjunto-5-2026",
+      "situacao": "vigente",
+      "tags": [
+        "conformidade-tributaria",
+        "programa-nacional",
+        "rfb",
+        "cgibs"
+      ],
       "no_repo": true
     }
   ]
