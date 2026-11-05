@@ -1,8 +1,8 @@
 # Catalogo de Legislacao Tributaria, Trabalhista e Societaria
 
-> **Versao:** 1.0 - **Atualizado em:** 2026-10-02
+> **Versao:** 1.0 - **Atualizado em:** 2026-11-05
 
-> **Cobertura:** 23 pecas indexadas (23 com texto integral no repo)
+> **Cobertura:** 26 pecas indexadas (26 com texto integral no repo)
 
 Este catalogo complementa [`normas-contabeis.md`](./normas-contabeis.md), que cobre CFC/CPC.
 
@@ -31,6 +31,9 @@ Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 | LC 147/2014 | Altera a LC 123/2006 (Estatuto da ME e EPP) e demais leis — universalização do Simples Nacional e tratamento diferenciado | 2014-08-07 | [`lc-147-2014`](../lc-147-2014/) | [OK] |
 | Lei 13.606/2018 | Programa de Regularização Tributária Rural (PRR) e outras providências | 2018-01-09 | [`lei-13606-2018`](../lei-13606-2018/) | [OK] |
 | LC 224/2025 | Redução e critérios de concessão de incentivos e benefícios tributários federais; responsabilidade solidária em apostas de quota fixa; e alterações em LCs 101, 105 e 215 e Leis 7.689, 9.249, 13.756 e 8.137 | 2025 | [`lc-224-2025`](../lc-224-2025/) | [OK] |
+| LC 235/2026 | Regras para renúncias de receita (choque energético Oriente Médio) e exceções para Minerais Críticos, Fertilizantes e Copa do Mundo Feminina | 2026-08-28 | [`lc-235-2026`](../lc-235-2026/) | [OK] |
+| LC 236/2026 | Altera o CTN (Lei 5.172/1966) — normas gerais para solução de controvérsias, consensualidade e processo administrativo em matéria tributária e aduaneira | 2026-09-04 | [`lc-236-2026`](../lc-236-2026/) | [OK] |
+| Decreto 13.140/2026 | Dispensa de inscrição no CNPJ e de emissão de documentos fiscais eletrônicos aplicáveis ao nanoempreendedor e ao MEI (âmbito da União) | 2026-10-21 | [`decreto-13140-2026`](../decreto-13140-2026/) | [OK] |
 
 ## 3. IRPF
 
@@ -97,6 +100,9 @@ Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 | Decreto 13.075/2026 | Altera o Decreto 12.955/2026, que regulamenta a Contribuição Social sobre Bens e Serviços (CBS) | 2026-07-21 | [`decreto-13075-2026`](../decreto-13075-2026/) | [OK] |
 | Ato Conjunto RFB/CGIBS 4/2026 | Datas de início da obrigatoriedade de emissão dos documentos fiscais eletrônicos previstos no art. 112 dos regulamentos do IBS e da CBS | 2026-07-30 | [`ato-conjunto-4-2026`](../ato-conjunto-4-2026/) | [OK] |
 | Ato Conjunto RFB/CGIBS 5/2026 | Regulamenta o Programa Nacional de Conformidade Tributária no ano de 2026 | 2026-08-12 | [`ato-conjunto-5-2026`](../ato-conjunto-5-2026/) | [OK] |
+| LC 235/2026 | Regras para renúncias de receita (choque energético Oriente Médio) e exceções para Minerais Críticos, Fertilizantes e Copa do Mundo Feminina | 2026-08-28 | [`lc-235-2026`](../lc-235-2026/) | [OK] |
+| LC 236/2026 | Altera o CTN (Lei 5.172/1966) — normas gerais para solução de controvérsias, consensualidade e processo administrativo em matéria tributária e aduaneira | 2026-09-04 | [`lc-236-2026`](../lc-236-2026/) | [OK] |
+| Decreto 13.140/2026 | Dispensa de inscrição no CNPJ e de emissão de documentos fiscais eletrônicos aplicáveis ao nanoempreendedor e ao MEI (âmbito da União) | 2026-10-21 | [`decreto-13140-2026`](../decreto-13140-2026/) | [OK] |
 
 ---
 

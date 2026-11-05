@@ -1,7 +1,7 @@
 {
   "meta": {
     "versao": "1.0",
-    "atualizado_em": "2026-10-02",
+    "atualizado_em": "2026-11-05",
     "descricao": "Catálogo de legislação tributária, trabalhista e societária relevante para a prática contábil. Complementa o catálogo normas-contabeis.json (CFC/CPC).",
     "convencao": {
       "no_repo": "true quando o texto integral está indexado em chunks no repo legislacao-contabil; false quando ainda precisa ser convertido",
@@ -471,6 +471,68 @@
         "programa-nacional",
         "rfb",
         "cgibs"
+      ],
+      "no_repo": true
+    },
+    {
+      "codigo": "LC 235/2026",
+      "titulo": "Regras para renúncias de receita (choque energético Oriente Médio) e exceções para Minerais Críticos, Fertilizantes e Copa do Mundo Feminina",
+      "familia": "LC",
+      "ambito": "federal",
+      "assunto": [
+        "tributario-federal"
+      ],
+      "data": "2026-08-28",
+      "pasta_repo": "lc-235-2026",
+      "situacao": "vigente",
+      "tags": [
+        "renuncia-de-receita",
+        "minerais-criticos",
+        "fertilizantes",
+        "copa-feminina",
+        "beneficios-fiscais"
+      ],
+      "no_repo": true
+    },
+    {
+      "codigo": "LC 236/2026",
+      "titulo": "Altera o CTN (Lei 5.172/1966) — normas gerais para solução de controvérsias, consensualidade e processo administrativo em matéria tributária e aduaneira",
+      "familia": "LC",
+      "ambito": "federal",
+      "assunto": [
+        "tributario-federal",
+        "administrativo"
+      ],
+      "data": "2026-09-04",
+      "pasta_repo": "lc-236-2026",
+      "situacao": "vigente",
+      "tags": [
+        "ctn",
+        "processo-administrativo-tributario",
+        "dosimetria-multas",
+        "consensualidade",
+        "transacao-tributaria"
+      ],
+      "no_repo": true
+    },
+    {
+      "codigo": "Decreto 13.140/2026",
+      "titulo": "Dispensa de inscrição no CNPJ e de emissão de documentos fiscais eletrônicos aplicáveis ao nanoempreendedor e ao MEI (âmbito da União)",
+      "familia": "DECRETO",
+      "ambito": "federal",
+      "assunto": [
+        "simples-nacional",
+        "tributario-federal"
+      ],
+      "data": "2026-10-21",
+      "pasta_repo": "decreto-13140-2026",
+      "situacao": "vigente",
+      "tags": [
+        "nanoempreendedor",
+        "mei",
+        "cnpj",
+        "documentos-fiscais",
+        "simples-nacional"
       ],
       "no_repo": true
     }
