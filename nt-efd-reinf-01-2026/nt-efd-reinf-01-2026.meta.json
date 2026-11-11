@@ -1,0 +1,14 @@
+{
+  "tipo": "NT",
+  "numero": "01",
+  "ano": "2026",
+  "identificador": "NT EFD-Reinf 01/2026",
+  "ementa": "Ajustes operacionais nos leiautes da versão 2.1.2 da EFD-Reinf: alíquotas de contribuição previdenciária e RAT no evento R-2055.",
+  "fonte_arquivo": "nt-efd-reinf-01-2026.pdf",
+  "sha256_16": "d827692f54643eca",
+  "n_artigos": 0,
+  "n_artigos_vigentes": 0,
+  "n_redacoes_anteriores": 0,
+  "n_anexos_csv": 0,
+  "n_paginas": 2
+}

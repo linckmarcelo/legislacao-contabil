@@ -1,7 +1,7 @@
 {
   "meta": {
     "versao": "1.0",
-    "atualizado_em": "2026-11-05",
+    "atualizado_em": "2026-11-11",
     "descricao": "Catálogo de legislação tributária, trabalhista e societária relevante para a prática contábil. Complementa o catálogo normas-contabeis.json (CFC/CPC).",
     "convencao": {
       "no_repo": "true quando o texto integral está indexado em chunks no repo legislacao-contabil; false quando ainda precisa ser convertido",
@@ -36,7 +36,9 @@
       "DECRETO-LEI": "Decreto-Lei (regime constitucional anterior a 1988)",
       "IN": "Instrução Normativa (RFB, SRF, RFB/Cosit, etc)",
       "ATO CONJUNTO": "Ato Conjunto entre órgãos (RFB/PGFN, CGSN/RFB, etc)",
-      "PER": "Perguntas e Respostas oficiais (RFB)"
+      "PER": "Perguntas e Respostas oficiais (RFB)",
+      "NT": "Nota Técnica SPED",
+      "SC": "Solução de Consulta Cosit"
     }
   },
   "pecas": [
@@ -533,6 +535,148 @@
         "cnpj",
         "documentos-fiscais",
         "simples-nacional"
+      ],
+      "no_repo": true
+    },
+    {
+      "codigo": "IN RFB 2.043/2021",
+      "titulo": "Dispõe sobre a Escrituração Fiscal Digital de Retenções e Outras Informações Fiscais (EFD-Reinf)",
+      "familia": "IN",
+      "ambito": "federal",
+      "assunto": [
+        "tributario-federal",
+        "previdenciario"
+      ],
+      "data": "2021-08-12",
+      "pasta_repo": "in-rfb-2043-2021",
+      "situacao": "vigente",
+      "tags": [
+        "efd-reinf",
+        "reinf",
+        "retencoes",
+        "obrigacao-acessoria",
+        "sped"
+      ],
+      "no_repo": true
+    },
+    {
+      "codigo": "IN RFB 2.163/2023",
+      "titulo": "Altera a IN RFB 2.043/2021 — obrigatoriedade de lucros e dividendos na EFD-Reinf",
+      "familia": "IN",
+      "ambito": "federal",
+      "assunto": [
+        "tributario-federal",
+        "irpj"
+      ],
+      "data": "2023-10-10",
+      "pasta_repo": "in-rfb-2163-2023",
+      "situacao": "vigente",
+      "tags": [
+        "efd-reinf",
+        "lucros-dividendos",
+        "r-4010",
+        "obrigacao-acessoria"
+      ],
+      "no_repo": true
+    },
+    {
+      "codigo": "IN RFB 2.181/2024",
+      "titulo": "Altera a IN RFB 2.043/2021 — posterga substituição da DIRF para 01/01/2025",
+      "familia": "IN",
+      "ambito": "federal",
+      "assunto": [
+        "tributario-federal"
+      ],
+      "data": "2024-03-13",
+      "pasta_repo": "in-rfb-2181-2024",
+      "situacao": "vigente",
+      "tags": [
+        "efd-reinf",
+        "lucros-dividendos",
+        "dirf",
+        "prazo"
+      ],
+      "no_repo": true
+    },
+    {
+      "codigo": "NT EFD-Reinf 04/2025",
+      "titulo": "Ajustes nas tabelas v2.1.2 da EFD-Reinf: novos CNR 10011, 11008, 12001",
+      "familia": "NT",
+      "ambito": "federal",
+      "assunto": [
+        "tributario-federal"
+      ],
+      "data": "2025",
+      "pasta_repo": "nt-efd-reinf-04-2025",
+      "situacao": "vigente",
+      "tags": [
+        "efd-reinf",
+        "nota-tecnica",
+        "cnr",
+        "sucumbencia",
+        "lucros-dividendos"
+      ],
+      "no_repo": true
+    },
+    {
+      "codigo": "NT EFD-Reinf 01/2026",
+      "titulo": "Ajustes operacionais nos leiautes v2.1.2 da EFD-Reinf: alíquotas R-2055",
+      "familia": "NT",
+      "ambito": "federal",
+      "assunto": [
+        "tributario-federal"
+      ],
+      "data": "2026",
+      "pasta_repo": "nt-efd-reinf-01-2026",
+      "situacao": "vigente",
+      "tags": [
+        "efd-reinf",
+        "nota-tecnica",
+        "leiaute",
+        "v2.1.2"
+      ],
+      "no_repo": true
+    },
+    {
+      "codigo": "NT EFD-Reinf 02/2026",
+      "titulo": "Cria tpIsencao 12, altera R-4010 para lucros/dividendos Lei 15.270/2025",
+      "familia": "NT",
+      "ambito": "federal",
+      "assunto": [
+        "tributario-federal",
+        "irpj"
+      ],
+      "data": "2026",
+      "pasta_repo": "nt-efd-reinf-02-2026",
+      "situacao": "vigente",
+      "tags": [
+        "efd-reinf",
+        "nota-tecnica",
+        "tpIsencao",
+        "lucros-dividendos",
+        "lei-15270",
+        "r-4010",
+        "xsd"
+      ],
+      "no_repo": true
+    },
+    {
+      "codigo": "SC Cosit 125/2025",
+      "titulo": "Obrigatoriedade de informar lucros e dividendos na EFD-Reinf para beneficiários no exterior",
+      "familia": "SC",
+      "ambito": "federal",
+      "assunto": [
+        "tributario-federal"
+      ],
+      "data": "2025-07-28",
+      "pasta_repo": "sc-cosit-125-2025",
+      "situacao": "vigente",
+      "tags": [
+        "efd-reinf",
+        "solucao-consulta",
+        "lucros-dividendos",
+        "exterior",
+        "r-4010"
       ],
       "no_repo": true
     }

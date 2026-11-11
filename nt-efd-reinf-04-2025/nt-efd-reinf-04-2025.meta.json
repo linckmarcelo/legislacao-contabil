@@ -1,0 +1,14 @@
+{
+  "tipo": "NT",
+  "numero": "04",
+  "ano": "2025",
+  "identificador": "NT EFD-Reinf 04/2025",
+  "ementa": "Ajustes nas tabelas da versão 2.1.2 da EFD-Reinf: novos CNR 10011 (honorários sucumbência) e 11008 (Justiça do Trabalho), atualização do CNR 12001 com IRRF.",
+  "fonte_arquivo": "nt-efd-reinf-04-2025.pdf",
+  "sha256_16": "5d39926846a4b34c",
+  "n_artigos": 0,
+  "n_artigos_vigentes": 0,
+  "n_redacoes_anteriores": 0,
+  "n_anexos_csv": 7,
+  "n_paginas": 2
+}

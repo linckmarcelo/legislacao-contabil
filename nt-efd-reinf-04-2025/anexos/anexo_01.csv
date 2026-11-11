@@ -1,0 +1,15 @@
+"Cód. da natureza do
+rendimento",col1,col2,col3,col4,col5,Rendim.,País,País,col9,col10,Início da,Fim da
+,Natureza de rendimento,FCI,13o,RRA,Deduções,,,,Declarante,Tributo,,
+,,,,,,isento,exterior PF,exterior PJ,,,Vigência,Vigência
+,,,,,,,,,,,,
+Grupo 10 - Rendimento do Trabalho e da Previdência Social,,,,,,,,,,,,
+10011,Honorários advocatícios de sucumbência recebidos pelos advogados e,,,,,,,,,,,
+,,Não,Não,Sim,"1, 5, 7, 8","2, 3, 4, 8, 99",F,N/A,PJ,IR,01/01/2025,
+,procuradores públicos municipais e estaduais.,,,,,,,,,,,
+,,,,,,,,,,,,
+Grupo 11 - Rendimento decorrente de Decisão Judicial,,,,,,,,,,,,
+11008,Decorrente de Decisão da Justiça do Trabalho - IRRF pertencente aos,,,,,,,,,,,
+,,Não,Sim,Sim,"1, 5, 7, 8","10, 99",F,F,PJ,IR,01/01/2025,
+,Estados/Municípios,,,,,,,,,,,
+,,,,,,,,,,,,

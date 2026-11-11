@@ -1,0 +1,14 @@
+{
+  "tipo": "NT",
+  "numero": "02",
+  "ano": "2026",
+  "identificador": "NT EFD-Reinf 02/2026",
+  "ementa": "Cria tpIsencao 12 e altera R-4010 para lucros e dividendos conforme Lei 15.270/2025. XSD do evento R-4010 atualizado em 14/05/2026.",
+  "fonte_arquivo": "nt-efd-reinf-02-2026.pdf",
+  "sha256_16": "5e39d987baa08ee8",
+  "n_artigos": 0,
+  "n_artigos_vigentes": 0,
+  "n_redacoes_anteriores": 0,
+  "n_anexos_csv": 0,
+  "n_paginas": 2
+}
