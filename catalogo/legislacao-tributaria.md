@@ -2,7 +2,7 @@
 
 > **Versao:** 1.0 - **Atualizado em:** 2026-11-11
 
-> **Cobertura:** 33 pecas indexadas (33 com texto integral no repo)
+> **Cobertura:** 41 pecas indexadas (41 com texto integral no repo)
 
 Este catalogo complementa [`normas-contabeis.md`](./normas-contabeis.md), que cobre CFC/CPC.
 
@@ -27,10 +27,18 @@ Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 | Codigo | Titulo | Data | Pasta no repo | Status |
 |---|---|---|---|---|
 | Lei 5.172/1966 | Código Tributário Nacional (CTN) | 1966-10-25 | [`lei-5172-1966`](../lei-5172-1966/) | [OK] |
+| Lei 9.718/1998 | Legislação Tributária Federal — PIS/COFINS cumulativo | 1998-11-27 | [`lei-9718-1998`](../lei-9718-1998/) | [OK] |
+| Lei 10.485/2002 | PIS/COFINS — Veículos, autopeças e máquinas | 2002-07-03 | [`lei-10485-2002`](../lei-10485-2002/) | [OK] |
+| Lei 10.637/2002 | PIS não-cumulativo | 2002-12-30 | [`lei-10637-2002`](../lei-10637-2002/) | [OK] |
+| Lei 10.833/2003 | COFINS não-cumulativo | 2003-12-29 | [`lei-10833-2003`](../lei-10833-2003/) | [OK] |
+| Lei 10.925/2004 | PIS/COFINS — Alíquotas reduzidas agro, fertilizantes e defensivos | 2004-07-23 | [`lei-10925-2004`](../lei-10925-2004/) | [OK] |
+| Lei 11.033/2004 | REPES/RECAP — Regime tributário mercado financeiro e portuário | 2004-12-21 | [`lei-11033-2004`](../lei-11033-2004/) | [OK] |
 | LC 123/2006 | Estatuto Nacional da Microempresa e da Empresa de Pequeno Porte (Simples Nacional) | 2006-12-14 | [`lc-123-2006`](../lc-123-2006/) | [OK] |
 | LC 147/2014 | Altera a LC 123/2006 (Estatuto da ME e EPP) e demais leis — universalização do Simples Nacional e tratamento diferenciado | 2014-08-07 | [`lc-147-2014`](../lc-147-2014/) | [OK] |
 | Lei 13.606/2018 | Programa de Regularização Tributária Rural (PRR) e outras providências | 2018-01-09 | [`lei-13606-2018`](../lei-13606-2018/) | [OK] |
+| IN RFB 1.911/2019 | Regulamenta PIS/COFINS (consolidação anterior, revogada pela 2.121) | 2019-10-11 | [`in-rfb-1911-2019`](../in-rfb-1911-2019/) | [REV] |
 | IN RFB 2.043/2021 | Dispõe sobre a Escrituração Fiscal Digital de Retenções e Outras Informações Fiscais (EFD-Reinf) | 2021-08-12 | [`in-rfb-2043-2021`](../in-rfb-2043-2021/) | [OK] |
+| IN RFB 2.121/2022 | Consolida normas PIS/COFINS (norma-mãe vigente) | 2022-12-15 | [`in-rfb-2121-2022`](../in-rfb-2121-2022/) | [OK] |
 | IN RFB 2.163/2023 | Altera a IN RFB 2.043/2021 — obrigatoriedade de lucros e dividendos na EFD-Reinf | 2023-10-10 | [`in-rfb-2163-2023`](../in-rfb-2163-2023/) | [OK] |
 | IN RFB 2.181/2024 | Altera a IN RFB 2.043/2021 — posterga substituição da DIRF para 01/01/2025 | 2024-03-13 | [`in-rfb-2181-2024`](../in-rfb-2181-2024/) | [OK] |
 | LC 224/2025 | Redução e critérios de concessão de incentivos e benefícios tributários federais; responsabilidade solidária em apostas de quota fixa; e alterações em LCs 101, 105 e 215 e Leis 7.689, 9.249, 13.756 e 8.137 | 2025 | [`lc-224-2025`](../lc-224-2025/) | [OK] |
@@ -90,13 +98,21 @@ Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 | Lei 6.404/1976 | Lei das Sociedades por Ações | 1976-12-15 | [`lei-6404-1976`](../lei-6404-1976/) | [OK] |
 | Lei 8.212/1991 | Lei Orgânica da Seguridade Social (Custeio da Previdência) | 1991-07-24 | [`lei-8212-1991`](../lei-8212-1991/) | [OK] |
 | Lei 9.250/1995 | Alterações na legislação do Imposto de Renda das Pessoas Físicas | 1995-12-26 | [`lei-9250-1995`](../lei-9250-1995/) | [OK] |
+| Lei 9.718/1998 | Legislação Tributária Federal — PIS/COFINS cumulativo | 1998-11-27 | [`lei-9718-1998`](../lei-9718-1998/) | [OK] |
 | Lei 10.256/2001 | Contribuição previdenciária do empregador rural pessoa física e jurídica | 2001-07-09 | [`lei-10256-2001`](../lei-10256-2001/) | [OK] |
 | IN SRF 83/2001 | Tributação dos rendimentos da atividade rural das pessoas físicas | 2001-10-11 | [`in-83-2001`](../in-83-2001/) | [OK] |
+| Lei 10.485/2002 | PIS/COFINS — Veículos, autopeças e máquinas | 2002-07-03 | [`lei-10485-2002`](../lei-10485-2002/) | [OK] |
+| Lei 10.637/2002 | PIS não-cumulativo | 2002-12-30 | [`lei-10637-2002`](../lei-10637-2002/) | [OK] |
+| Lei 10.833/2003 | COFINS não-cumulativo | 2003-12-29 | [`lei-10833-2003`](../lei-10833-2003/) | [OK] |
+| Lei 10.925/2004 | PIS/COFINS — Alíquotas reduzidas agro, fertilizantes e defensivos | 2004-07-23 | [`lei-10925-2004`](../lei-10925-2004/) | [OK] |
+| Lei 11.033/2004 | REPES/RECAP — Regime tributário mercado financeiro e portuário | 2004-12-21 | [`lei-11033-2004`](../lei-11033-2004/) | [OK] |
 | LC 123/2006 | Estatuto Nacional da Microempresa e da Empresa de Pequeno Porte (Simples Nacional) | 2006-12-14 | [`lc-123-2006`](../lc-123-2006/) | [OK] |
 | LC 147/2014 | Altera a LC 123/2006 (Estatuto da ME e EPP) e demais leis — universalização do Simples Nacional e tratamento diferenciado | 2014-08-07 | [`lc-147-2014`](../lc-147-2014/) | [OK] |
 | Lei 13.606/2018 | Programa de Regularização Tributária Rural (PRR) e outras providências | 2018-01-09 | [`lei-13606-2018`](../lei-13606-2018/) | [OK] |
+| IN RFB 1.911/2019 | Regulamenta PIS/COFINS (consolidação anterior, revogada pela 2.121) | 2019-10-11 | [`in-rfb-1911-2019`](../in-rfb-1911-2019/) | [REV] |
 | IN RFB 2.043/2021 | Dispõe sobre a Escrituração Fiscal Digital de Retenções e Outras Informações Fiscais (EFD-Reinf) | 2021-08-12 | [`in-rfb-2043-2021`](../in-rfb-2043-2021/) | [OK] |
 | IN RFB 2.110/2022 | Normas gerais de tributação previdenciária e de arrecadação das contribuições sociais destinadas à Previdência Social | 2022-10-17 | [`in-2110-2022`](../in-2110-2022/) | [OK] |
+| IN RFB 2.121/2022 | Consolida normas PIS/COFINS (norma-mãe vigente) | 2022-12-15 | [`in-rfb-2121-2022`](../in-rfb-2121-2022/) | [OK] |
 | IN RFB 2.163/2023 | Altera a IN RFB 2.043/2021 — obrigatoriedade de lucros e dividendos na EFD-Reinf | 2023-10-10 | [`in-rfb-2163-2023`](../in-rfb-2163-2023/) | [OK] |
 | IN RFB 2.181/2024 | Altera a IN RFB 2.043/2021 — posterga substituição da DIRF para 01/01/2025 | 2024-03-13 | [`in-rfb-2181-2024`](../in-rfb-2181-2024/) | [OK] |
 | LC 224/2025 | Redução e critérios de concessão de incentivos e benefícios tributários federais; responsabilidade solidária em apostas de quota fixa; e alterações em LCs 101, 105 e 215 e Leis 7.689, 9.249, 13.756 e 8.137 | 2025 | [`lc-224-2025`](../lc-224-2025/) | [OK] |

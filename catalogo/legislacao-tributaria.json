@@ -151,6 +151,25 @@
       "no_repo": true
     },
     {
+      "codigo": "Lei 9.718/1998",
+      "titulo": "Legislação Tributária Federal — PIS/COFINS cumulativo",
+      "familia": "LEI",
+      "ambito": "federal",
+      "assunto": [
+        "tributario-federal"
+      ],
+      "data": "1998-11-27",
+      "pasta_repo": "lei-9718-1998",
+      "situacao": "vigente",
+      "tags": [
+        "pis",
+        "cofins",
+        "cumulativo",
+        "efd-contribuicoes"
+      ],
+      "no_repo": true
+    },
+    {
       "codigo": "Lei 10.256/2001",
       "titulo": "Contribuição previdenciária do empregador rural pessoa física e jurídica",
       "familia": "LEI",
@@ -185,6 +204,107 @@
         "atividade-rural",
         "irpf",
         "produtor-rural"
+      ],
+      "no_repo": true
+    },
+    {
+      "codigo": "Lei 10.485/2002",
+      "titulo": "PIS/COFINS — Veículos, autopeças e máquinas",
+      "familia": "LEI",
+      "ambito": "federal",
+      "assunto": [
+        "tributario-federal"
+      ],
+      "data": "2002-07-03",
+      "pasta_repo": "lei-10485-2002",
+      "situacao": "vigente",
+      "tags": [
+        "pis",
+        "cofins",
+        "veiculos",
+        "autopecas",
+        "efd-contribuicoes"
+      ],
+      "no_repo": true
+    },
+    {
+      "codigo": "Lei 10.637/2002",
+      "titulo": "PIS não-cumulativo",
+      "familia": "LEI",
+      "ambito": "federal",
+      "assunto": [
+        "tributario-federal"
+      ],
+      "data": "2002-12-30",
+      "pasta_repo": "lei-10637-2002",
+      "situacao": "vigente",
+      "tags": [
+        "pis",
+        "nao-cumulativo",
+        "credito",
+        "efd-contribuicoes"
+      ],
+      "no_repo": true
+    },
+    {
+      "codigo": "Lei 10.833/2003",
+      "titulo": "COFINS não-cumulativo",
+      "familia": "LEI",
+      "ambito": "federal",
+      "assunto": [
+        "tributario-federal"
+      ],
+      "data": "2003-12-29",
+      "pasta_repo": "lei-10833-2003",
+      "situacao": "vigente",
+      "tags": [
+        "cofins",
+        "nao-cumulativo",
+        "credito",
+        "efd-contribuicoes"
+      ],
+      "no_repo": true
+    },
+    {
+      "codigo": "Lei 10.925/2004",
+      "titulo": "PIS/COFINS — Alíquotas reduzidas agro, fertilizantes e defensivos",
+      "familia": "LEI",
+      "ambito": "federal",
+      "assunto": [
+        "tributario-federal"
+      ],
+      "data": "2004-07-23",
+      "pasta_repo": "lei-10925-2004",
+      "situacao": "vigente",
+      "tags": [
+        "pis",
+        "cofins",
+        "agro",
+        "aliquota-reduzida",
+        "fertilizantes",
+        "efd-contribuicoes"
+      ],
+      "no_repo": true
+    },
+    {
+      "codigo": "Lei 11.033/2004",
+      "titulo": "REPES/RECAP — Regime tributário mercado financeiro e portuário",
+      "familia": "LEI",
+      "ambito": "federal",
+      "assunto": [
+        "tributario-federal"
+      ],
+      "data": "2004-12-21",
+      "pasta_repo": "lei-11033-2004",
+      "situacao": "vigente",
+      "tags": [
+        "pis",
+        "cofins",
+        "repes",
+        "recap",
+        "reporto",
+        "mercado-financeiro",
+        "efd-contribuicoes"
       ],
       "no_repo": true
     },
@@ -251,6 +371,46 @@
       "no_repo": true
     },
     {
+      "codigo": "IN RFB 1.911/2019",
+      "titulo": "Regulamenta PIS/COFINS (consolidação anterior, revogada pela 2.121)",
+      "familia": "IN",
+      "ambito": "federal",
+      "assunto": [
+        "tributario-federal"
+      ],
+      "data": "2019-10-11",
+      "pasta_repo": "in-rfb-1911-2019",
+      "situacao": "revogada",
+      "tags": [
+        "pis",
+        "cofins",
+        "consolidacao-anterior",
+        "efd-contribuicoes"
+      ],
+      "no_repo": true
+    },
+    {
+      "codigo": "IN RFB 2.043/2021",
+      "titulo": "Dispõe sobre a Escrituração Fiscal Digital de Retenções e Outras Informações Fiscais (EFD-Reinf)",
+      "familia": "IN",
+      "ambito": "federal",
+      "assunto": [
+        "tributario-federal",
+        "previdenciario"
+      ],
+      "data": "2021-08-12",
+      "pasta_repo": "in-rfb-2043-2021",
+      "situacao": "vigente",
+      "tags": [
+        "efd-reinf",
+        "reinf",
+        "retencoes",
+        "obrigacao-acessoria",
+        "sped"
+      ],
+      "no_repo": true
+    },
+    {
       "codigo": "IN RFB 2.110/2022",
       "titulo": "Normas gerais de tributação previdenciária e de arrecadação das contribuições sociais destinadas à Previdência Social",
       "familia": "IN",
@@ -265,6 +425,65 @@
         "previdencia",
         "contribuicao-social",
         "in-rfb"
+      ],
+      "no_repo": true
+    },
+    {
+      "codigo": "IN RFB 2.121/2022",
+      "titulo": "Consolida normas PIS/COFINS (norma-mãe vigente)",
+      "familia": "IN",
+      "ambito": "federal",
+      "assunto": [
+        "tributario-federal"
+      ],
+      "data": "2022-12-15",
+      "pasta_repo": "in-rfb-2121-2022",
+      "situacao": "vigente",
+      "tags": [
+        "pis",
+        "cofins",
+        "consolidacao",
+        "norma-mae",
+        "efd-contribuicoes"
+      ],
+      "no_repo": true
+    },
+    {
+      "codigo": "IN RFB 2.163/2023",
+      "titulo": "Altera a IN RFB 2.043/2021 — obrigatoriedade de lucros e dividendos na EFD-Reinf",
+      "familia": "IN",
+      "ambito": "federal",
+      "assunto": [
+        "tributario-federal",
+        "irpj"
+      ],
+      "data": "2023-10-10",
+      "pasta_repo": "in-rfb-2163-2023",
+      "situacao": "vigente",
+      "tags": [
+        "efd-reinf",
+        "lucros-dividendos",
+        "r-4010",
+        "obrigacao-acessoria"
+      ],
+      "no_repo": true
+    },
+    {
+      "codigo": "IN RFB 2.181/2024",
+      "titulo": "Altera a IN RFB 2.043/2021 — posterga substituição da DIRF para 01/01/2025",
+      "familia": "IN",
+      "ambito": "federal",
+      "assunto": [
+        "tributario-federal"
+      ],
+      "data": "2024-03-13",
+      "pasta_repo": "in-rfb-2181-2024",
+      "situacao": "vigente",
+      "tags": [
+        "efd-reinf",
+        "lucros-dividendos",
+        "dirf",
+        "prazo"
       ],
       "no_repo": true
     },
@@ -326,6 +545,26 @@
       "no_repo": true
     },
     {
+      "codigo": "NT EFD-Reinf 04/2025",
+      "titulo": "Ajustes nas tabelas v2.1.2 da EFD-Reinf: novos CNR 10011, 11008, 12001",
+      "familia": "NT",
+      "ambito": "federal",
+      "assunto": [
+        "tributario-federal"
+      ],
+      "data": "2025",
+      "pasta_repo": "nt-efd-reinf-04-2025",
+      "situacao": "vigente",
+      "tags": [
+        "efd-reinf",
+        "nota-tecnica",
+        "cnr",
+        "sucumbencia",
+        "lucros-dividendos"
+      ],
+      "no_repo": true
+    },
+    {
       "codigo": "LC 214/2025",
       "titulo": "Regulamentação da Reforma Tributária — IBS, CBS e Imposto Seletivo",
       "familia": "LC",
@@ -342,6 +581,26 @@
         "ibs",
         "cbs",
         "imposto-seletivo"
+      ],
+      "no_repo": true
+    },
+    {
+      "codigo": "SC Cosit 125/2025",
+      "titulo": "Obrigatoriedade de informar lucros e dividendos na EFD-Reinf para beneficiários no exterior",
+      "familia": "SC",
+      "ambito": "federal",
+      "assunto": [
+        "tributario-federal"
+      ],
+      "data": "2025-07-28",
+      "pasta_repo": "sc-cosit-125-2025",
+      "situacao": "vigente",
+      "tags": [
+        "efd-reinf",
+        "solucao-consulta",
+        "lucros-dividendos",
+        "exterior",
+        "r-4010"
       ],
       "no_repo": true
     },
@@ -416,6 +675,48 @@
         "irpf",
         "perguntas-respostas",
         "2026"
+      ],
+      "no_repo": true
+    },
+    {
+      "codigo": "NT EFD-Reinf 01/2026",
+      "titulo": "Ajustes operacionais nos leiautes v2.1.2 da EFD-Reinf: alíquotas R-2055",
+      "familia": "NT",
+      "ambito": "federal",
+      "assunto": [
+        "tributario-federal"
+      ],
+      "data": "2026",
+      "pasta_repo": "nt-efd-reinf-01-2026",
+      "situacao": "vigente",
+      "tags": [
+        "efd-reinf",
+        "nota-tecnica",
+        "leiaute",
+        "v2.1.2"
+      ],
+      "no_repo": true
+    },
+    {
+      "codigo": "NT EFD-Reinf 02/2026",
+      "titulo": "Cria tpIsencao 12, altera R-4010 para lucros/dividendos Lei 15.270/2025",
+      "familia": "NT",
+      "ambito": "federal",
+      "assunto": [
+        "tributario-federal",
+        "irpj"
+      ],
+      "data": "2026",
+      "pasta_repo": "nt-efd-reinf-02-2026",
+      "situacao": "vigente",
+      "tags": [
+        "efd-reinf",
+        "nota-tecnica",
+        "tpIsencao",
+        "lucros-dividendos",
+        "lei-15270",
+        "r-4010",
+        "xsd"
       ],
       "no_repo": true
     },
@@ -535,148 +836,6 @@
         "cnpj",
         "documentos-fiscais",
         "simples-nacional"
-      ],
-      "no_repo": true
-    },
-    {
-      "codigo": "IN RFB 2.043/2021",
-      "titulo": "Dispõe sobre a Escrituração Fiscal Digital de Retenções e Outras Informações Fiscais (EFD-Reinf)",
-      "familia": "IN",
-      "ambito": "federal",
-      "assunto": [
-        "tributario-federal",
-        "previdenciario"
-      ],
-      "data": "2021-08-12",
-      "pasta_repo": "in-rfb-2043-2021",
-      "situacao": "vigente",
-      "tags": [
-        "efd-reinf",
-        "reinf",
-        "retencoes",
-        "obrigacao-acessoria",
-        "sped"
-      ],
-      "no_repo": true
-    },
-    {
-      "codigo": "IN RFB 2.163/2023",
-      "titulo": "Altera a IN RFB 2.043/2021 — obrigatoriedade de lucros e dividendos na EFD-Reinf",
-      "familia": "IN",
-      "ambito": "federal",
-      "assunto": [
-        "tributario-federal",
-        "irpj"
-      ],
-      "data": "2023-10-10",
-      "pasta_repo": "in-rfb-2163-2023",
-      "situacao": "vigente",
-      "tags": [
-        "efd-reinf",
-        "lucros-dividendos",
-        "r-4010",
-        "obrigacao-acessoria"
-      ],
-      "no_repo": true
-    },
-    {
-      "codigo": "IN RFB 2.181/2024",
-      "titulo": "Altera a IN RFB 2.043/2021 — posterga substituição da DIRF para 01/01/2025",
-      "familia": "IN",
-      "ambito": "federal",
-      "assunto": [
-        "tributario-federal"
-      ],
-      "data": "2024-03-13",
-      "pasta_repo": "in-rfb-2181-2024",
-      "situacao": "vigente",
-      "tags": [
-        "efd-reinf",
-        "lucros-dividendos",
-        "dirf",
-        "prazo"
-      ],
-      "no_repo": true
-    },
-    {
-      "codigo": "NT EFD-Reinf 04/2025",
-      "titulo": "Ajustes nas tabelas v2.1.2 da EFD-Reinf: novos CNR 10011, 11008, 12001",
-      "familia": "NT",
-      "ambito": "federal",
-      "assunto": [
-        "tributario-federal"
-      ],
-      "data": "2025",
-      "pasta_repo": "nt-efd-reinf-04-2025",
-      "situacao": "vigente",
-      "tags": [
-        "efd-reinf",
-        "nota-tecnica",
-        "cnr",
-        "sucumbencia",
-        "lucros-dividendos"
-      ],
-      "no_repo": true
-    },
-    {
-      "codigo": "NT EFD-Reinf 01/2026",
-      "titulo": "Ajustes operacionais nos leiautes v2.1.2 da EFD-Reinf: alíquotas R-2055",
-      "familia": "NT",
-      "ambito": "federal",
-      "assunto": [
-        "tributario-federal"
-      ],
-      "data": "2026",
-      "pasta_repo": "nt-efd-reinf-01-2026",
-      "situacao": "vigente",
-      "tags": [
-        "efd-reinf",
-        "nota-tecnica",
-        "leiaute",
-        "v2.1.2"
-      ],
-      "no_repo": true
-    },
-    {
-      "codigo": "NT EFD-Reinf 02/2026",
-      "titulo": "Cria tpIsencao 12, altera R-4010 para lucros/dividendos Lei 15.270/2025",
-      "familia": "NT",
-      "ambito": "federal",
-      "assunto": [
-        "tributario-federal",
-        "irpj"
-      ],
-      "data": "2026",
-      "pasta_repo": "nt-efd-reinf-02-2026",
-      "situacao": "vigente",
-      "tags": [
-        "efd-reinf",
-        "nota-tecnica",
-        "tpIsencao",
-        "lucros-dividendos",
-        "lei-15270",
-        "r-4010",
-        "xsd"
-      ],
-      "no_repo": true
-    },
-    {
-      "codigo": "SC Cosit 125/2025",
-      "titulo": "Obrigatoriedade de informar lucros e dividendos na EFD-Reinf para beneficiários no exterior",
-      "familia": "SC",
-      "ambito": "federal",
-      "assunto": [
-        "tributario-federal"
-      ],
-      "data": "2025-07-28",
-      "pasta_repo": "sc-cosit-125-2025",
-      "situacao": "vigente",
-      "tags": [
-        "efd-reinf",
-        "solucao-consulta",
-        "lucros-dividendos",
-        "exterior",
-        "r-4010"
       ],
       "no_repo": true
     }
