@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "descricao": "Base de legislacao contabil/tributaria para consulta pela skill contador (RAG).",
-  "gerado_em": "2026-09-13",
-  "total_normas": 21,
+  "gerado_em": "2026-11-12",
+  "total_normas": 51,
   "normas": [
     {
       "identificador": "Ato Conjunto 1/2025",
@@ -65,6 +65,166 @@
       }
     },
     {
+      "identificador": "CPC 00 (R2)",
+      "slug": "cpc-00",
+      "tipo": "CPC",
+      "numero": "00",
+      "ano": null,
+      "ementa": null,
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": null,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 11,
+      "sha256_16": "acb69b58ab30db63",
+      "arquivos": {
+        "markdown": "cpc-00/cpc-00.md",
+        "chunks": "cpc-00/cpc-00.chunks.jsonl",
+        "meta": "cpc-00/cpc-00.meta.json",
+        "anexos_dir": "cpc-00/anexos/"
+      }
+    },
+    {
+      "identificador": "CPC 06 (R2)",
+      "slug": "cpc-06",
+      "tipo": "CPC",
+      "numero": "06",
+      "ano": null,
+      "ementa": null,
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": null,
+      "n_redacoes_anteriores": 2,
+      "n_anexos": 1,
+      "sha256_16": "ecbb32461fc09034",
+      "arquivos": {
+        "markdown": "cpc-06/cpc-06.md",
+        "chunks": "cpc-06/cpc-06.chunks.jsonl",
+        "meta": "cpc-06/cpc-06.meta.json",
+        "anexos_dir": "cpc-06/anexos/"
+      }
+    },
+    {
+      "identificador": "CPC 26 (R1)",
+      "slug": "cpc-26",
+      "tipo": "CPC",
+      "numero": "26",
+      "ano": null,
+      "ementa": null,
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": null,
+      "n_redacoes_anteriores": 36,
+      "n_anexos": 2,
+      "sha256_16": "e13631496a38670b",
+      "arquivos": {
+        "markdown": "cpc-26/cpc-26.md",
+        "chunks": "cpc-26/cpc-26.chunks.jsonl",
+        "meta": "cpc-26/cpc-26.meta.json",
+        "anexos_dir": "cpc-26/anexos/"
+      }
+    },
+    {
+      "identificador": "CPC 27",
+      "slug": "cpc-27",
+      "tipo": "CPC",
+      "numero": "27",
+      "ano": null,
+      "ementa": "O objetivo deste Pronunciamento é estabelecer o tratamento contábil para ativos imobilizados, de forma que os usuários das demonstrações contábeis possam discernir a informação sobre o investimento da entidade em seus ativos imobilizados, bem como suas mutações. Os principais pontos a serem considerados na contabilização do ativo imobilizado são o reconhecimento dos ativos, a determinação dos seus valores contábeis e os valores de depreciação e perdas por desvalorização a serem reconhecidas em r",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": null,
+      "n_redacoes_anteriores": 11,
+      "n_anexos": 0,
+      "sha256_16": "0fa0400a65a27efa",
+      "arquivos": {
+        "markdown": "cpc-27/cpc-27.md",
+        "chunks": "cpc-27/cpc-27.chunks.jsonl",
+        "meta": "cpc-27/cpc-27.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
+      "identificador": "CPC 32",
+      "slug": "cpc-32",
+      "tipo": "CPC",
+      "numero": "32",
+      "ano": null,
+      "ementa": "Este Pronunciamento aplica-se à contabilização de tributos sobre o lucro.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": null,
+      "n_redacoes_anteriores": 36,
+      "n_anexos": 6,
+      "sha256_16": "35d38f77f5f1be46",
+      "arquivos": {
+        "markdown": "cpc-32/cpc-32.md",
+        "chunks": "cpc-32/cpc-32.chunks.jsonl",
+        "meta": "cpc-32/cpc-32.meta.json",
+        "anexos_dir": "cpc-32/anexos/"
+      }
+    },
+    {
+      "identificador": "CPC 46",
+      "slug": "cpc-46",
+      "tipo": "CPC",
+      "numero": "46",
+      "ano": null,
+      "ementa": "O objetivo deste Pronunciamento é: (a) definir valor justo; (b) estabelecer em um único Pronunciamento a estrutura para a mensuração do valor justo; e (c) estabelecer divulgações sobre mensurações do valor justo.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": null,
+      "n_redacoes_anteriores": 3,
+      "n_anexos": 2,
+      "sha256_16": "462ed34845f0b12b",
+      "arquivos": {
+        "markdown": "cpc-46/cpc-46.md",
+        "chunks": "cpc-46/cpc-46.chunks.jsonl",
+        "meta": "cpc-46/cpc-46.meta.json",
+        "anexos_dir": "cpc-46/anexos/"
+      }
+    },
+    {
+      "identificador": "CPC 47",
+      "slug": "cpc-47",
+      "tipo": "CPC",
+      "numero": "47",
+      "ano": null,
+      "ementa": "O objetivo deste pronunciamento é estabelecer os princípios que a entidade deve aplicar para apresentar informações úteis aos usuários de demonstrações contábeis sobre a natureza, o valor, a época e a incerteza de receitas e fluxos de caixa provenientes de contrato com cliente.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": null,
+      "n_redacoes_anteriores": 5,
+      "n_anexos": 0,
+      "sha256_16": "54974979794e5af5",
+      "arquivos": {
+        "markdown": "cpc-47/cpc-47.md",
+        "chunks": "cpc-47/cpc-47.chunks.jsonl",
+        "meta": "cpc-47/cpc-47.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
+      "identificador": "CPC 48",
+      "slug": "cpc-48",
+      "tipo": "CPC",
+      "numero": "48",
+      "ano": null,
+      "ementa": null,
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": null,
+      "n_redacoes_anteriores": 6,
+      "n_anexos": 1,
+      "sha256_16": "22fd4e8df8ff2c93",
+      "arquivos": {
+        "markdown": "cpc-48/cpc-48.md",
+        "chunks": "cpc-48/cpc-48.chunks.jsonl",
+        "meta": "cpc-48/cpc-48.meta.json",
+        "anexos_dir": "cpc-48/anexos/"
+      }
+    },
+    {
       "identificador": "Decreto 12955/2026",
       "slug": "decreto-12955-2026",
       "tipo": "Decreto",
@@ -101,6 +261,26 @@
         "markdown": "decreto-13075-2026/decreto-13075-2026.md",
         "chunks": "decreto-13075-2026/decreto-13075-2026.chunks.jsonl",
         "meta": "decreto-13075-2026/decreto-13075-2026.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
+      "identificador": "Decreto 13140/2026",
+      "slug": "decreto-13140-2026",
+      "tipo": "Decreto",
+      "numero": "13140",
+      "ano": "2026",
+      "ementa": "Dispõe, no âmbito da União, sobre as hipóteses de dispensa de inscrição no Cadastro Nacional da Pessoa Jurídica – CNPJ e de emissão de documentos fiscais eletrônicos aplicáveis ao nanoempreendedor e ao microempreendedor individual.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 3,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "e8fdc4645c287000",
+      "arquivos": {
+        "markdown": "decreto-13140-2026/decreto-13140-2026.md",
+        "chunks": "decreto-13140-2026/decreto-13140-2026.chunks.jsonl",
+        "meta": "decreto-13140-2026/decreto-13140-2026.meta.json",
         "anexos_dir": null
       }
     },
@@ -165,6 +345,146 @@
       }
     },
     {
+      "identificador": "IN RFB 1911/2019",
+      "slug": "in-rfb-1911-2019",
+      "tipo": "IN",
+      "numero": "1911",
+      "ano": "2019",
+      "ementa": "Regulamenta a apuração, a cobrança, a fiscalização, a arrecadação e a administração da Contribuição para o PIS/Pasep, da Cofins, da Contribuição para o PIS/Pasep-Importação e da Cofins-Importação.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 0,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "815ee0bd9a20b6b1",
+      "arquivos": {
+        "markdown": "in-rfb-1911-2019/in-rfb-1911-2019.md",
+        "chunks": "in-rfb-1911-2019/in-rfb-1911-2019.chunks.jsonl",
+        "meta": "in-rfb-1911-2019/in-rfb-1911-2019.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
+      "identificador": "IN RFB 2043/2021",
+      "slug": "in-rfb-2043-2021",
+      "tipo": "IN",
+      "numero": "2043",
+      "ano": "2021",
+      "ementa": "Dispõe sobre a Escrituração Fiscal Digital de Retenções e Outras Informações Fiscais (EFD-Reinf).",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 10,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "f6a04d1d05b02525",
+      "arquivos": {
+        "markdown": "in-rfb-2043-2021/in-rfb-2043-2021.md",
+        "chunks": "in-rfb-2043-2021/in-rfb-2043-2021.chunks.jsonl",
+        "meta": "in-rfb-2043-2021/in-rfb-2043-2021.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
+      "identificador": "IN RFB 2121/2022",
+      "slug": "in-rfb-2121-2022",
+      "tipo": "IN",
+      "numero": "2121",
+      "ano": "2022",
+      "ementa": "Consolida as normas sobre a apuração, a cobrança, a fiscalização, a arrecadação e a administração da Contribuição para o PIS/Pasep, da Cofins, da Contribuição para o PIS/Pasep-Importação e da Cofins-Importação.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 832,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "978d148eef576b46",
+      "arquivos": {
+        "markdown": "in-rfb-2121-2022/in-rfb-2121-2022.md",
+        "chunks": "in-rfb-2121-2022/in-rfb-2121-2022.chunks.jsonl",
+        "meta": "in-rfb-2121-2022/in-rfb-2121-2022.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
+      "identificador": "IN RFB 2163/2023",
+      "slug": "in-rfb-2163-2023",
+      "tipo": "IN",
+      "numero": "2163",
+      "ano": "2023",
+      "ementa": "Altera a Instrução Normativa RFB nº 2.043, de 12 de agosto de 2021, que dispõe sobre a Escrituração Fiscal Digital de Retenções e Outras Informações Fiscais - EFD-Reinf.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 2,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "4b8b01d426fc98bb",
+      "arquivos": {
+        "markdown": "in-rfb-2163-2023/in-rfb-2163-2023.md",
+        "chunks": "in-rfb-2163-2023/in-rfb-2163-2023.chunks.jsonl",
+        "meta": "in-rfb-2163-2023/in-rfb-2163-2023.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
+      "identificador": "IN RFB 2181/2024",
+      "slug": "in-rfb-2181-2024",
+      "tipo": "IN",
+      "numero": "2181",
+      "ano": "2024",
+      "ementa": "Altera a Instrução Normativa RFB nº 2.043, de 12 de agosto de 2021, que dispõe sobre a Escrituração Fiscal Digital de Retenções e Outras Informações Fiscais (EFD-Reinf).",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 2,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "d92a6d5c789df3d1",
+      "arquivos": {
+        "markdown": "in-rfb-2181-2024/in-rfb-2181-2024.md",
+        "chunks": "in-rfb-2181-2024/in-rfb-2181-2024.chunks.jsonl",
+        "meta": "in-rfb-2181-2024/in-rfb-2181-2024.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
+      "identificador": "LC 123/2006",
+      "slug": "lc-123-2006",
+      "tipo": "LC",
+      "numero": "123",
+      "ano": "2006",
+      "ementa": "Institui o Estatuto Nacional da Microempresa e da Empresa de Pequeno Porte; altera dispositivos das Leis no 8.212 e 8.213, ambas de 24 de julho de 1991, da Consolidação das Leis do Trabalho - CLT, aprovada pelo Decreto-Lei no 5.452, de 1o de maio de 1943, da Lei no 10.189, de 14 de fevereiro de 2001, da Lei Complementar no 63, de 11 de janeiro de 1990; e revoga as Leis no 9.317, de 5 de dezembro de 1996, e 9.841, de 5 de outubro de 1999.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 134,
+      "n_redacoes_anteriores": 24,
+      "n_anexos": 17,
+      "sha256_16": "0834025c23dc2ae5",
+      "arquivos": {
+        "markdown": "lc-123-2006/lc-123-2006.md",
+        "chunks": "lc-123-2006/lc-123-2006.chunks.jsonl",
+        "meta": "lc-123-2006/lc-123-2006.meta.json",
+        "anexos_dir": "lc-123-2006/anexos/"
+      }
+    },
+    {
+      "identificador": "LC 147/2014",
+      "slug": "lc-147-2014",
+      "tipo": "LC",
+      "numero": "147",
+      "ano": "2014",
+      "ementa": "Altera a Lei Complementar no 123, de 14 de dezembro de 2006, e as Leis nos 5.889, de 8 de junho de 1973, 11.101, de 9 de fevereiro de 2005, 9.099, de 26 de setembro de 1995, 11.598, de 3 de dezembro de 2007, 8.934, de 18 de novembro de 1994, 10.406, de 10 de janeiro de 2002, e 8.666, de 21 de junho de 1993; e dá outras providências.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 16,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 2,
+      "sha256_16": "20696fb5548aebfc",
+      "arquivos": {
+        "markdown": "lc-147-2014/lc-147-2014.md",
+        "chunks": "lc-147-2014/lc-147-2014.chunks.jsonl",
+        "meta": "lc-147-2014/lc-147-2014.meta.json",
+        "anexos_dir": "lc-147-2014/anexos/"
+      }
+    },
+    {
       "identificador": "LC 214/2025",
       "slug": "lc-214-2025",
       "tipo": "LC",
@@ -225,6 +545,46 @@
       }
     },
     {
+      "identificador": "LC 235/2026",
+      "slug": "lc-235-2026",
+      "tipo": "LC",
+      "numero": "235",
+      "ano": "2026",
+      "ementa": "Dispõe sobre regras para renúncias de receita com o objetivo de mitigar os impactos econômicos causados pelo choque no mercado internacional de energia decorrente do conflito no Oriente Médio e excepcionaliza os benefícios tributários destinados à Política Nacional de Minerais Críticos e Estratégicos, ao Programa de Desenvolvimento da Indústria de Fertilizantes e à realização da Copa do Mundo Feminina, e dá outras providências.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 17,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "d8623dea5a8af90e",
+      "arquivos": {
+        "markdown": "lc-235-2026/lc-235-2026.md",
+        "chunks": "lc-235-2026/lc-235-2026.chunks.jsonl",
+        "meta": "lc-235-2026/lc-235-2026.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
+      "identificador": "LC 236/2026",
+      "slug": "lc-236-2026",
+      "tipo": "LC",
+      "numero": "236",
+      "ano": "2026",
+      "ementa": "Altera a Lei nº  5.172, de 25 de outubro de 1966 (Código Tributário Nacional), para dispor sobre normas gerais para solução de controvérsias, consensualidade e processo administrativo em matéria tributária e aduaneira, e revoga dispositivo da Lei nº 9.430, de 27 de dezembro de 1996.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 13,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "ecdf8cf59e30c5c1",
+      "arquivos": {
+        "markdown": "lc-236-2026/lc-236-2026.md",
+        "chunks": "lc-236-2026/lc-236-2026.chunks.jsonl",
+        "meta": "lc-236-2026/lc-236-2026.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
       "identificador": "Lei 10256/2001",
       "slug": "lei-10256-2001",
       "tipo": "Lei",
@@ -241,6 +601,106 @@
         "markdown": "lei-10256-2001/lei-10256-2001.md",
         "chunks": "lei-10256-2001/lei-10256-2001.chunks.jsonl",
         "meta": "lei-10256-2001/lei-10256-2001.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
+      "identificador": "Lei 10.485/2002",
+      "slug": "lei-10485-2002",
+      "tipo": "Lei",
+      "numero": "10485",
+      "ano": "2002",
+      "ementa": "Dispõe sobre a incidência das contribuições para os Programas de Integração Social e de Formação do Patrimônio do Servidor Público (PIS/Pasep) e da Contribuição para o Financiamento da Seguridade Social (Cofins), nas hipóteses que menciona, e dá outras providências.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 6,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "a96a9edd0162921d",
+      "arquivos": {
+        "markdown": "lei-10485-2002/lei-10485-2002.md",
+        "chunks": "lei-10485-2002/lei-10485-2002.chunks.jsonl",
+        "meta": "lei-10485-2002/lei-10485-2002.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
+      "identificador": "Lei 10.637/2002",
+      "slug": "lei-10637-2002",
+      "tipo": "Lei",
+      "numero": "10637",
+      "ano": "2002",
+      "ementa": "Dispõe sobre a não-cumulatividade na cobrança da contribuição para os Programas de Integração Social (PIS) e de Formação do Patrimônio do Servidor Público (Pasep), nos casos que especifica; sobre o pagamento e o parcelamento de débitos tributários federais, a compensação de créditos fiscais, a declaração de inaptidão de inscrição de pessoas jurídicas, a legislação aduaneira, e dá outras providências.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 57,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "f43969f7ff637d41",
+      "arquivos": {
+        "markdown": "lei-10637-2002/lei-10637-2002.md",
+        "chunks": "lei-10637-2002/lei-10637-2002.chunks.jsonl",
+        "meta": "lei-10637-2002/lei-10637-2002.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
+      "identificador": "Lei 10.833/2003",
+      "slug": "lei-10833-2003",
+      "tipo": "Lei",
+      "numero": "10833",
+      "ano": "2003",
+      "ementa": "Altera a Legislação Tributária Federal e dá outras providências.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 71,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "4cf95a57611a9c1f",
+      "arquivos": {
+        "markdown": "lei-10833-2003/lei-10833-2003.md",
+        "chunks": "lei-10833-2003/lei-10833-2003.chunks.jsonl",
+        "meta": "lei-10833-2003/lei-10833-2003.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
+      "identificador": "Lei 10.925/2004",
+      "slug": "lei-10925-2004",
+      "tipo": "Lei",
+      "numero": "10925",
+      "ano": "2004",
+      "ementa": "Reduz as alíquotas do PIS/PASEP e da COFINS incidentes na importação e na comercialização do mercado interno de fertilizantes e defensivos agropecuários e dá outras providências.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 19,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "9b767c803177840e",
+      "arquivos": {
+        "markdown": "lei-10925-2004/lei-10925-2004.md",
+        "chunks": "lei-10925-2004/lei-10925-2004.chunks.jsonl",
+        "meta": "lei-10925-2004/lei-10925-2004.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
+      "identificador": "Lei 11.033/2004",
+      "slug": "lei-11033-2004",
+      "tipo": "Lei",
+      "numero": "11033",
+      "ano": "2004",
+      "ementa": "Altera a tributação do mercado financeiro e de capitais; institui o Regime Tributário para Incentivo à Modernização e à Ampliação da Estrutura Portuária – REPORTO; e dá outras providências.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 28,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "9f734d78b8eda726",
+      "arquivos": {
+        "markdown": "lei-11033-2004/lei-11033-2004.md",
+        "chunks": "lei-11033-2004/lei-11033-2004.chunks.jsonl",
+        "meta": "lei-11033-2004/lei-11033-2004.meta.json",
         "anexos_dir": null
       }
     },
@@ -385,6 +845,126 @@
       }
     },
     {
+      "identificador": "Lei 9.718/1998",
+      "slug": "lei-9718-1998",
+      "tipo": "Lei",
+      "numero": "9718",
+      "ano": "1998",
+      "ementa": "Altera a Legislação Tributária Federal.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 19,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "0e59487091667a0a",
+      "arquivos": {
+        "markdown": "lei-9718-1998/lei-9718-1998.md",
+        "chunks": "lei-9718-1998/lei-9718-1998.chunks.jsonl",
+        "meta": "lei-9718-1998/lei-9718-1998.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
+      "identificador": "NBC TG 1001",
+      "slug": "nbc-tg-1001",
+      "tipo": "NBC TG",
+      "numero": "1001",
+      "ano": null,
+      "ementa": "dispõe sobre a contabilidade para pequenas empresas.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": null,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 1,
+      "sha256_16": "6f1b3a9f51083787",
+      "arquivos": {
+        "markdown": "nbc-tg-1001/nbc-tg-1001.md",
+        "chunks": "nbc-tg-1001/nbc-tg-1001.chunks.jsonl",
+        "meta": "nbc-tg-1001/nbc-tg-1001.meta.json",
+        "anexos_dir": "nbc-tg-1001/anexos/"
+      }
+    },
+    {
+      "identificador": "NBC TG 1002",
+      "slug": "nbc-tg-1002",
+      "tipo": "NBC TG",
+      "numero": "1002",
+      "ano": null,
+      "ementa": "dispõe sobre a contabilidade para microentidades.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": null,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "22e993c60f44fb4a",
+      "arquivos": {
+        "markdown": "nbc-tg-1002/nbc-tg-1002.md",
+        "chunks": "nbc-tg-1002/nbc-tg-1002.chunks.jsonl",
+        "meta": "nbc-tg-1002/nbc-tg-1002.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
+      "identificador": "NT EFD-Reinf 01/2026",
+      "slug": "nt-efd-reinf-01-2026",
+      "tipo": "NT",
+      "numero": "01",
+      "ano": "2026",
+      "ementa": "Ajustes operacionais nos leiautes da versão 2.1.2 da EFD-Reinf: alíquotas de contribuição previdenciária e RAT no evento R-2055.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 0,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "d827692f54643eca",
+      "arquivos": {
+        "markdown": "nt-efd-reinf-01-2026/nt-efd-reinf-01-2026.md",
+        "chunks": "nt-efd-reinf-01-2026/nt-efd-reinf-01-2026.chunks.jsonl",
+        "meta": "nt-efd-reinf-01-2026/nt-efd-reinf-01-2026.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
+      "identificador": "NT EFD-Reinf 02/2026",
+      "slug": "nt-efd-reinf-02-2026",
+      "tipo": "NT",
+      "numero": "02",
+      "ano": "2026",
+      "ementa": "Cria tpIsencao 12 e altera R-4010 para lucros e dividendos conforme Lei 15.270/2025. XSD do evento R-4010 atualizado em 14/05/2026.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 0,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "5e39d987baa08ee8",
+      "arquivos": {
+        "markdown": "nt-efd-reinf-02-2026/nt-efd-reinf-02-2026.md",
+        "chunks": "nt-efd-reinf-02-2026/nt-efd-reinf-02-2026.chunks.jsonl",
+        "meta": "nt-efd-reinf-02-2026/nt-efd-reinf-02-2026.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
+      "identificador": "NT EFD-Reinf 04/2025",
+      "slug": "nt-efd-reinf-04-2025",
+      "tipo": "NT",
+      "numero": "04",
+      "ano": "2025",
+      "ementa": "Ajustes nas tabelas da versão 2.1.2 da EFD-Reinf: novos CNR 10011 (honorários sucumbência) e 11008 (Justiça do Trabalho), atualização do CNR 12001 com IRRF.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 0,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 7,
+      "sha256_16": "5d39926846a4b34c",
+      "arquivos": {
+        "markdown": "nt-efd-reinf-04-2025/nt-efd-reinf-04-2025.md",
+        "chunks": "nt-efd-reinf-04-2025/nt-efd-reinf-04-2025.chunks.jsonl",
+        "meta": "nt-efd-reinf-04-2025/nt-efd-reinf-04-2025.meta.json",
+        "anexos_dir": "nt-efd-reinf-04-2025/anexos/"
+      }
+    },
+    {
       "identificador": "PeR IRPF 2026",
       "slug": "per-irpf-2026",
       "tipo": "PeR",
@@ -421,6 +1001,26 @@
         "markdown": "per-tributacao-altas-rendas-2025/per-tributacao-altas-rendas-2025.md",
         "chunks": "per-tributacao-altas-rendas-2025/per-tributacao-altas-rendas-2025.chunks.jsonl",
         "meta": "per-tributacao-altas-rendas-2025/per-tributacao-altas-rendas-2025.meta.json",
+        "anexos_dir": null
+      }
+    },
+    {
+      "identificador": "SC Cosit 125/2025",
+      "slug": "sc-cosit-125-2025",
+      "tipo": "SC",
+      "numero": "125",
+      "ano": "2025",
+      "ementa": "Esclarece a obrigatoriedade de envio de informações sobre distribuição de lucros e dividendos na EFD-Reinf para beneficiários residentes e domiciliados no exterior e no Brasil.",
+      "fonte_versao": null,
+      "atualizado_em": null,
+      "n_artigos_vigentes": 0,
+      "n_redacoes_anteriores": 0,
+      "n_anexos": 0,
+      "sha256_16": "0cd0d161901bbafd",
+      "arquivos": {
+        "markdown": "sc-cosit-125-2025/sc-cosit-125-2025.md",
+        "chunks": "sc-cosit-125-2025/sc-cosit-125-2025.chunks.jsonl",
+        "meta": "sc-cosit-125-2025/sc-cosit-125-2025.meta.json",
         "anexos_dir": null
       }
     }

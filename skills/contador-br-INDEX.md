@@ -4,8 +4,8 @@ description: >
   Skill principal (router). Use SEMPRE como ponto de entrada para qualquer
   consulta contábil, tributária, fiscal ou previdenciária. Esta skill identifica
   o tema e carrega automaticamente a skill especializada do Google Drive.
-version: 1.0
-updated: 2026-08-29
+version: 2.0
+updated: 2026-11-12
 ---
 
 # Contador BR — Índice de Habilidades
@@ -66,12 +66,22 @@ e carregue a skill especializada correspondente do Google Drive (pasta "Skills")
 
 Repositório com textos compilados: `github.com/linckmarcelo/legislacao-contabil`
 
-15 normas indexadas, 2.895 artigos/perguntas vigentes, 178 anexos.
-Normas disponíveis: LC 214/2025, LC 224/2025, LC 227/2026, Decreto 12.955/2026,
-Ato Conjunto 1/2025, 4/2026, 5/2026, IN 2110/2022, IN 83/2001,
-Lei 8.212/1991, Lei 10.256/2001, Lei 13.606/2018, PeR IRPF 2026,
-PeR Tributação Altas Rendas (Lei 15.270/2025),
-Lei 5.172/1966 (CTN).
+51 normas indexadas, 5.630 artigos/perguntas vigentes, 230 anexos.
+
+**Legislação tributária/trabalhista (41 peças):**
+Decreto-Lei 5.452/1943 (CLT), Lei 4.504/1964, Lei 5.172/1966 (CTN),
+Lei 6.404/1976, Lei 8.212/1991, Lei 9.250/1995, Lei 9.718/1998,
+Lei 10.256/2001, Lei 10.485/2002, Lei 10.637/2002, Lei 10.833/2003,
+Lei 10.925/2004, Lei 11.033/2004, Lei 13.606/2018, Lei 15.270/2025,
+LC 123/2006, LC 147/2014, LC 214/2025, LC 224/2025, LC 227/2026,
+LC 235/2026, LC 236/2026, Decreto 12.955/2026, Decreto 13.075/2026,
+Decreto 13.140/2026, IN SRF 83/2001, IN RFB 1.911/2019, IN RFB 2.043/2021,
+IN RFB 2.110/2022, IN RFB 2.121/2022, IN RFB 2.163/2023, IN RFB 2.181/2024,
+Ato Conjunto 1/2025, 4/2026, 5/2026, NT EFD-Reinf 04/2025, 01/2026, 02/2026,
+SC Cosit 125/2025, PeR IRPF 2026, PeR Tributação Altas Rendas 2025.
+
+**Normas contábeis (10 peças):**
+CPC 00 (R2), 06 (R2), 26 (R1), 27, 32, 46, 47, 48, NBC TG 1001, NBC TG 1002.
 
 ---
 
