@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "criado_em": "2026-11-13",
+    "descricao": "Watchlist automatizada de normas da reforma tributaria. Alimentada pelo workflow .github/workflows/watch-reforma.yml (daily 07:00 BRT) via scripts/watch/watch_reforma.py.",
+    "fonte": "DOU - in.gov.br (Imprensa Nacional)",
+    "schema_versao": "1.0"
+  },
+  "ultimo_run": null,
+  "entradas": [
+    {
+      "codigo": "MP 1.399/2026",
+      "tipo": "MP",
+      "pasta_repo": "mp-1399-2026",
+      "titulo": "Fixa aliquotas do Imposto Seletivo para 2027",
+      "data_publicacao": "2026-11-04",
+      "url_html": "https://www.gov.br/casacivil/pt-br/assuntos/noticias/2026/outubro/governo-federal-define-aliquotas-do-imposto-seletivo-para-2027-por-meio-de-medida-provisoria",
+      "url_pdf": null,
+      "detectada_em": "2026-11-05",
+      "status": "detectada",
+      "nota": "Seed manual pre-automacao. PDF ainda nao baixado. Watcher deve detectar automaticamente na proxima rodada via keyword 'Imposto Seletivo'."
+    },
+    {
+      "codigo": "Ato Conjunto RFB/CGIBS 29-10-2026",
+      "tipo": "ATO CONJUNTO",
+      "pasta_repo": "",
+      "titulo": "Documentacao tecnica NF-e/NFC-e IBS/CBS (NT 2025.002 v1.53; NT 2026.004 v1.01; cClassTrib v1.71)",
+      "data_publicacao": "2026-10-29",
+      "url_html": "",
+      "url_pdf": null,
+      "detectada_em": "2026-11-05",
+      "status": "detectada",
+      "nota": "Afeta tabelas-reforma/cclasstrib.json (v1.60 -> v1.71). Requer atualizacao manual das tabelas antes de indexar."
+    },
+    {
+      "codigo": "Ato Conjunto RFB/CGIBS 26-10-2026",
+      "tipo": "ATO CONJUNTO",
+      "pasta_repo": "",
+      "titulo": "Cooperacao RFB/CGIBS e instituicao de 25 Grupos de Trabalho Interinstitucionais (vigencia ate 31/03/2027)",
+      "data_publicacao": "2026-10-26",
+      "url_html": "",
+      "url_pdf": null,
+      "detectada_em": "2026-11-05",
+      "status": "detectada"
+    },
+    {
+      "codigo": "Portaria Conjunta MF/CGIBS 05-10-2026",
+      "tipo": "PORTARIA",
+      "pasta_repo": "",
+      "titulo": "Metodologia de calculo da carga tributaria para aliquotas de IBS e CBS sobre combustiveis monofasicos",
+      "data_publicacao": "2026-10-05",
+      "url_html": "",
+      "url_pdf": null,
+      "detectada_em": "2026-11-05",
+      "status": "detectada"
+    }
+  ]
+}

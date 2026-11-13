@@ -1,0 +1,127 @@
+name: watch-reforma-tributaria
+
+# Roda todo dia as 07:00 BRT (10:00 UTC) e sob demanda via "Run workflow".
+#
+# O que faz:
+#   1. Consulta o DOU (in.gov.br) atras de normas novas sobre reforma tributaria
+#      e correlatos (LC, Decreto, MP, Ato Conjunto RFB/CGIBS, Portaria MF, IN RFB,
+#      Resolucao CGSN).
+#   2. Para cada norma nova, baixa o PDF da Imprensa Nacional.
+#   3. Roda conversor/scripts/converter.py para gerar a pasta padrao
+#      (.md + .chunks.jsonl + .meta.json + anexos/*.csv).
+#   4. Atualiza catalogo/legislacao-tributaria.json e regenera o .md.
+#   5. Atualiza watchlist/watchlist.json e anexa historico em watchlist/historico/.
+#   6. Commita e pusha com o GITHUB_TOKEN nativo do Actions.
+#   7. Abre uma Issue com o resumo do que foi indexado hoje.
+
+on:
+  schedule:
+    - cron: '0 10 * * *'   # 10:00 UTC = 07:00 BRT
+  workflow_dispatch:
+    inputs:
+      lookback_days:
+        description: 'Quantos dias para tras olhar no DOU (default 7, max 60)'
+        required: false
+        default: '7'
+      dry_run:
+        description: 'Se "true", so detecta e relata; nao baixa nem commita'
+        required: false
+        default: 'false'
+
+permissions:
+  contents: write    # permite commit/push
+  issues: write      # permite abrir issue de resumo
+
+concurrency:
+  group: watch-reforma
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure git identity
+        run: |
+          git config user.name  "watch-reforma-bot"
+          git config user.email "watch-reforma-bot@users.noreply.github.com"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pymupdf pdfplumber pandas requests beautifulsoup4 lxml
+
+      - name: Run watcher
+        id: watcher
+        env:
+          LOOKBACK_DAYS: ${{ github.event.inputs.lookback_days || '7' }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+        run: |
+          python scripts/watch/watch_reforma.py \
+            --repo-root "$GITHUB_WORKSPACE" \
+            --lookback-days "$LOOKBACK_DAYS" \
+            --dry-run "$DRY_RUN" \
+            --summary-out "$GITHUB_WORKSPACE/_watch_summary.md"
+          echo "summary_path=$GITHUB_WORKSPACE/_watch_summary.md" >> "$GITHUB_OUTPUT"
+          if [ -f "$GITHUB_WORKSPACE/_watch_added.txt" ]; then
+            echo "added=$(cat $GITHUB_WORKSPACE/_watch_added.txt)" >> "$GITHUB_OUTPUT"
+          else
+            echo "added=0" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit & push changes
+        if: steps.watcher.outputs.added != '0' && github.event.inputs.dry_run != 'true'
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nada pra commitar (apesar do watcher ter detectado)."
+            exit 0
+          fi
+          added="${{ steps.watcher.outputs.added }}"
+          today="$(date -u +%Y-%m-%d)"
+          git commit -m "feat(watch): indexa ${added} norma(s) nova(s) da reforma tributaria em ${today}
+
+Deteccao automatica via DOU (in.gov.br).
+Ver _watch_summary.md para detalhes das normas indexadas.
+
+Co-Authored-By: watch-reforma-bot <watch-reforma-bot@users.noreply.github.com>"
+          git push
+
+      - name: Open summary issue
+        if: steps.watcher.outputs.added != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ADDED: ${{ steps.watcher.outputs.added }}
+        run: |
+          today="$(date -u +%Y-%m-%d)"
+          title="Reforma tributaria — ${today}: ${ADDED} norma(s) indexada(s)"
+          body="$(cat _watch_summary.md)"
+          gh issue create \
+            --title "$title" \
+            --body  "$body" \
+            --label "watch-reforma,automacao" || \
+          gh issue create \
+            --title "$title" \
+            --body  "$body"
+
+      - name: Upload summary as artifact
+        if: always() && hashFiles('_watch_summary.md') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: watch-summary-${{ github.run_id }}
+          path: |
+            _watch_summary.md
+            _watch_debug.log
+          retention-days: 30
