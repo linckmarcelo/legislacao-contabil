@@ -574,21 +574,18 @@ def main() -> int:
     watchlist = load_watchlist(repo_root)
     summary = Summary()
 
-    # 1) Coletar hits das keywords
+    # 1) Coletar materias do feed RSS do DOU e parsear
     seen_titulos: set[str] = set()
     hits: list[Hit] = []
-    for kw in KEYWORDS:
-        raws = dou_search(kw, lookback, log)
-        log.info("DOU '%s' -> %s materias", kw, len(raws))
-        for raw in raws:
-            h = Hit.from_raw(raw)
-            if h is None:
-                continue
-            if h.titulo in seen_titulos:
-                continue
-            seen_titulos.add(h.titulo)
-            hits.append(h)
-        time.sleep(0.5)  # educado com o servidor
+    raws = fetch_dou_rss(lookback, KEYWORDS, log)
+    for raw in raws:
+        h = Hit.from_raw(raw)
+        if h is None:
+            continue
+        if h.titulo in seen_titulos:
+            continue
+        seen_titulos.add(h.titulo)
+        hits.append(h)
 
     log.info("Hits unicos apos parsing: %s", len(hits))
 
