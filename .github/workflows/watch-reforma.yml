@@ -1,11 +1,8 @@
 name: watch-reforma-tributaria
 
 # Roda todo dia as 07:00 BRT (10:00 UTC) e sob demanda via "Run workflow".
-#
-# Nesta versao (v2) o step que roda o watcher tem continue-on-error: true,
-# para que o workflow sempre conclua "success" e o GitHub registre os
-# triggers (schedule + workflow_dispatch). Um step de debug no final
-# despeja os logs e o summary mesmo que algo tenha quebrado.
+# v3 — commit message em -m multiplos (sem quebra de linha dentro de string)
+#      + continue-on-error no watcher + step de debug no final.
 
 on:
   schedule:
@@ -64,12 +61,7 @@ jobs:
           DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
         run: |
           set -o pipefail
-          python scripts/watch/watch_reforma.py \
-            --repo-root "$GITHUB_WORKSPACE" \
-            --lookback-days "$LOOKBACK_DAYS" \
-            --dry-run "$DRY_RUN" \
-            --summary-out "$GITHUB_WORKSPACE/_watch_summary.md" 2>&1 | tee _watch_stdout.log
-          echo "exit=$?" >> "$GITHUB_OUTPUT"
+          python scripts/watch/watch_reforma.py --repo-root "$GITHUB_WORKSPACE" --lookback-days "$LOOKBACK_DAYS" --dry-run "$DRY_RUN" --summary-out "$GITHUB_WORKSPACE/_watch_summary.md" 2>&1 | tee _watch_stdout.log
           if [ -f "$GITHUB_WORKSPACE/_watch_added.txt" ]; then
             echo "added=$(cat $GITHUB_WORKSPACE/_watch_added.txt)" >> "$GITHUB_OUTPUT"
           else
@@ -88,25 +80,20 @@ jobs:
           echo "::group::_watch_stdout.log"
           cat _watch_stdout.log 2>/dev/null || echo "(no stdout log)"
           echo "::endgroup::"
-          echo "watcher.outcome = ${{ steps.watcher.outcome }}"
-          echo "watcher.conclusion = ${{ steps.watcher.conclusion }}"
+          echo "watcher.outcome=${{ steps.watcher.outcome }} watcher.conclusion=${{ steps.watcher.conclusion }} added=${{ steps.watcher.outputs.added }}"
 
       - name: Commit & push changes
         if: steps.watcher.outputs.added != '0' && steps.watcher.outputs.added != '' && github.event.inputs.dry_run != 'true'
+        env:
+          ADDED: ${{ steps.watcher.outputs.added }}
         run: |
           git add -A
           if git diff --cached --quiet; then
-            echo "Nada pra commitar (apesar do watcher ter detectado)."
+            echo "Nada pra commitar."
             exit 0
           fi
-          added="${{ steps.watcher.outputs.added }}"
-          today="$(date -u +%Y-%m-%d)"
-          git commit -m "feat(watch): indexa ${added} norma(s) nova(s) da reforma tributaria em ${today}
-
-Deteccao automatica via DOU (in.gov.br).
-Ver _watch_summary.md para detalhes das normas indexadas.
-
-Co-Authored-By: watch-reforma-bot <watch-reforma-bot@users.noreply.github.com>"
+          TODAY="$(date -u +%Y-%m-%d)"
+          git commit -m "feat(watch): indexa ${ADDED} norma(s) nova(s) em ${TODAY}" -m "Deteccao automatica via DOU (in.gov.br). Ver _watch_summary.md." -m "Co-Authored-By: watch-reforma-bot <watch-reforma-bot@users.noreply.github.com>"
           git push
 
       - name: Open summary issue
@@ -115,10 +102,10 @@ Co-Authored-By: watch-reforma-bot <watch-reforma-bot@users.noreply.github.com>"
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ADDED: ${{ steps.watcher.outputs.added }}
         run: |
-          today="$(date -u +%Y-%m-%d)"
-          title="Reforma tributaria — ${today}: ${ADDED} norma(s) indexada(s)"
-          body="$(cat _watch_summary.md)"
-          gh issue create --title "$title" --body "$body" || true
+          TODAY="$(date -u +%Y-%m-%d)"
+          TITLE="Reforma tributaria — ${TODAY}: ${ADDED} norma(s) indexada(s)"
+          BODY="$(cat _watch_summary.md)"
+          gh issue create --title "$TITLE" --body "$BODY" || true
 
       - name: Upload summary as artifact
         if: always()
