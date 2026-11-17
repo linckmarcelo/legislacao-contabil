@@ -48,10 +48,13 @@ import requests
 
 UA = "legislacao-contabil-watch/1.0 (+https://github.com/linckmarcelo/legislacao-contabil)"
 
-DOU_SEARCH_URL = "https://www.in.gov.br/consulta/-/buscar/dou"
+# Fonte primaria: feed RSS da Imprensa Nacional, Secao 1 do DOU (onde saem
+# LCs, Leis, Decretos, MPs, Atos, Portarias relevantes). Mais estavel do que
+# raspar a pagina HTML de busca.
+DOU_RSS_URL = "https://www.in.gov.br/rss/do1/ultimas-publicacoes/"
 
-# Palavras-chave para filtrar o DOU. A API do in.gov.br aceita busca por
-# texto livre; combinamos esses termos com OR.
+# Palavras-chave usadas para FILTRAR o conteudo do RSS. Match case-insensitive
+# no titulo da materia.
 KEYWORDS = [
     "IBS",
     "CBS",
@@ -182,6 +185,82 @@ class Summary:
 # DOU client
 # ---------------------------------------------------------------------------
 
+def fetch_dou_rss(days: int, keywords: list[str], log: logging.Logger) -> list[dict[str, Any]]:
+    """Baixa o RSS da Secao 1 do DOU e retorna materias filtradas.
+
+    - Uma unica requisicao HTTP.
+    - XML estavel: <item><title>, <link>, <pubDate>.
+    - Filtra por janela de N dias e por match (case-insensitive) de pelo
+      menos uma das palavras-chave no titulo.
+    """
+    headers = {
+        "User-Agent": UA,
+        "Accept": "application/rss+xml,application/xml;q=0.9,*/*;q=0.8",
+    }
+    try:
+        r = requests.get(DOU_RSS_URL, headers=headers, timeout=60)
+        r.raise_for_status()
+    except requests.RequestException as exc:
+        log.warning("Falha ao consultar RSS do DOU: %s", exc)
+        return []
+
+    log.info("RSS DOU baixado: %d bytes", len(r.content))
+
+    # Parse XML. feedparser seria mais robusto, mas xml.etree basta e e builtin.
+    import xml.etree.ElementTree as ET
+    try:
+        root = ET.fromstring(r.content)
+    except ET.ParseError as exc:
+        log.warning("RSS do DOU — XML invalido: %s", exc)
+        log.info("Amostra do conteudo (primeiros 500 chars): %s", r.text[:500])
+        return []
+
+    # RSS 2.0 pode ter namespace ou nao. Vamos aceitar ambos.
+    items = root.findall(".//item")
+    log.info("RSS DOU: %d items no feed", len(items))
+
+    cutoff = dt.datetime.utcnow() - dt.timedelta(days=days)
+    kws_lower = [k.lower() for k in keywords]
+    hits: list[dict[str, Any]] = []
+
+    for item in items:
+        title_el = item.find("title")
+        link_el = item.find("link")
+        pub_el = item.find("pubDate")
+        if title_el is None or link_el is None:
+            continue
+        titulo = (title_el.text or "").strip()
+        link = (link_el.text or "").strip()
+        pub_raw = (pub_el.text or "").strip() if pub_el is not None else ""
+
+        # Parse pubDate (RFC 822: "Tue, 04 Nov 2026 03:00:00 GMT")
+        pub_dt = None
+        if pub_raw:
+            try:
+                from email.utils import parsedate_to_datetime
+                pub_dt = parsedate_to_datetime(pub_raw)
+                if pub_dt.tzinfo is not None:
+                    pub_dt = pub_dt.replace(tzinfo=None)
+            except Exception:
+                pub_dt = None
+        if pub_dt is not None and pub_dt < cutoff:
+            continue
+
+        # Filtro de keyword
+        titulo_low = titulo.lower()
+        if not any(kw in titulo_low for kw in kws_lower):
+            continue
+
+        iso_date = pub_dt.date().isoformat() if pub_dt else ""
+        hits.append({"title": titulo, "urlTitle": link, "pubDate": iso_date})
+
+    log.info("RSS DOU: %d materias apos filtro (keywords + janela %dd)", len(hits), days)
+    for h in hits[:20]:  # amostra no log
+        log.info("  hit: %s | %s", h["pubDate"], h["title"][:120])
+    return hits
+
+
+# Mantida para compatibilidade/transicao. Nao usada no fluxo novo.
 def dou_search(keyword: str, days: int, log: logging.Logger) -> list[dict[str, Any]]:
     """Consulta o endpoint de busca do in.gov.br para uma keyword e janela N dias."""
     today = dt.date.today()
@@ -269,10 +348,25 @@ def _parse_dou_html(html: str, keyword: str, log: logging.Logger) -> list[dict[s
         dump_dir = os.environ.get("GITHUB_WORKSPACE") or "."
         snippet_path = Path(dump_dir) / f"_dou_debug_{keyword.replace(' ', '_')[:40]}.html"
         try:
-            snippet_path.write_text(html[:20000], encoding="utf-8")
+            snippet_path.write_text(html[:30000], encoding="utf-8")
             log.info("DOU '%s' — HTML sem resultados identificaveis; amostra em %s", keyword, snippet_path.name)
         except Exception:
             pass
+        # Dump de diagnostico direto no log (so para a primeira keyword que falha nesse run)
+        if not getattr(_parse_dou_html, "_dumped", False):
+            _parse_dou_html._dumped = True  # type: ignore[attr-defined]
+            log.info("DOU '%s' — DIAGNOSTICO: content-type/length aprox %d chars", keyword, len(html))
+            # Remove tags script/style para ficar legivel
+            import re as _re
+            cleaned = _re.sub(r"<script[\s\S]*?</script>", "", html, flags=_re.I)
+            cleaned = _re.sub(r"<style[\s\S]*?</style>", "", cleaned, flags=_re.I)
+            log.info("DOU '%s' — HTML head (primeiros 800 chars sem script/style):", keyword)
+            log.info("%s", cleaned[:800])
+            log.info("DOU '%s' — HTML body chunk (chars 3000-5000 sem script/style):", keyword)
+            log.info("%s", cleaned[3000:5000])
+            # Procurar classes/ids que contem 'resultado', 'card', 'materia', 'search'
+            interesting = _re.findall(r'class="([^"]*(?:resultado|card|materia|search|result|hit)[^"]*)"', cleaned, _re.I)
+            log.info("DOU '%s' — classes interessantes achadas: %s", keyword, list(set(interesting))[:15])
         return []
 
     hits = []
