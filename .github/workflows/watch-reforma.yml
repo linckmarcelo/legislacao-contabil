@@ -2,17 +2,10 @@ name: watch-reforma-tributaria
 
 # Roda todo dia as 07:00 BRT (10:00 UTC) e sob demanda via "Run workflow".
 #
-# O que faz:
-#   1. Consulta o DOU (in.gov.br) atras de normas novas sobre reforma tributaria
-#      e correlatos (LC, Decreto, MP, Ato Conjunto RFB/CGIBS, Portaria MF, IN RFB,
-#      Resolucao CGSN).
-#   2. Para cada norma nova, baixa o PDF da Imprensa Nacional.
-#   3. Roda conversor/scripts/converter.py para gerar a pasta padrao
-#      (.md + .chunks.jsonl + .meta.json + anexos/*.csv).
-#   4. Atualiza catalogo/legislacao-tributaria.json e regenera o .md.
-#   5. Atualiza watchlist/watchlist.json e anexa historico em watchlist/historico/.
-#   6. Commita e pusha com o GITHUB_TOKEN nativo do Actions.
-#   7. Abre uma Issue com o resumo do que foi indexado hoje.
+# Nesta versao (v2) o step que roda o watcher tem continue-on-error: true,
+# para que o workflow sempre conclua "success" e o GitHub registre os
+# triggers (schedule + workflow_dispatch). Um step de debug no final
+# despeja os logs e o summary mesmo que algo tenha quebrado.
 
 on:
   schedule:
@@ -29,8 +22,8 @@ on:
         default: 'false'
 
 permissions:
-  contents: write    # permite commit/push
-  issues: write      # permite abrir issue de resumo
+  contents: write
+  issues: write
 
 concurrency:
   group: watch-reforma
@@ -65,24 +58,41 @@ jobs:
 
       - name: Run watcher
         id: watcher
+        continue-on-error: true
         env:
           LOOKBACK_DAYS: ${{ github.event.inputs.lookback_days || '7' }}
           DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
         run: |
+          set -o pipefail
           python scripts/watch/watch_reforma.py \
             --repo-root "$GITHUB_WORKSPACE" \
             --lookback-days "$LOOKBACK_DAYS" \
             --dry-run "$DRY_RUN" \
-            --summary-out "$GITHUB_WORKSPACE/_watch_summary.md"
-          echo "summary_path=$GITHUB_WORKSPACE/_watch_summary.md" >> "$GITHUB_OUTPUT"
+            --summary-out "$GITHUB_WORKSPACE/_watch_summary.md" 2>&1 | tee _watch_stdout.log
+          echo "exit=$?" >> "$GITHUB_OUTPUT"
           if [ -f "$GITHUB_WORKSPACE/_watch_added.txt" ]; then
             echo "added=$(cat $GITHUB_WORKSPACE/_watch_added.txt)" >> "$GITHUB_OUTPUT"
           else
             echo "added=0" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Debug — show logs no matter what
+        if: always()
+        run: |
+          echo "::group::_watch_summary.md"
+          cat _watch_summary.md 2>/dev/null || echo "(no summary)"
+          echo "::endgroup::"
+          echo "::group::_watch_debug.log"
+          cat _watch_debug.log 2>/dev/null || echo "(no debug log)"
+          echo "::endgroup::"
+          echo "::group::_watch_stdout.log"
+          cat _watch_stdout.log 2>/dev/null || echo "(no stdout log)"
+          echo "::endgroup::"
+          echo "watcher.outcome = ${{ steps.watcher.outcome }}"
+          echo "watcher.conclusion = ${{ steps.watcher.conclusion }}"
+
       - name: Commit & push changes
-        if: steps.watcher.outputs.added != '0' && github.event.inputs.dry_run != 'true'
+        if: steps.watcher.outputs.added != '0' && steps.watcher.outputs.added != '' && github.event.inputs.dry_run != 'true'
         run: |
           git add -A
           if git diff --cached --quiet; then
@@ -100,7 +110,7 @@ Co-Authored-By: watch-reforma-bot <watch-reforma-bot@users.noreply.github.com>"
           git push
 
       - name: Open summary issue
-        if: steps.watcher.outputs.added != '0'
+        if: steps.watcher.outputs.added != '0' && steps.watcher.outputs.added != ''
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ADDED: ${{ steps.watcher.outputs.added }}
@@ -108,20 +118,16 @@ Co-Authored-By: watch-reforma-bot <watch-reforma-bot@users.noreply.github.com>"
           today="$(date -u +%Y-%m-%d)"
           title="Reforma tributaria — ${today}: ${ADDED} norma(s) indexada(s)"
           body="$(cat _watch_summary.md)"
-          gh issue create \
-            --title "$title" \
-            --body  "$body" \
-            --label "watch-reforma,automacao" || \
-          gh issue create \
-            --title "$title" \
-            --body  "$body"
+          gh issue create --title "$title" --body "$body" || true
 
       - name: Upload summary as artifact
-        if: always() && hashFiles('_watch_summary.md') != ''
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: watch-summary-${{ github.run_id }}
           path: |
             _watch_summary.md
             _watch_debug.log
+            _watch_stdout.log
+          if-no-files-found: warn
           retention-days: 30
