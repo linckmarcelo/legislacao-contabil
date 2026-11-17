@@ -196,24 +196,102 @@ def dou_search(keyword: str, days: int, log: logging.Logger) -> list[dict[str, A
         "sortType": "0",
     }
     url = f"{DOU_SEARCH_URL}?{urlencode(params)}"
-    headers = {"User-Agent": UA, "Accept": "application/json"}
+    headers = {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "pt-BR,pt;q=0.9,en;q=0.8",
+    }
     try:
-        r = requests.get(url, headers=headers, timeout=30)
+        r = requests.get(url, headers=headers, timeout=60)
         r.raise_for_status()
     except requests.RequestException as exc:
         log.warning("Falha ao consultar DOU (%s): %s", keyword, exc)
         return []
-    # A resposta publica HTML por padrao; tentar extrair hits via o endpoint JSON
-    # interno. Se falhar, cair para parsing simples.
+    # 1) Tentar JSON (API interna, se disponivel)
     try:
         data = r.json()
         if isinstance(data, dict) and "jsonArray" in data:
             return data["jsonArray"] or []
     except ValueError:
         pass
-    # Fallback: best-effort, usuario pode querer melhorar depois.
-    log.info("Resposta do DOU para '%s' nao foi JSON — pulando parse HTML (TODO).", keyword)
-    return []
+    # 2) Parse HTML do portlet de busca (Liferay / in.gov.br)
+    return _parse_dou_html(r.text, keyword, log)
+
+
+def _parse_dou_html(html: str, keyword: str, log: logging.Logger) -> list[dict[str, Any]]:
+    """Extrai materias da pagina HTML de busca do in.gov.br.
+
+    O portal usa um portlet Liferay; a estrutura mais estavel observada e'
+    cards com <h5 class="title-marker"><a href="/en/web/dou/-/..."> seguidos
+    de <p class="detail..."> com a data. Testamos varios seletores em cascata
+    pra ser tolerante a mudancas de template.
+    """
+    try:
+        from bs4 import BeautifulSoup  # lazy
+    except ImportError:
+        log.error("BeautifulSoup nao instalado — nao da pra parsear HTML.")
+        return []
+    soup = BeautifulSoup(html, "lxml")
+
+    # Candidatos de bloco de resultado (ordem = prioridade)
+    block_selectors = [
+        "div.resultado",
+        "div.resultado-busca",
+        "li.resultado",
+        "div.card-materia",
+        "div.result-busca",
+        "div.listResults > div",
+        "div.cards-materia > div",
+    ]
+    blocks = []
+    for sel in block_selectors:
+        blocks = soup.select(sel)
+        if blocks:
+            log.debug("DOU '%s' — seletor '%s' achou %d blocos", keyword, sel, len(blocks))
+            break
+
+    # Fallback: pegar todos os <a> cujo href contenha '/en/web/dou/-/'
+    if not blocks:
+        links = soup.select('a[href*="/en/web/dou/-/"]')
+        hits = []
+        seen = set()
+        for a in links:
+            href = a.get("href", "")
+            titulo = a.get_text(strip=True)
+            if not titulo or href in seen:
+                continue
+            seen.add(href)
+            hits.append({"title": titulo, "urlTitle": href, "pubDate": ""})
+        if hits:
+            log.info("DOU '%s' -> %d via fallback de <a> (sem seletor de bloco)", keyword, len(hits))
+            return hits
+        # Nao achou nada: dumpar amostra do HTML para diagnosticar depois.
+        dump_dir = os.environ.get("GITHUB_WORKSPACE") or "."
+        snippet_path = Path(dump_dir) / f"_dou_debug_{keyword.replace(' ', '_')[:40]}.html"
+        try:
+            snippet_path.write_text(html[:20000], encoding="utf-8")
+            log.info("DOU '%s' — HTML sem resultados identificaveis; amostra em %s", keyword, snippet_path.name)
+        except Exception:
+            pass
+        return []
+
+    hits = []
+    for b in blocks:
+        a = b.select_one('a[href*="/en/web/dou/-/"]') or b.find("a")
+        if not a:
+            continue
+        titulo = a.get_text(" ", strip=True)
+        href = a.get("href", "")
+        # Procurar a data em subitens comuns
+        data_txt = ""
+        for d_sel in ["p.data", "span.data", "div.hierarchy-list", "p.detail-info-item"]:
+            d = b.select_one(d_sel)
+            if d:
+                data_txt = d.get_text(" ", strip=True)
+                break
+        hits.append({"title": titulo, "urlTitle": href, "pubDate": data_txt})
+    log.debug("DOU '%s' — parse HTML -> %d hits", keyword, len(hits))
+    return hits
 
 
 def resolve_pdf_url(url_html: str, log: logging.Logger) -> str | None:
