@@ -1,7 +1,7 @@
 {
   "meta": {
     "versao": "1.0",
-    "atualizado_em": "2026-11-11",
+    "atualizado_em": "2026-11-25",
     "descricao": "Catálogo de legislação tributária, trabalhista e societária relevante para a prática contábil. Complementa o catálogo normas-contabeis.json (CFC/CPC).",
     "convencao": {
       "no_repo": "true quando o texto integral está indexado em chunks no repo legislacao-contabil; false quando ainda precisa ser convertido",
@@ -838,6 +838,31 @@
         "simples-nacional"
       ],
       "no_repo": true
+    },
+    {
+      "codigo": "Resolução CGSN 196/2026",
+      "titulo": "Altera a Resolução CGSN 140/2018 e a Resolução CGSN 190/2026 — adapta o Simples Nacional ao IBS e CBS (regime de caixa, crédito ao adquirente, opção regime regular, novas tabelas Anexos I a V)",
+      "familia": "RES-CGSN",
+      "ambito": "federal",
+      "assunto": [
+        "simples-nacional",
+        "reforma-tributaria",
+        "tributario-federal"
+      ],
+      "data": "2026-11-16",
+      "pasta_repo": "res-cgsn-196-2026",
+      "situacao": "vigente",
+      "tags": [
+        "simples-nacional",
+        "ibs",
+        "cbs",
+        "regime-de-caixa",
+        "pgdas-d",
+        "credito-adquirente",
+        "pendente-conversao"
+      ],
+      "no_repo": false,
+      "pendencia": "Aguardando PDF oficial do DOU de 24/11/2026 para rodar converter.py. Fontes conhecidas: in.gov.br/web/dou/-/resolucao-cgsn-n-196-de-16-de-novembro-de-2026-745832719; Atlas Publico; Legisweb id=504837. Publicada em 24/11/2026 (DOU), assinada em 16/11/2026. Vigencia escalonada: art. 1o, Defis 2026, impugnacoes e arts. 4o-6o ja em vigor; arts. 2o, 3o e 7o + Anexos I-V a partir de 01/01/2027."
     }
   ]
 }
