@@ -1,8 +1,8 @@
 # Catalogo de Legislacao Tributaria, Trabalhista e Societaria
 
-> **Versao:** 1.0 - **Atualizado em:** 2026-11-25
+> **Versao:** 1.0 - **Atualizado em:** 2026-11-27
 
-> **Cobertura:** 42 pecas indexadas (41 com texto integral no repo)
+> **Cobertura:** 44 pecas indexadas (41 com texto integral no repo)
 
 Este catalogo complementa [`normas-contabeis.md`](./normas-contabeis.md), que cobre CFC/CPC.
 
@@ -22,6 +22,8 @@ Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 | Ato Conjunto RFB/CGIBS 4/2026 | Datas de início da obrigatoriedade de emissão dos documentos fiscais eletrônicos previstos no art. 112 dos regulamentos do IBS e da CBS | 2026-07-30 | [`ato-conjunto-4-2026`](../ato-conjunto-4-2026/) | [OK] |
 | Ato Conjunto RFB/CGIBS 5/2026 | Regulamenta o Programa Nacional de Conformidade Tributária no ano de 2026 | 2026-08-12 | [`ato-conjunto-5-2026`](../ato-conjunto-5-2026/) | [OK] |
 | Resolução CGSN 196/2026 | Altera a Resolução CGSN 140/2018 e a Resolução CGSN 190/2026 — adapta o Simples Nacional ao IBS e CBS (regime de caixa, crédito ao adquirente, opção regime regular, novas tabelas Anexos I a V) | 2026-11-16 | [`res-cgsn-196-2026`](../res-cgsn-196-2026/) | [  ] |
+| LC 239/2026 | Confere ao Poder Executivo federal novos instrumentos de gestão fiscal — eleva o acréscimo do Lucro Presumido (IRPJ/CSLL) de 10% para 20% sobre a parcela da receita bruta anual que exceder R$ 5 milhões e aplica redutor de 20% a benefícios fiscais federais (altera as LC 200, 176, 235, 224 e as Leis 11.540 e 9.796) | 2026-11-24 | [`lc-239-2026`](../lc-239-2026/) | [  ] |
+| Resolução CGSN 198/2026 | Altera a Resolução CGSN 140/2018 para atualizar as regras aplicáveis ao MEI — fixa o limite anual de receita bruta em R$ 110.000,00 a partir de 01/01/2027, permite até dois empregados e ajusta a transição do SIMEI | 2026-11-25 | [`res-cgsn-198-2026`](../res-cgsn-198-2026/) | [  ] |
 
 ## 2. Tributario Federal (geral)
 
@@ -118,16 +120,16 @@ Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 | IN RFB 2.181/2024 | Altera a IN RFB 2.043/2021 — posterga substituição da DIRF para 01/01/2025 | 2024-03-13 | [`in-rfb-2181-2024`](../in-rfb-2181-2024/) | [OK] |
 | LC 224/2025 | Redução e critérios de concessão de incentivos e benefícios tributários federais; responsabilidade solidária em apostas de quota fixa; e alterações em LCs 101, 105 e 215 e Leis 7.689, 9.249, 13.756 e 8.137 | 2025 | [`lc-224-2025`](../lc-224-2025/) | [OK] |
 | Lei 15.270/2025 | Redução do IRPF e tributação mínima para pessoas físicas de altas rendas (altera Leis 9.250/1995 e 9.249/1995) | 2025 | [`lei-15270-2025`](../lei-15270-2025/) | [OK] |
-| Per&Resp Tributação Altas Rendas 2025 | Perguntas e Respostas — Tributação de Altas Rendas 2025 | 2025 | [`per-tributacao-altas-rendas-2025`](../per-tributacao-altas-rendas-2025/) | [OK] |
 | NT EFD-Reinf 04/2025 | Ajustes nas tabelas v2.1.2 da EFD-Reinf: novos CNR 10011, 11008, 12001 | 2025 | [`nt-efd-reinf-04-2025`](../nt-efd-reinf-04-2025/) | [OK] |
+| Per&Resp Tributação Altas Rendas 2025 | Perguntas e Respostas — Tributação de Altas Rendas 2025 | 2025 | [`per-tributacao-altas-rendas-2025`](../per-tributacao-altas-rendas-2025/) | [OK] |
 | LC 214/2025 | Regulamentação da Reforma Tributária — IBS, CBS e Imposto Seletivo | 2025-01-16 | [`lc-214-2025`](../lc-214-2025/) | [OK] |
 | SC Cosit 125/2025 | Obrigatoriedade de informar lucros e dividendos na EFD-Reinf para beneficiários no exterior | 2025-07-28 | [`sc-cosit-125-2025`](../sc-cosit-125-2025/) | [OK] |
 | Ato Conjunto RFB/CGIBS 1/2025 | Obrigações acessórias exigíveis para fornecimento de informações para apuração do IBS e da CBS no ano de 2026 | 2025-12-22 | [`ato-conjunto-1-2025`](../ato-conjunto-1-2025/) | [OK] |
 | Decreto 12.955/2026 | Decreto 12.955/2026 — Reforma Tributária (regulamentação) | 2026 | [`decreto-12955-2026`](../decreto-12955-2026/) | [OK] |
 | LC 227/2026 | Lei Complementar 227/2026 — Alterações na Reforma Tributária | 2026 | [`lc-227-2026`](../lc-227-2026/) | [OK] |
-| Per&Resp IRPF 2026 | Perguntas e Respostas — IRPF 2026 | 2026 | [`per-irpf-2026`](../per-irpf-2026/) | [OK] |
 | NT EFD-Reinf 01/2026 | Ajustes operacionais nos leiautes v2.1.2 da EFD-Reinf: alíquotas R-2055 | 2026 | [`nt-efd-reinf-01-2026`](../nt-efd-reinf-01-2026/) | [OK] |
 | NT EFD-Reinf 02/2026 | Cria tpIsencao 12, altera R-4010 para lucros/dividendos Lei 15.270/2025 | 2026 | [`nt-efd-reinf-02-2026`](../nt-efd-reinf-02-2026/) | [OK] |
+| Per&Resp IRPF 2026 | Perguntas e Respostas — IRPF 2026 | 2026 | [`per-irpf-2026`](../per-irpf-2026/) | [OK] |
 | Decreto 13.075/2026 | Altera o Decreto 12.955/2026, que regulamenta a Contribuição Social sobre Bens e Serviços (CBS) | 2026-07-21 | [`decreto-13075-2026`](../decreto-13075-2026/) | [OK] |
 | Ato Conjunto RFB/CGIBS 4/2026 | Datas de início da obrigatoriedade de emissão dos documentos fiscais eletrônicos previstos no art. 112 dos regulamentos do IBS e da CBS | 2026-07-30 | [`ato-conjunto-4-2026`](../ato-conjunto-4-2026/) | [OK] |
 | Ato Conjunto RFB/CGIBS 5/2026 | Regulamenta o Programa Nacional de Conformidade Tributária no ano de 2026 | 2026-08-12 | [`ato-conjunto-5-2026`](../ato-conjunto-5-2026/) | [OK] |
@@ -135,6 +137,8 @@ Legenda: [OK] indexada no repo, [  ] pendente de conversao, [REV] revogada
 | LC 236/2026 | Altera o CTN (Lei 5.172/1966) — normas gerais para solução de controvérsias, consensualidade e processo administrativo em matéria tributária e aduaneira | 2026-09-04 | [`lc-236-2026`](../lc-236-2026/) | [OK] |
 | Decreto 13.140/2026 | Dispensa de inscrição no CNPJ e de emissão de documentos fiscais eletrônicos aplicáveis ao nanoempreendedor e ao MEI (âmbito da União) | 2026-10-21 | [`decreto-13140-2026`](../decreto-13140-2026/) | [OK] |
 | Resolução CGSN 196/2026 | Altera a Resolução CGSN 140/2018 e a Resolução CGSN 190/2026 — adapta o Simples Nacional ao IBS e CBS (regime de caixa, crédito ao adquirente, opção regime regular, novas tabelas Anexos I a V) | 2026-11-16 | [`res-cgsn-196-2026`](../res-cgsn-196-2026/) | [  ] |
+| LC 239/2026 | Confere ao Poder Executivo federal novos instrumentos de gestão fiscal — eleva o acréscimo do Lucro Presumido (IRPJ/CSLL) de 10% para 20% sobre a parcela da receita bruta anual que exceder R$ 5 milhões e aplica redutor de 20% a benefícios fiscais federais (altera as LC 200, 176, 235, 224 e as Leis 11.540 e 9.796) | 2026-11-24 | [`lc-239-2026`](../lc-239-2026/) | [  ] |
+| Resolução CGSN 198/2026 | Altera a Resolução CGSN 140/2018 para atualizar as regras aplicáveis ao MEI — fixa o limite anual de receita bruta em R$ 110.000,00 a partir de 01/01/2027, permite até dois empregados e ajusta a transição do SIMEI | 2026-11-25 | [`res-cgsn-198-2026`](../res-cgsn-198-2026/) | [  ] |
 
 ---
 

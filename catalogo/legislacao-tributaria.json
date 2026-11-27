@@ -1,7 +1,7 @@
 {
   "meta": {
     "versao": "1.0",
-    "atualizado_em": "2026-11-25",
+    "atualizado_em": "2026-11-27",
     "descricao": "Catálogo de legislação tributária, trabalhista e societária relevante para a prática contábil. Complementa o catálogo normas-contabeis.json (CFC/CPC).",
     "convencao": {
       "no_repo": "true quando o texto integral está indexado em chunks no repo legislacao-contabil; false quando ainda precisa ser convertido",
@@ -527,24 +527,6 @@
       "no_repo": true
     },
     {
-      "codigo": "Per&Resp Tributação Altas Rendas 2025",
-      "titulo": "Perguntas e Respostas — Tributação de Altas Rendas 2025",
-      "familia": "PER",
-      "ambito": "federal",
-      "assunto": [
-        "irpf"
-      ],
-      "data": "2025",
-      "pasta_repo": "per-tributacao-altas-rendas-2025",
-      "situacao": "vigente",
-      "tags": [
-        "altas-rendas",
-        "irpf",
-        "perguntas-respostas"
-      ],
-      "no_repo": true
-    },
-    {
       "codigo": "NT EFD-Reinf 04/2025",
       "titulo": "Ajustes nas tabelas v2.1.2 da EFD-Reinf: novos CNR 10011, 11008, 12001",
       "familia": "NT",
@@ -561,6 +543,24 @@
         "cnr",
         "sucumbencia",
         "lucros-dividendos"
+      ],
+      "no_repo": true
+    },
+    {
+      "codigo": "Per&Resp Tributação Altas Rendas 2025",
+      "titulo": "Perguntas e Respostas — Tributação de Altas Rendas 2025",
+      "familia": "PER",
+      "ambito": "federal",
+      "assunto": [
+        "irpf"
+      ],
+      "data": "2025",
+      "pasta_repo": "per-tributacao-altas-rendas-2025",
+      "situacao": "vigente",
+      "tags": [
+        "altas-rendas",
+        "irpf",
+        "perguntas-respostas"
       ],
       "no_repo": true
     },
@@ -661,24 +661,6 @@
       "no_repo": true
     },
     {
-      "codigo": "Per&Resp IRPF 2026",
-      "titulo": "Perguntas e Respostas — IRPF 2026",
-      "familia": "PER",
-      "ambito": "federal",
-      "assunto": [
-        "irpf"
-      ],
-      "data": "2026",
-      "pasta_repo": "per-irpf-2026",
-      "situacao": "vigente",
-      "tags": [
-        "irpf",
-        "perguntas-respostas",
-        "2026"
-      ],
-      "no_repo": true
-    },
-    {
       "codigo": "NT EFD-Reinf 01/2026",
       "titulo": "Ajustes operacionais nos leiautes v2.1.2 da EFD-Reinf: alíquotas R-2055",
       "familia": "NT",
@@ -717,6 +699,24 @@
         "lei-15270",
         "r-4010",
         "xsd"
+      ],
+      "no_repo": true
+    },
+    {
+      "codigo": "Per&Resp IRPF 2026",
+      "titulo": "Perguntas e Respostas — IRPF 2026",
+      "familia": "PER",
+      "ambito": "federal",
+      "assunto": [
+        "irpf"
+      ],
+      "data": "2026",
+      "pasta_repo": "per-irpf-2026",
+      "situacao": "vigente",
+      "tags": [
+        "irpf",
+        "perguntas-respostas",
+        "2026"
       ],
       "no_repo": true
     },
@@ -863,6 +863,53 @@
       ],
       "no_repo": false,
       "pendencia": "Aguardando PDF oficial do DOU de 24/11/2026 para rodar converter.py. Fontes conhecidas: in.gov.br/web/dou/-/resolucao-cgsn-n-196-de-16-de-novembro-de-2026-745832719; Atlas Publico; Legisweb id=504837. Publicada em 24/11/2026 (DOU), assinada em 16/11/2026. Vigencia escalonada: art. 1o, Defis 2026, impugnacoes e arts. 4o-6o ja em vigor; arts. 2o, 3o e 7o + Anexos I-V a partir de 01/01/2027."
+    },
+    {
+      "codigo": "LC 239/2026",
+      "titulo": "Confere ao Poder Executivo federal novos instrumentos de gestão fiscal — eleva o acréscimo do Lucro Presumido (IRPJ/CSLL) de 10% para 20% sobre a parcela da receita bruta anual que exceder R$ 5 milhões e aplica redutor de 20% a benefícios fiscais federais (altera as LC 200, 176, 235, 224 e as Leis 11.540 e 9.796)",
+      "familia": "LC",
+      "ambito": "federal",
+      "assunto": [
+        "tributario-federal",
+        "irpj",
+        "reforma-tributaria"
+      ],
+      "data": "2026-11-24",
+      "pasta_repo": "lc-239-2026",
+      "situacao": "vigente",
+      "tags": [
+        "lucro-presumido",
+        "irpj",
+        "csll",
+        "beneficios-fiscais",
+        "ajuste-fiscal",
+        "pendente-conversao"
+      ],
+      "no_repo": false,
+      "pendencia": "Aguardando PDF oficial do DOU para rodar converter.py. Sancionada e publicada em 24/11/2026 (DOU edicao extra). Fontes: planalto.gov.br/ccivil_03/leis/lcp/lcp239.htm; contabeis.com.br/noticias/81129; barbieriadvogados.com/lc-239-2026-lucro-presumido/; taxpratico.com.br/detalhes-artigo/lei-complementar-no-239-de-24-de-novembro-de-2026. IRPJ efeitos a partir de 01/01/2027; CSLL a partir de 01/03/2027. Detectada automaticamente em 2026-11-27 pela rotina 'Watch reforma tributaria - pendencias repo'."
+    },
+    {
+      "codigo": "Resolução CGSN 198/2026",
+      "titulo": "Altera a Resolução CGSN 140/2018 para atualizar as regras aplicáveis ao MEI — fixa o limite anual de receita bruta em R$ 110.000,00 a partir de 01/01/2027, permite até dois empregados e ajusta a transição do SIMEI",
+      "familia": "RES-CGSN",
+      "ambito": "federal",
+      "assunto": [
+        "simples-nacional",
+        "reforma-tributaria",
+        "tributario-federal"
+      ],
+      "data": "2026-11-25",
+      "pasta_repo": "res-cgsn-198-2026",
+      "situacao": "vigente",
+      "tags": [
+        "mei",
+        "microempreendedor-individual",
+        "simples-nacional",
+        "simei",
+        "pendente-conversao"
+      ],
+      "no_repo": false,
+      "pendencia": "Aguardando PDF oficial do DOU para rodar converter.py. Assinada em 16/11/2026 e publicada em 25/11/2026 (DOU Secao 1, edicao extra). Fontes: in.gov.br/web/dou/-/resolucao-cgsn-n-198-de-16-de-novembro-de-2026-746245817; atlaspublico.com.br/noticias/cgsn-atualiza-regras-do-mei-na-resolucao-198-limite-de-rs-105277; mgcontecnica.com.br/2026/11/26/comite-gestor-do-simples-nacional-altera-regras-aplicaveis-ao-microempreendedor-individual-mei/. Detectada automaticamente em 2026-11-27 pela rotina 'Watch reforma tributaria - pendencias repo'."
     }
   ]
 }
