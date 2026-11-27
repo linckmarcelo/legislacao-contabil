@@ -1,0 +1,11 @@
+Faixas,Percentual de Repartição dos Tributos,col2,col3,col4
+,IRPJ,CSLL,CBS,IBS
+1ª Faixa,"18,80%","15,20%","21,50%","44,50%"
+2ª Faixa,"19,80%","15,20%","25,00%","40,00%"
+3ª Faixa,"20,80%","15,20%","24,00%","40,00%"
+4ª Faixa,"17,80%","19,20%","23,00%","40,00%"
+5ª Faixa,"18,80%","19,20%","22,00%","40,00%"
+6ª Faixa,"53,50%","21,50%","25,00%",-
+"Com relação ao IBS, quando o valor do RBT12 for superior ao limite da 5ª faixa, o percentual efetivo desse
+imposto será calculado conforme segue:
+{[(RBT12 x 22%) - R$ 183.780,00]/RBT12} x 40,00%",,,,

@@ -858,11 +858,9 @@
         "cbs",
         "regime-de-caixa",
         "pgdas-d",
-        "credito-adquirente",
-        "pendente-conversao"
+        "credito-adquirente"
       ],
-      "no_repo": false,
-      "pendencia": "Aguardando PDF oficial do DOU de 24/11/2026 para rodar converter.py. Fontes conhecidas: in.gov.br/web/dou/-/resolucao-cgsn-n-196-de-16-de-novembro-de-2026-745832719; Atlas Publico; Legisweb id=504837. Publicada em 24/11/2026 (DOU), assinada em 16/11/2026. Vigencia escalonada: art. 1o, Defis 2026, impugnacoes e arts. 4o-6o ja em vigor; arts. 2o, 3o e 7o + Anexos I-V a partir de 01/01/2027."
+      "no_repo": true
     },
     {
       "codigo": "LC 239/2026",
@@ -882,11 +880,9 @@
         "irpj",
         "csll",
         "beneficios-fiscais",
-        "ajuste-fiscal",
-        "pendente-conversao"
+        "ajuste-fiscal"
       ],
-      "no_repo": false,
-      "pendencia": "Aguardando PDF oficial do DOU para rodar converter.py. Sancionada e publicada em 24/11/2026 (DOU edicao extra). Fontes: planalto.gov.br/ccivil_03/leis/lcp/lcp239.htm; contabeis.com.br/noticias/81129; barbieriadvogados.com/lc-239-2026-lucro-presumido/; taxpratico.com.br/detalhes-artigo/lei-complementar-no-239-de-24-de-novembro-de-2026. IRPJ efeitos a partir de 01/01/2027; CSLL a partir de 01/03/2027. Detectada automaticamente em 2026-11-27 pela rotina 'Watch reforma tributaria - pendencias repo'."
+      "no_repo": true
     },
     {
       "codigo": "Resolução CGSN 198/2026",

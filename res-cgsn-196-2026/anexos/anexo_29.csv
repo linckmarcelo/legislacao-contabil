@@ -1,0 +1,22 @@
+5ª Faixa,"18,80%",col2,"19,20%",col4,"22,00%","36,00% (*)","4,00%"
+6ª Faixa,"53,50%",,"21,50%",,"25,00%",-,-
+"(*) O percentual efetivo máximo devido ao ISS será de 4,5%, transferindo-se a diferença, de forma
+proporcional, aos tributos federais e IBS da mesma faixa de receita bruta anual. Sendo assim, na 5ª faixa,
+quando a alíquota efetiva for superior a 12,5%, a repartição será:",,,,,,,
+,,IRPJ,,CSLL,CBS,ISS (*),IBS
+"5ª Faixa, com
+alíquota efetiva
+superior a 12,5%",,"(Alíquota efetiva -
+4,5%) x 29,38%",,"(Alíquota
+efetiva - 4,5%)
+x 30,00%","(Alíquota
+efetiva - 4,5%)
+x 34,38%","Percentual de
+ISS fixo em
+4,5%","(Alíquota
+efetiva - 4,5%)
+x 6,25%"
+"Com relação ao ISS e ao IBS, quando o valor do RBT12 for superior ao limite da 5ª faixa, os percentuais
+efetivos desses impostos serão calculados conforme segue, respectivamente:
+ISS: {[(RBT12 x 22%) - R$ 183.780,00]/RBT12} x 36,00%
+IBS: {[(RBT12 x 22%) - R$ 183.780,00]/RBT12} x 4,00%",,,,,,,
